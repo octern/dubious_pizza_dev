@@ -1,0 +1,22 @@
+#macro MAX_INV_ITEMS 12
+#macro SLOT_PIXELS 128
+#macro INV_BORDERWIDTH 6
+
+var inv_cols=2;
+var inv_rows=ceil(MAX_INV_ITEMS/inv_cols);
+global.inv_edge = room_width - inv_cols*SLOT_PIXELS;
+
+inventory[MAX_INV_ITEMS] = itemType.noItem;
+
+var slotNum = 0;
+for(i=0; i<inv_rows; i++) {
+	for(j=0; j<inv_cols; j++) {
+		var slotX = room_width-((j+1)*SLOT_PIXELS) + (j * INV_BORDERWIDTH);
+		var slotY = i*SLOT_PIXELS - i*INV_BORDERWIDTH;
+		var inst = instance_create_layer(slotX, slotY, "inventorySlots", OInvSlot);
+		inst.slotX = slotX;
+		inst.slotY = slotY;
+		inst.slotNum = slotNum;
+		slotNum+=1;
+	}
+}
