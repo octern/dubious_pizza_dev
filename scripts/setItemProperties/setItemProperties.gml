@@ -7,8 +7,8 @@
 /// @param getScr Script to execute when picked up
 /// @param quant quantity in inventory
 /// @invSlot default inventory slot for this item
-/*
- 
+
+
 var _itemType=argument0;
 var _name=argument1;
 var _sprite=argument2;

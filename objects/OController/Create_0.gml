@@ -3,4 +3,5 @@
 
 
 randomise()
+initWorld();
 //initItems();

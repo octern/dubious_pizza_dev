@@ -533,6 +533,25 @@
             }
         },
         {
+            "Key": "4ec47a25-4b97-4ff6-808e-f38fc912ceb5",
+            "Value": {
+                "id": "5f34d199-bd6d-4d8f-bcb7-ee05e498ba7d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/initWorld\/initWorld.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "51e65f64-fbfe-4617-a1ea-b1750a048644",
             "Value": {
                 "id": "321a1adf-0da1-46c3-b9b9-220438c6d245",
@@ -685,6 +704,25 @@
             }
         },
         {
+            "Key": "6e130508-3f62-4c43-87c0-99c12f32c1d1",
+            "Value": {
+                "id": "995881d4-171d-4424-b025-4c6716d6c675",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/worldGet\/worldGet.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "72185872-61bc-41f5-86b2-e7c36792d034",
             "Value": {
                 "id": "79373e8b-38a9-4c93-9214-7a3ca79ec646",
@@ -777,6 +815,25 @@
                 ],
                 "resourcePath": "options\/ios\/options_ios.yy",
                 "resourceType": "GMiOSOptions"
+            }
+        },
+        {
+            "Key": "86c1e93a-23da-42b6-8119-10d8783e08a9",
+            "Value": {
+                "id": "5f30e76b-8f9f-4072-a7cf-70404cb6a426",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/worldSet\/worldSet.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1570,7 +1627,10 @@
         "9f0a8e6a-ecc0-4b28-a149-579007f5b077",
         "2cee1095-2b3c-4491-af71-22cb74a8871c",
         "27955618-d2ff-4fd1-9159-dbf97bd05a83",
-        "250117bb-74fb-4683-82d5-d0dcf9c9f714"
+        "250117bb-74fb-4683-82d5-d0dcf9c9f714",
+        "4ec47a25-4b97-4ff6-808e-f38fc912ceb5",
+        "86c1e93a-23da-42b6-8119-10d8783e08a9",
+        "6e130508-3f62-4c43-87c0-99c12f32c1d1"
     ],
     "tutorial": ""
 }

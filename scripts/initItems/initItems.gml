@@ -30,7 +30,7 @@ enum itemType{
 	box,	
 	len
 };
-
+*/
 
 enum itemProperty{
 	name,
