@@ -1,0 +1,8 @@
+{
+    "id": "250117bb-74fb-4683-82d5-d0dcf9c9f714",
+    "modelName": "GMScript",
+    "mvc": "1.0",
+    "name": "itemActivate",
+    "IsCompatibility": false,
+    "IsDnD": false
+}
