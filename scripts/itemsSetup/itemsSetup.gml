@@ -23,12 +23,16 @@ global.itemDefinitions[_itemType, itemProperty.sprite] = _sprite;
 global.itemDefinitions[_itemType, itemProperty.closeup] = _close;
 global.itemDefinitions[_itemType, itemProperty.description] = _description;
 global.itemDefinitions[_itemType, itemProperty.getScript] = _getScript;
-global.itemDefinitions[_itemType, itemProperty.quant] = _quant;
+global.itemDefinitions[_itemType, itemProperty.startQuant] = _quant;
 global.itemDefinitions[_itemType, itemProperty.invSlot] = _invSlot;
 
 var _slotObj = instance_find(OInvSlot, _invSlot);
 if(_slotObj > 0) {
 	_slotObj.itemInSlot = _itemType;
 }
+
+var _itemName = string(global.itemDefinitions[_itemType, itemProperty.name]);
+_key = "item_" + _itemName;
+worldSet(_key, _quant);
 
 return(_itemType);

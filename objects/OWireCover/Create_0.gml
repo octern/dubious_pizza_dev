@@ -7,7 +7,7 @@ screw3=instance_create_depth(x+sprite_width/10, y+sprite_height/10*8, depth-1, O
 screw4=instance_create_depth(x+sprite_width/10*9, y+sprite_height/10*8, depth-1, OScrew);
 
 // These angles define the solution to the padlock puzzle
-screw1.image_angle=360-3*30;
-screw2.image_angle=360-2*30;
-screw3.image_angle=360-2*30;
-screw4.image_angle=360-4*30;
+screw1.image_angle=360-worldGet("screw1")*30;
+screw2.image_angle=360-worldGet("screw2")*30;
+screw3.image_angle=360-worldGet("screw3")*30;
+screw4.image_angle=360-worldGet("screw4")*30;

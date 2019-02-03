@@ -1,11 +1,9 @@
-/*
-initInventory();
 
 if(!instance_exists(OController)) {
 	instance_create_layer(0, 0, "Instances", OController);
 }
 controllerInst = instance_find(OController, 0);
-*/
+
 if(room==room0) {
 	room_goto(ROne);
 	exit;

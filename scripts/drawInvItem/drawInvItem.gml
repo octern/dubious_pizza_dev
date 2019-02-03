@@ -1,7 +1,7 @@
 var _item = argument0;
 itemSprite = global.itemDefinitions[_item, itemProperty.sprite];
 itemName = global.itemDefinitions[_item, itemProperty.name];
-itemQuant = global.itemDefinitions[_item, itemProperty.quant];
+itemQuant = itemGetQuant(_item);
 
 var _textX = x + sprite_width/2;
 var _textY = y + sprite_height - 30 - INV_BORDERWIDTH;

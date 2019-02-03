@@ -1,6 +1,11 @@
 // @description Insert description here
 // You can write your code in this editor
 
+if(worldGet("toolbox")=="unlocked") {
+	instance_destroy();
+	exit;
+}
+
 solved=0;
 
 image_speed=0;

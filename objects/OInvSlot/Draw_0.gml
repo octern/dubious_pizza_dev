@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-var itemQuant = global.itemDefinitions[itemInSlot, itemProperty.quant];
+itemQuant = itemGetQuant(itemInSlot);
 if(itemQuant > 0) {
 	var itemSprite = global.itemDefinitions[itemInSlot, itemProperty.sprite];
 	drawInvItem(itemInSlot);

@@ -38,7 +38,7 @@ enum itemProperty{
 	closeup,
 	description,
 	getScript,
-	quant,
+	startQuant,
 	invSlot,
 	len
 };
@@ -46,15 +46,15 @@ enum itemProperty{
 global.itemDefinitions[itemType.len, itemProperty.len] = noone;
 
 // enum, name, sprite, closeup sprite, description, getScript, quant, slot
-setItemProperties(itemType.noItem, "nothing", SNothing, 
+itemsSetup(itemType.noItem, "nothing", SNothing, 
 	SEggPurple, "description", "", 0, -1);
-setItemProperties(itemType.poemC, "Cat poem", SPoemC, 
-	SPoemC, "I don't think my friend has a cat...", "", 0, 0);
-setItemProperties(itemType.poemC, "Kraken poem", SPoemK, 
-	SPoemK, "A poem about a kraken. Deep.", "", 1, 1);
+itemsSetup(itemType.poemC, "Cat poem", SPoemC, 
+	SPoem, "I don't think my friend has a cat...", "", 1, 0);
+itemsSetup(itemType.poemK, "Kraken poem", SPoemK, 
+	SPoem, "A poem about a kraken. Deep.", "", 1, 1);
 
 
-global.activeItem = noItem;
+global.activeItem = itemType.noItem;
 
 enum subRooms{
 	RWires,

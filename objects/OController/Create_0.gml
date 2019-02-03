@@ -3,5 +3,6 @@
 
 
 randomise()
-initWorld();
-//initItems();
+invInit();
+worldInit();
+itemsInit();

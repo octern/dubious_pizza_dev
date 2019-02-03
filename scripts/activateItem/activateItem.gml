@@ -1,4 +1,4 @@
-var itemQuant = gloabal.itemDefinitions[itemInSlot, itemProperty.quant];
+var itemQuant = itemGetQuant(itemInSlot);
 if(itemQuant > 0) {
 // deactivate all items, then activate this one. 
 	for(var i = 0; i < MAX_INV_ITEMS; i++) {	
