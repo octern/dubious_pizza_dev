@@ -799,6 +799,25 @@
             }
         },
         {
+            "Key": "538e5796-874e-42ea-8929-46b53d9ff6f9",
+            "Value": {
+                "id": "51a5206b-7fb7-42d0-a930-e4f3739b244a",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sprite44\/sprite44.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "56b2750c-c5a1-4e7a-bf4b-ee012c9c77c3",
             "Value": {
                 "id": "286e4ff8-9770-43d2-9c6b-4d5484151abf",
@@ -1708,6 +1727,25 @@
                 ],
                 "resourcePath": "sprites\/SInvCloseup\/SInvCloseup.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cfecfc14-d655-4374-9290-e97a8fe9b968",
+            "Value": {
+                "id": "7e592cea-fc51-4ec3-981d-296c10b49709",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scratchArrayEquals\/scratchArrayEquals.yy",
+                "resourceType": "GMScript"
             }
         },
         {
