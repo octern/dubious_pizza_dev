@@ -1,5 +1,7 @@
 /// @desc Set global ds_map values for state of world
 
+// Don't manually edit. Generate using https://docs.google.com/spreadsheets/d/1h437OcqBYhETw8EKKBGGYpkJoJ63Tfe0CiDPohsPnmA/edit#gid=0
+
 global.world = ds_map_create();
 
 worldSet("pizzabox", "closed");
