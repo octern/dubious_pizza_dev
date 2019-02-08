@@ -58,6 +58,7 @@ itemsSetup(itemType.key, "Key", SEggPurple, SEggPurple, "Use keys to open doors"
 itemsSetup(itemType.box, "Pizza box", SEggGreen, SEggGreen, "Where did this pizza box come from?", "", 1, 11);
 
 global.activeItem = itemType.noItem;
+global.closeupItem = itemType.noItem;
 
 enum subRooms{
 	RWires,

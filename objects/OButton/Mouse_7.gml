@@ -3,10 +3,8 @@
 
 lightState = worldGet(light_color);
 if(lightState) {
-	image_index=0;
 	worldSet(light_color, 0);
 } else {
-	image_index=1;
 	worldSet(light_color, 1);
 }
 

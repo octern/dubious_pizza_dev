@@ -19,13 +19,14 @@ worldSet("screw4", 1);
 worldSet("table", "closed");
 worldSet("frontdoor", "locked");
 
-picture1Solution = ds_queue_create();
-ds_queue_enqueue(picture1Solution, "tl");
-ds_queue_enqueue(picture1Solution, "tr");
-ds_queue_enqueue(picture1Solution, "tr");
-ds_queue_enqueue(picture1Solution, "bl");
-ds_queue_enqueue(picture1Solution, "tl");
-ds_queue_enqueue(picture1Solution, "br");
-ds_queue_enqueue(picture1Solution, "br");
-ds_queue_enqueue(picture1Solution, "bl");
+picture1Solution = ds_list_create();
+ds_list_add(picture1Solution, "tl");
+ds_list_add(picture1Solution, "tr");
+ds_list_add(picture1Solution, "tr");
+ds_list_add(picture1Solution, "bl");
+ds_list_add(picture1Solution, "tl");
+ds_list_add(picture1Solution, "br");
+ds_list_add(picture1Solution, "br");
+ds_list_add(picture1Solution, "bl");
 worldSet("picture1Solution", picture1Solution);
+

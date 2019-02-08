@@ -2,7 +2,7 @@ roomAdd=argument0;
 currentRoom = room;
 
 roomSequence = [ROne, RTwo, RThree, RFour];
-global.roomParents[RWires] = RThree;
+global.roomParents[RWires] = RTwo;
 
 if(roomAdd==1 || roomAdd==-1) {
 	roomLen=array_length_1d(roomSequence);

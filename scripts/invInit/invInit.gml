@@ -1,6 +1,8 @@
+if (live_call()) return live_result;
+
 #macro MAX_INV_ITEMS 12
-#macro SLOT_PIXELS 128
-#macro INV_BORDERWIDTH 6
+#macro SLOT_PIXELS 100
+#macro INV_BORDERWIDTH 4
 
 var inv_cols=2;
 var inv_rows=ceil(MAX_INV_ITEMS/inv_cols);

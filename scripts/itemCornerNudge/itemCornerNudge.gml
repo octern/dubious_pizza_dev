@@ -1,3 +1,5 @@
+if (live_call()) return live_result;
+
 mousex = mouse_x;
 mousey = mouse_y;
 tol = .2;

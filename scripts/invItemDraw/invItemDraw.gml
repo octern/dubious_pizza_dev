@@ -1,3 +1,5 @@
+if (live_call(argument0, argument1, argument2)) return live_result;
+
 var _item = argument0;
 var _name = argument1;
 var _num = argument2;
@@ -36,6 +38,11 @@ if(itemWidth < 60 && itemHeight < 60) {
 	itemScale = 2;
 	itemWidth = itemWidth * 2;
 	itemHeight = itemHeight * 2;
+}
+while(itemWidth > SLOT_PIXELS || itemHeight > SLOT_PIXELS) {
+	itemScale = .8;
+	itemWidth = itemWidth * .8;
+	itemHeight = itemHeight * .8;
 }
 	
 
