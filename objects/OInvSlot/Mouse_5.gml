@@ -4,6 +4,4 @@
 
 //InvCloseupDraw(itemInSlot);
 
-global.closeupItem = itemInSlot;
-global.closeupRoom = room;
-room_goto(RInvCloseup);
+invCloseup();

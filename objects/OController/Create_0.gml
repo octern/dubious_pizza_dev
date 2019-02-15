@@ -7,3 +7,4 @@ randomise()
 invInit();
 worldInit();
 itemsInit();
+textInit();
