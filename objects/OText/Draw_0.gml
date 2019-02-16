@@ -5,7 +5,7 @@ if (live_call()) return live_result;
 
 // this might happen if the user invokes a second text box before the first is done fading out.
 if(fadeIn && fadeOut) {
-	fadeOut=false;
+	fadeIn=false;
 }
 
 if(fadeIn) {
