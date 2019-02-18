@@ -3,6 +3,10 @@
 
 if (live_call(argument0)) return live_result;
 
+/*
+// tried to only display text if no collisions, but too many special cases. 
+// need to handle this manually in every object with text :P
+
 coll=ds_list_create()
 collnum = instance_place_list(mouse_x, mouse_y, all, coll, true);
 	show_debug_message("I'm "+string(id)+". you clicked  "+string(ds_list_size(coll))+" others.");
@@ -11,6 +15,9 @@ if(ds_list_size(coll) > 0) {
 	show_debug_message("I'm "+string(id)+". you clicked  "+string(ds_list_size(coll))+" others so no text right now");
 	return(false);
 }
+
+*/
+
 instance_activate_object(OTextMinor);
 textbox=instance_find(OTextMinor, 0);
 textbox._string=argument0;

@@ -11,6 +11,7 @@ worldSet("painting", "closed");
 worldSet("wireR", "0");
 worldSet("wireB", "0");
 worldSet("wireG", "0");
+worldSet("lightColor", "black");
 worldSet("elecPanel", "closed");
 worldSet("screw1", 1);
 worldSet("screw2", 1);

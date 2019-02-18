@@ -12,5 +12,10 @@ if(nudged>0) {
 	nudged -= 1;
 	if(nudged <= 0) {
 		image_angle=0;
+		for(i=0; i<instance_number(OPips); i++) {
+			_pip = instance_find(OPips, i);
+			_pip.x-=_pip.nudgex;
+			_pip.y-=_pip.nudgey;
+		}
 	}
 }
