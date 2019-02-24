@@ -10,8 +10,7 @@ if(worldGet("toolbox")=="unlocked") {
 	instance_destroy(dial3);
 	instance_destroy(dial4);
 } else {
-	coll=instance_position(mouse_x, mouse_y, ODial);
-	if(coll==noone) {
+	if(clickActive(mouse_x, mouse_y, true, ODial, true)) {
 		textRoomMinor(ds_map_find_value(global.roomStrings, "Padlock"));
 	}
 }

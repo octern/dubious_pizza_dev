@@ -6,10 +6,10 @@ if(worldGet("elecPanel")=="open") {
 	exit;
 }
 
-screw1=instance_create_depth(x+sprite_width/10, y+sprite_height/10*2, depth-1, OScrew);
-screw2=instance_create_depth(x+sprite_width/10*9, y+sprite_height/10*2, depth-1, OScrew);
-screw3=instance_create_depth(x+sprite_width/10, y+sprite_height/10*8, depth-1, OScrew);
-screw4=instance_create_depth(x+sprite_width/10*9, y+sprite_height/10*8, depth-1, OScrew);
+screw1=instance_create_depth(x+sprite_width/10-3, y+sprite_height/10*2, depth-1, OScrew);
+screw2=instance_create_depth(x+sprite_width/10*9-5, y+sprite_height/10*2, depth-1, OScrew);
+screw3=instance_create_depth(x+sprite_width/10-3, y+sprite_height/10*8-3, depth-1, OScrew);
+screw4=instance_create_depth(x+sprite_width/10*9-5, y+sprite_height/10*8-3, depth-1, OScrew);
 
 spriteScale(screw1, .5);
 spriteScale(screw2, .5);

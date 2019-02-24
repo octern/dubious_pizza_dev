@@ -7,6 +7,7 @@
 /// @param getScr Script to execute when picked up
 /// @param quant quantity in inventory
 /// @invSlot default inventory slot for this item
+/// @object corresponding object
 
 
 var _itemType=argument0;
@@ -17,6 +18,7 @@ var _description=argument4;
 var _getScript=argument5;
 var _quant=argument6;
 var _invSlot=argument7;
+var _object=argument8
 
 global.itemDefinitions[_itemType, itemProperty.name] = _name;
 global.itemDefinitions[_itemType, itemProperty.sprite] = _sprite;
@@ -25,6 +27,7 @@ global.itemDefinitions[_itemType, itemProperty.description] = _description;
 global.itemDefinitions[_itemType, itemProperty.getScript] = _getScript;
 global.itemDefinitions[_itemType, itemProperty.startQuant] = _quant;
 global.itemDefinitions[_itemType, itemProperty.invSlot] = _invSlot;
+global.itemDefinitions[_itemType, itemProperty.object] = _object;
 
 var _slotObj = instance_find(OInvSlot, _invSlot);
 if(_slotObj > 0) {

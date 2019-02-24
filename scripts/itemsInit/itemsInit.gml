@@ -17,7 +17,7 @@ enum itemType{
 	poemK,
 	poemR,
 	poemB,
-	bottleW,
+	bottleR,
 	bottleU,
 	bottleK,
 	bottleY,
@@ -36,6 +36,7 @@ enum itemProperty{
 	getScript,
 	startQuant,
 	invSlot,
+	object,
 	len
 };
 
@@ -44,19 +45,18 @@ global.itemDefinitions[itemType.len, itemProperty.len] = noone;
 // Don't manually edit this list! Generate it using https://docs.google.com/spreadsheets/d/1h437OcqBYhETw8EKKBGGYpkJoJ63Tfe0CiDPohsPnmA/edit#gid=441502810
 // enum, name, sprite, closeup sprite, description, getScript, quant, slot
 
-itemsSetup(itemType.poemC, "Poem (1)", SPoemC, SPoemCHD, "I don't think my friend has a cat...", "", 1, 0);
-itemsSetup(itemType.poemK, "Poem (2)", SPoemK, SPoemKHD, "This poem is deep ", "", 1, 1);
-itemsSetup(itemType.poemR, "Poem (3)", SPoemR, SPoemR, "I feel bad for this robot ", "", 1, 2);
-itemsSetup(itemType.poemB, "Poem (4)", SPoemB, SPoemB, "Bees know things. ", "", 1, 3);
-itemsSetup(itemType.bottleW, "White bottle", SBottleW, SBottleW, "A bottle of white liquid. Should this be refrigerated?", "", 1, 4);
-itemsSetup(itemType.bottleU, "Blue bottle", SBottleU, SBottleU, "A bottle of water. Survival odds ++!", "", 1, 5);
-itemsSetup(itemType.bottleK, "Black bottle", SBottleK, SBottleK, "A bottle of inky-black, viscous liquid", "", 1, 6);
-itemsSetup(itemType.bottleY, "Yellow bottle", SBottleY, SBottleY, "A thick, golden liquid", "", 1, 7);
-itemsSetup(itemType.screwdriver, "Screwdriver", SScrewdriver, SScrewdriver, "A screwdriver. F**k yeah!", "", 1, 8);
-itemsSetup(itemType.tape, "Electrical tape", STape, STape, "Electrical tape", "", 1, 9);
-itemsSetup(itemType.key, "Key", SKey, SKey, "Use keys to open doors", "", 1, 10);
-itemsSetup(itemType.box, "Pizza box", SPizzaBox, SPizzaBox, "Where did this pizza box come from?", "", 1, 11);
-
+itemsSetup(itemType.poemC, "Poem (1)", SPoemC, SPoemCHD, "I don't think my friend has a cat...", "", 0, 0, OPoemC);
+itemsSetup(itemType.poemK, "Poem (2)", SPoemK, SPoemKHD, "This poem is deep ", "", 0, 1, OPoemK);
+itemsSetup(itemType.poemR, "Poem (3)", SPoemR, SPoemR, "I feel bad for this robot ", "", 0, 2, OPoemR);
+itemsSetup(itemType.poemB, "Poem (4)", SPoemB, SPoemB, "Bees know things. ", "", 0, 3, OPoemB);
+itemsSetup(itemType.bottleR, "Red bottle", SBottleR, SBottleR, "Oh shit. I'm just going to assume this is cherry juice.", "", 0, 4, OBottleR);
+itemsSetup(itemType.bottleU, "Blue bottle", SBottleU, SBottleU, "A bottle of water. Survival odds ++!", "", 0, 5, OBottleU);
+itemsSetup(itemType.bottleK, "Black bottle", SBottleK, SBottleK, "A bottle of inky-black, viscous liquid", "", 0, 6, OBottleK);
+itemsSetup(itemType.bottleY, "Yellow bottle", SBottleY, SBottleY, "A thick, golden liquid", "", 0, 7, OBottleY);
+itemsSetup(itemType.screwdriver, "Screwdriver", SScrewdriver, SScrewdriver, "A screwdriver. F**k yeah!", "", 0, 8, OScrewdriver);
+itemsSetup(itemType.tape, "Electrical tape", STape, STape, "Electrical tape", "", 0, 9, OTape);
+itemsSetup(itemType.key, "Key", SKey, SKey, "Save keys to open doors", "", 0, 10, OKey);
+itemsSetup(itemType.box, "Pizza box", SPizzaBox, SPizzaBox, "Where did this pizza box come from?", "", 0, 11, OPizzaBox);
 
 global.activeItem = itemType.noItem;
 global.closeupItem = itemType.noItem;

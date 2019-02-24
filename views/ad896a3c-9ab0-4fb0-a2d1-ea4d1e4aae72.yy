@@ -10,9 +10,11 @@
         "25199be9-6871-4f19-9591-4c6d94ca08f2",
         "dace4524-7bdd-4ada-b8f5-5047cd6b718d",
         "23b2b6bc-458c-4d35-8b13-0c7249526e41",
+        "b3b5bee8-089f-4dca-b1bb-9f3800c73b55",
         "00f2c81a-72a3-4b7e-8e5e-87f25c19c324",
         "e7f436be-c543-4b1f-a7f8-2a6a70d57096",
         "dae25dd1-ef75-44ca-bed8-f51d223db876",
+        "cc10c8ec-20b0-4858-ab1d-b6dcc91ca399",
         "95685161-d2cc-40b8-8a66-6b22513b838b",
         "0532498e-4565-4ce3-8364-20f71ef7d31b",
         "07ed64e8-dce2-4cb8-8a4c-fdafeef69418",
@@ -22,8 +24,7 @@
         "44a735e1-0b7a-4d0c-a5ba-75728d2f5098",
         "538e5796-874e-42ea-8929-46b53d9ff6f9",
         "0986b695-8bea-4401-a199-466adada7599",
-        "88535df9-47dc-44cc-baf3-5e199e5da87f",
-        "d0de832d-2b3c-4c7e-a274-e7c9157e23cd"
+        "88535df9-47dc-44cc-baf3-5e199e5da87f"
     ],
     "filterType": "GMSprite",
     "folderName": "Items",
