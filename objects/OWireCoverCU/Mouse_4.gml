@@ -23,9 +23,9 @@ if(worldGet("elecPanel") == "open") {
 		for(var i=0; i<ds_list_size(screws); i++) {
 			screws[| i].image_index=1;
 		}
-		textRoomMinor(textGet("PanelUnscrew"));
+		textRoomMinor(textGet("panelUnscrew"));
 	} else {
-		if(clickActive(mouse_x, mouse_y, false)) textRoomMinor(textGet("Panel"));
+		if(clickActive(mouse_x, mouse_y, false)) textRoomMinor(textGet("panelClosed"));
 	}
 }
 

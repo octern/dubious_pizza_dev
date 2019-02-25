@@ -191,6 +191,25 @@
             }
         },
         {
+            "Key": "0831b12f-c15d-4756-ac4d-7e3be5916116",
+            "Value": {
+                "id": "1f381615-638b-421f-b4d5-6a80fa3c32c5",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/SWireMaster\/SWireMaster.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "085cd17e-3d55-4211-b59d-e172a31ce3a6",
             "Value": {
                 "id": "b442b5c3-6108-4412-9a6b-3f6233114ea2",
@@ -457,6 +476,25 @@
             }
         },
         {
+            "Key": "17c00265-77ad-4552-a835-920a3f789079",
+            "Value": {
+                "id": "c2e2da76-f750-4d44-a989-1ff813a386c0",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/wireLights\/wireLights.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1801683c-b48d-4d3d-b788-3fd794c37353",
             "Value": {
                 "id": "a5dce17e-6454-41f0-ae3b-f1c6a5fa7ec2",
@@ -571,6 +609,25 @@
             }
         },
         {
+            "Key": "1ba18e1c-6525-483c-bbf7-a403c99851de",
+            "Value": {
+                "id": "37d89e3f-6658-44a3-9d8b-4eea02d1b947",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/wireStep\/wireStep.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1cc4419f-4ef0-4986-9212-b7d5e28c56f0",
             "Value": {
                 "id": "3cdf5bf7-2d4d-4c8e-a17f-0bc845661e6f",
@@ -586,6 +643,25 @@
                     "default"
                 ],
                 "resourcePath": "scripts\/textInit\/textInit.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "1fcdd62b-0086-43c5-9904-962f087f47d3",
+            "Value": {
+                "id": "034fe83a-a787-4d27-84dc-f74db519a1fe",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/wireColorCheck\/wireColorCheck.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -644,6 +720,25 @@
                 ],
                 "resourcePath": "scripts\/pipsLight\/pipsLight.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "21511549-a937-45b0-8924-8367afa921bd",
+            "Value": {
+                "id": "9c940413-b3a4-456c-8908-0e88a5f05500",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/OWire\/OWire.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1005,6 +1100,25 @@
                 ],
                 "resourcePath": "views\/35d5e56c-bd21-4ddc-a9e0-1b00b94373d5.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3716529c-1cc8-4cd2-838a-bd5ceee8cbe3",
+            "Value": {
+                "id": "b6621191-9a12-43f6-8254-48b86d38e12d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/SWireMasterSm\/SWireMasterSm.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2205,6 +2319,25 @@
             }
         },
         {
+            "Key": "89eab94e-7800-4ee8-828d-01ce6a78054a",
+            "Value": {
+                "id": "7aef19a1-9407-449f-ae5e-9a75a7ff5036",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/wireFixCheck\/wireFixCheck.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8a6212e1-1642-4389-84dc-6069d9ffb0a6",
             "Value": {
                 "id": "016dbb5f-25ac-4675-bc8f-c1aa55ca07bd",
@@ -2661,6 +2794,25 @@
             }
         },
         {
+            "Key": "acbeb14b-01d9-47c5-a46c-d759cc0ae247",
+            "Value": {
+                "id": "9a2cb489-9d45-473b-80cf-48203e0a2e01",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/wireInit\/wireInit.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ad896a3c-9ab0-4fb0-a2d1-ea4d1e4aae72",
             "Value": {
                 "id": "6565d0c2-bdc2-4b2d-b8f8-683f263a396a",
@@ -2677,6 +2829,25 @@
                 ],
                 "resourcePath": "views\/ad896a3c-9ab0-4fb0-a2d1-ea4d1e4aae72.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ae1e394a-ec11-4475-aa45-7f1b8b5029d2",
+            "Value": {
+                "id": "b4aa8904-44af-4a03-958e-4f4c7883a617",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/OWireController\/OWireController.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -3209,6 +3380,25 @@
                 ],
                 "resourcePath": "sprites\/STable\/STable.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d250173f-fe13-48af-8d54-1cf51040bced",
+            "Value": {
+                "id": "4d7bebc1-b1a4-4069-b3a5-c06f75fcf645",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/wirefix\/wirefix.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -3846,6 +4036,7 @@
         "87ad4428-c6f6-4066-9125-68b181358a52",
         "ee48e060-81c1-4beb-9b13-8cd202e26495",
         "fab501ee-2589-4435-9965-c6fdc30a89cb",
+        "acbeb14b-01d9-47c5-a46c-d759cc0ae247",
         "1cc4419f-4ef0-4986-9212-b7d5e28c56f0",
         "4ec47a25-4b97-4ff6-808e-f38fc912ceb5",
         "b1c9e85a-c935-412d-89af-f3d1fd90b43b",
@@ -3870,7 +4061,12 @@
         "930e068b-9e77-4721-923c-eb4e9006a436",
         "fbb9ac1d-ab68-4db6-b78b-3d5bc4d43234",
         "666e0613-3e60-43dc-a96d-0f05866994d0",
-        "12d813d5-c686-4383-bf1b-737a4613f82c"
+        "12d813d5-c686-4383-bf1b-737a4613f82c",
+        "1ba18e1c-6525-483c-bbf7-a403c99851de",
+        "d250173f-fe13-48af-8d54-1cf51040bced",
+        "1fcdd62b-0086-43c5-9904-962f087f47d3",
+        "89eab94e-7800-4ee8-828d-01ce6a78054a",
+        "17c00265-77ad-4552-a835-920a3f789079"
     ],
     "tutorial": ""
 }

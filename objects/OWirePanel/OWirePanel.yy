@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "OWirePanel",
     "eventList": [
-        
+        {
+            "id": "f8d4f9b4-5687-4b6f-91fa-37c72da85eef",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "069e348b-65af-47e1-acd1-373f7f11769f"
+        },
+        {
+            "id": "e0d7d91b-5b58-4048-b49c-8cf4f91efff2",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "069e348b-65af-47e1-acd1-373f7f11769f"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

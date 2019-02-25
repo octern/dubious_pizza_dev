@@ -8,3 +8,4 @@ invInit();
 worldInit();
 itemsInit();
 textInit();
+//wireInit();

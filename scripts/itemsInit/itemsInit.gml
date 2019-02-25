@@ -53,10 +53,11 @@ itemsSetup(itemType.bottleR, "Red bottle", SBottleR, SBottleR, "Oh shit. I'm jus
 itemsSetup(itemType.bottleU, "Blue bottle", SBottleU, SBottleU, "A bottle of water. Survival odds ++!", "", 0, 5, OBottleU);
 itemsSetup(itemType.bottleK, "Black bottle", SBottleK, SBottleK, "A bottle of inky-black, viscous liquid", "", 0, 6, OBottleK);
 itemsSetup(itemType.bottleY, "Yellow bottle", SBottleY, SBottleY, "A thick, golden liquid", "", 0, 7, OBottleY);
-itemsSetup(itemType.screwdriver, "Screwdriver", SScrewdriver, SScrewdriver, "A screwdriver. F**k yeah!", "", 0, 8, OScrewdriver);
-itemsSetup(itemType.tape, "Electrical tape", STape, STape, "Electrical tape", "", 0, 9, OTape);
+itemsSetup(itemType.screwdriver, "Screwdriver", SScrewdriver, SScrewdriver, "A screwdriver. F**k yeah!", "", 1, 8, OScrewdriver);
+itemsSetup(itemType.tape, "Electrical tape", STape, STape, "Electrical tape", "", 1, 9, OTape);
 itemsSetup(itemType.key, "Key", SKey, SKey, "Save keys to open doors", "", 0, 10, OKey);
 itemsSetup(itemType.box, "Pizza box", SPizzaBox, SPizzaBox, "Where did this pizza box come from?", "", 0, 11, OPizzaBox);
+
 
 global.activeItem = itemType.noItem;
 global.closeupItem = itemType.noItem;
