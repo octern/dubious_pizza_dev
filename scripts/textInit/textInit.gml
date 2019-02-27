@@ -1,4 +1,4 @@
-if (live_call()) return live_result;
+// if (live_call()) return live_result;
 
 //  Don't edit these texts! Generate from this spreadsheet:
 // https://docs.google.com/spreadsheets/d/1h437OcqBYhETw8EKKBGGYpkJoJ63Tfe0CiDPohsPnmA/edit#gid=1207862610 

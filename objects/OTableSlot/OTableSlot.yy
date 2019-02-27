@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "OTableSlot",
     "eventList": [
-        
+        {
+            "id": "ed0ad701-8f76-4902-affb-04abbb7f8a22",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 6,
+            "m_owner": "765d8c1e-159c-40d5-8bf4-4ad36ef2c01a"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

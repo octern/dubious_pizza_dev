@@ -1,4 +1,4 @@
-if (live_call()) return live_result;
+// if (live_call()) return live_result;
 
 #macro MAX_INV_ITEMS 12
 #macro SLOT_PIXELS 100

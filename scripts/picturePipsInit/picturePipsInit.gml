@@ -1,4 +1,4 @@
-if (live_call()) return live_result;
+// if (live_call()) return live_result;
 
 picmargin = 32;
 size_factor=.8;

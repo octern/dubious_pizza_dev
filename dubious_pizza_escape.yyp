@@ -1141,6 +1141,25 @@
             }
         },
         {
+            "Key": "39ec1e96-1881-4b07-a263-931ed22f14df",
+            "Value": {
+                "id": "40021290-2e96-4f98-9c23-4da1171e4f4a",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/SPoemKEnv\/SPoemKEnv.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3c612e3a-e204-47be-928b-b2411333afc0",
             "Value": {
                 "id": "b4fa8132-d3ea-4c98-b462-1a20ab69113e",
@@ -2220,6 +2239,25 @@
                     "default"
                 ],
                 "resourcePath": "scripts\/createRandomItem\/createRandomItem.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "83889b02-be57-4feb-82ba-4183ef4b7735",
+            "Value": {
+                "id": "f2c9ae90-507c-4beb-9f7a-6f6455ac1996",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/slotBottle\/slotBottle.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -4066,7 +4104,8 @@
         "d250173f-fe13-48af-8d54-1cf51040bced",
         "1fcdd62b-0086-43c5-9904-962f087f47d3",
         "89eab94e-7800-4ee8-828d-01ce6a78054a",
-        "17c00265-77ad-4552-a835-920a3f789079"
+        "17c00265-77ad-4552-a835-920a3f789079",
+        "83889b02-be57-4feb-82ba-4183ef4b7735"
     ],
     "tutorial": ""
 }
