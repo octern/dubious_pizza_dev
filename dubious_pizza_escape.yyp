@@ -438,6 +438,25 @@
             }
         },
         {
+            "Key": "1470d5d2-2190-49e5-a44e-0fdc47fd3d7d",
+            "Value": {
+                "id": "f90e25ff-966a-4819-8f1b-340dfdad08d2",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/generateItemOnTable\/generateItemOnTable.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "15317ad2-ea30-4f6d-b434-be996fa9071a",
             "Value": {
                 "id": "cc302f6d-b074-4848-91ce-40883ef0a1da",
@@ -1293,6 +1312,25 @@
             }
         },
         {
+            "Key": "426bbfde-3490-4de9-922e-b7da18272802",
+            "Value": {
+                "id": "9cc144c4-c4b7-4b91-bc17-58c937839a5d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/SScrewdriver\/SScrewdriver.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "43403264-b1a9-4df4-b64f-99db899fcd60",
             "Value": {
                 "id": "a1c9f74b-0f20-4b70-b2f6-0e109e93004c",
@@ -1461,6 +1499,25 @@
                 ],
                 "resourcePath": "objects\/OPips\/OPips.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4e888316-b140-4cab-a8f0-76f5629d2851",
+            "Value": {
+                "id": "5042917f-d9b4-4028-9bfb-2c1fffed3137",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/tableInit\/tableInit.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1863,6 +1920,25 @@
             }
         },
         {
+            "Key": "67e12fb6-ec9d-49b7-a275-736d02e55242",
+            "Value": {
+                "id": "5dc652dc-2cc3-43ec-837b-bb44b50f8360",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/tableSlotSave\/tableSlotSave.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "68244560-a816-47c6-a9dd-a1ed7956f849",
             "Value": {
                 "id": "ef38f9d5-3f04-4130-b99b-f588f34df332",
@@ -2257,7 +2333,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "scripts\/slotBottle\/slotBottle.yy",
+                "resourcePath": "scripts\/tableItem\/tableItem.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2523,7 +2599,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\/SScrewdriver\/SScrewdriver.yy",
+                "resourcePath": "sprites\/SScrewdriverSM\/SScrewdriverSM.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2563,6 +2639,25 @@
                 ],
                 "resourcePath": "sprites\/SInvCloseupOverlay\/SInvCloseupOverlay.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9774a29b-419c-4770-8f09-5fb4e3283b2f",
+            "Value": {
+                "id": "029ef631-5854-450a-92b7-0a4555ab01bc",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/worldYet\/worldYet.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -3763,6 +3858,25 @@
             }
         },
         {
+            "Key": "eea9bbfc-a2dc-4a6f-8e0d-5c041fee5ce0",
+            "Value": {
+                "id": "dc669917-30ab-452c-8601-f04ad37c9c8e",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/SScrewdriverCU\/SScrewdriverCU.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "eefa9c3b-0e22-458a-8254-c11de37487f3",
             "Value": {
                 "id": "7f6e7357-4e0c-4771-843e-634124bea3a9",
@@ -3874,6 +3988,25 @@
                 ],
                 "resourcePath": "rooms\/ROne\/ROne.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "f57eb296-e545-4f0e-b77e-003ae62ce8a6",
+            "Value": {
+                "id": "698e681b-de8c-4232-b7bc-07cb3a52689a",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/OBottle\/OBottle.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -4071,6 +4204,7 @@
         "dacdf550-fffb-461d-9e80-5307089b11e9",
         "86c1e93a-23da-42b6-8119-10d8783e08a9",
         "6e130508-3f62-4c43-87c0-99c12f32c1d1",
+        "9774a29b-419c-4770-8f09-5fb4e3283b2f",
         "87ad4428-c6f6-4066-9125-68b181358a52",
         "ee48e060-81c1-4beb-9b13-8cd202e26495",
         "fab501ee-2589-4435-9965-c6fdc30a89cb",
@@ -4078,6 +4212,7 @@
         "1cc4419f-4ef0-4986-9212-b7d5e28c56f0",
         "4ec47a25-4b97-4ff6-808e-f38fc912ceb5",
         "b1c9e85a-c935-412d-89af-f3d1fd90b43b",
+        "4e888316-b140-4cab-a8f0-76f5629d2851",
         "9a190b0f-d34a-4ed2-8cea-ab787cbbe701",
         "27955618-d2ff-4fd1-9159-dbf97bd05a83",
         "6c84ebd8-ff6d-4258-9ceb-da5519c833d6",
@@ -4105,7 +4240,9 @@
         "1fcdd62b-0086-43c5-9904-962f087f47d3",
         "89eab94e-7800-4ee8-828d-01ce6a78054a",
         "17c00265-77ad-4552-a835-920a3f789079",
-        "83889b02-be57-4feb-82ba-4183ef4b7735"
+        "83889b02-be57-4feb-82ba-4183ef4b7735",
+        "1470d5d2-2190-49e5-a44e-0fdc47fd3d7d",
+        "67e12fb6-ec9d-49b7-a275-736d02e55242"
     ],
     "tutorial": ""
 }

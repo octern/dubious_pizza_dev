@@ -14,7 +14,7 @@
             "mvc": "1.0",
             "objectId": "bd03738d-6437-4acd-886c-0de668c58eab",
             "propertyId": "bf052500-54f0-46b0-ba82-93e999d581ae",
-            "value": "8"
+            "value": "itemType.screwdriver"
         },
         {
             "id": "93036391-5219-44aa-b9ce-177eabece5c3",
@@ -41,6 +41,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "95685161-d2cc-40b8-8a66-6b22513b838b",
+    "spriteId": "426bbfde-3490-4de9-922e-b7da18272802",
     "visible": true
 }

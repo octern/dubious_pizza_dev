@@ -2,6 +2,14 @@
 /// @param item item index
 
 var _item = argument0;
+
+with(_item) {
+	itemSetQuant(iItem, itemGetQuant(iItem)+1);
+	instance_destroy();
+	if(tableSlot>0) {with(tableSlot) {contents=-1; tableInst=0;}}
+}
+
+/* old version
 var slotNum = global.itemDefinitions[_item, itemProperty.invSlot];
 var slotInstance = -1;
 
@@ -14,5 +22,9 @@ for (i = 0; i < instance_number(oInvSlot); i += 1) {
 
 itemSetQuant(_item, itemGetQuant(_item)+1);
 // global.itemDefinitions[_item, itemProperty.quant] = global.itemDefinitions[_item, itemProperty.quant] + 1;
+
+// if it was picked up off the table, set the corresponding slot's contents to 0
+if(tableSlot>0) {with(tableSlot) {contents=-1; tableInst=0;}}
+
 
 instance_destroy();

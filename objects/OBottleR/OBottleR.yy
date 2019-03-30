@@ -14,7 +14,7 @@
             "mvc": "1.0",
             "objectId": "bd03738d-6437-4acd-886c-0de668c58eab",
             "propertyId": "bf052500-54f0-46b0-ba82-93e999d581ae",
-            "value": "8"
+            "value": "itemType.bottleR"
         },
         {
             "id": "c8c3ed80-2fca-484b-8524-e9cd417e72e8",

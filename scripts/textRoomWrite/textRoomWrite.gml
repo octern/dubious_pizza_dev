@@ -3,8 +3,8 @@
 
 if (live_call(argument0)) return live_result;
 
-instance_activate_object(OText);
-textbox=instance_find(OText, 0);
+instance_activate_object(OTextMinor);
+textbox=instance_find(OTextMinor, 0);
 textbox._string=argument0;
 textbox.image_alpha=.01
 textbox.fadeIn=true;

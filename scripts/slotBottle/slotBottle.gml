@@ -1,5 +1,7 @@
 // put a bottle in a table slot
 
+if (live_call()) return live_result;
+
 /*
 check if clickactive
 check if bottle already in slot

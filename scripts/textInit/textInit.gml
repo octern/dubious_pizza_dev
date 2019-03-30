@@ -26,3 +26,4 @@ ds_map_replace(global.roomStrings, "wiresNoTape", "Yep, these wires are damaged.
 
 
 instance_deactivate_object(OText);
+instance_deactivate_object(OTextMinor);

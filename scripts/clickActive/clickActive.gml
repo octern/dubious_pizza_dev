@@ -1,9 +1,9 @@
 /// @desc Check whether clicking should function normally or whether blocked by something
-/// @param cx int x coord of click
-/// @param cy int y coord of click
-/// @param noverlap bool nullify click on overlap with any other instance (TODO: Specify only some objects)
-/// @param overlapobj obj which object to check for overlap with
-/// @param ntext bool nullify click if textbox is present
+/// @param cx x coord
+/// @param cy y coord
+/// @param noverlap bool nullify on overlap 
+/// @param overlapobj obj object to check for overlap with
+/// @param ntext bool nullify if textbox is present
 
 //if(argument_count==0) {argument = array_create(1, mouse_x);}
 show_debug_message("arguments to ClickActive: " + string(argument_count));
@@ -20,5 +20,5 @@ ctext = ntext ? instance_number(OText) + instance_number(OTextMinor) : 0;
 // return true if the click didn't overlap with anything else (or we're not checking) AND 
 //		there is no text box visible (or we aren't checking)
 active = !coverlap && ctext==0;
-show_debug_message("clickActive result: overlap " + string(coverlap) + " && text " + string(ctext));
+//show_debug_message("clickActive result: overlap " + string(coverlap) + " && text " + string(ctext));
 return(!coverlap && ctext==0);

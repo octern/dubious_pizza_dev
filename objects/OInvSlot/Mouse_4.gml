@@ -3,7 +3,7 @@
 
 // if (live_call()) return live_result;
 
-itemActivate();
+itemActivate(itemInSlot, id);
 
 if((current_time - clickTime) < doubleClickSpeed) //1 sec == 1000
     {

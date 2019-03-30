@@ -27,7 +27,7 @@ ds_map_replace(pip_coords, "try", y+picmargin);
 ds_map_replace(pip_coords, "bry", y+sprite_height-picmargin-pip_h);
 
 for(var i=0; i<ds_list_size(solution); i++) {
-	show_debug_message("pip" + string(i) + " is " + solution[| i] + " out of " + string(ds_list_size(solution)));
+//	show_debug_message("pip" + string(i) + " is " + solution[| i] + " out of " + string(ds_list_size(solution)));
 	xkey=solution[| i]+"x";
 	ykey=solution[| i]+"y";
 	pipx = ds_map_find_value(pip_coords, xkey);

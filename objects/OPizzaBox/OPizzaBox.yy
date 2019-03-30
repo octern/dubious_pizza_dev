@@ -14,7 +14,7 @@
             "mvc": "1.0",
             "objectId": "bd03738d-6437-4acd-886c-0de668c58eab",
             "propertyId": "bf052500-54f0-46b0-ba82-93e999d581ae",
-            "value": "8"
+            "value": "itemType.box"
         },
         {
             "id": "2080466c-d902-47b5-aff2-e86c2205250f",

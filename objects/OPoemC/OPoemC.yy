@@ -14,7 +14,7 @@
             "mvc": "1.0",
             "objectId": "bd03738d-6437-4acd-886c-0de668c58eab",
             "propertyId": "bf052500-54f0-46b0-ba82-93e999d581ae",
-            "value": "5"
+            "value": "itemType.poemC"
         },
         {
             "id": "b47541b0-7405-4f06-b97f-f3bb9fd722d3",
