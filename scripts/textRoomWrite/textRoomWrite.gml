@@ -1,7 +1,7 @@
 /// @description Write text to screen
 // You can write your code in this editor
 
-if (live_call(argument0)) return live_result;
+// if (live_call(argument0)) return live_result;
 
 instance_activate_object(OTextMinor);
 textbox=instance_find(OTextMinor, 0);

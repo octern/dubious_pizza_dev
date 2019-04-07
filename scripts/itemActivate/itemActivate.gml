@@ -1,4 +1,4 @@
-if (live_call(argument[0], argument[1])) return live_result;
+// // if (live_call(argument[0], argument[1])) return live_result;
 
 
 var itemToSet = argument[0];

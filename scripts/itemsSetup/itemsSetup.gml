@@ -35,7 +35,9 @@ if(_slotObj > 0) {
 }
 
 var _itemName = string(global.itemDefinitions[_itemType, itemProperty.name]);
-_key = "item_" + _itemName;
+_key = "inv_" + _itemName;
 worldSet(_key, _quant);
+_key = "loc_" + _itemName;
+worldSet(_key, "origin");
 
 return(_itemType);

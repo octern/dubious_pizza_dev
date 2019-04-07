@@ -1,10 +1,11 @@
-/// @desc put an item into its inventory slot
+/// @description put an item into its inventory slot
 /// @param item item index
 
 var _item = argument0;
 
 with(_item) {
 	itemSetQuant(iItem, itemGetQuant(iItem)+1);
+	itemSetLoc(iItem, "inv");
 	instance_destroy();
 	if(tableSlot>0) {with(tableSlot) {contents=-1; tableInst=0;}}
 }
