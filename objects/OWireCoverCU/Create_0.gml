@@ -19,3 +19,5 @@ screw4.image_angle=360-worldGet("screw4")*30;
 
 screws = ds_list_create();
 ds_list_add(screws, screw1, screw2, screw3, screw4);
+instance_deactivate_object(OBottleK);
+instance_deactivate_object(OPoemB);

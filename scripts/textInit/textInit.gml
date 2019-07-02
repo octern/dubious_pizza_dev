@@ -21,9 +21,8 @@ ds_map_replace(global.roomStrings, "panelUnscrew", "I unscrewed the panel. ");
 ds_map_replace(global.roomStrings, "table", "A round table with four recesses in it. Odd.");
 ds_map_replace(global.roomStrings, "tableSlot", "I could put something here");
 ds_map_replace(global.roomStrings, "tableSlotWrong", "That doesn't fit in the recess, making my action seem arbitrary.");
-ds_map_replace(global.roomStrings, "panelOccupied", "Hold on, I'm trying to remember that lesson from my DIY electronics class about whether it's a good idea to leave flammable liquids and tinder out while working on exposed wiring.");
+ds_map_replace(global.roomStrings, "panelOccupied", "Hold on, I'm trying to remember whether my electrical engineering prof said it _was_, or _was not_, a good idea to have tinder and potentially flammable liquids nearby while working on exposed wiring.");
 ds_map_replace(global.roomStrings, "wiresNoTape", "Yep, these wires are damaged.");
-
 
 instance_deactivate_object(OText);
 instance_deactivate_object(OTextMinor);

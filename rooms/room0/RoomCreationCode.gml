@@ -8,6 +8,9 @@ if(room==room0) {
 	room_goto(ROne);
 	exit;
 }
+
+roomSetup();
+
 /*
 var _randItems = irandom_range(2,8);
 

@@ -19,14 +19,18 @@ with(tableSlotActive) {
 	show_debug_message(tableInst.tableSlot);
 
 	tableInst.image_angle=0;
-	sprite_factor = 60/tableInst.sprite_width;
-	spriteScale(tableInst, sprite_factor);
-	tableInst.x=x+10;
-	tableInst.y=y+20;
+	yadj=0;
+	xadj=0;
+	if(itemObj == OBottleK || itemObj == OBottleR || itemObj == OBottleU || itemObj == OBottleY) {
+		spriteScale(tableInst, 4);
+	} else if (itemObj == OScrewdriver || itemObj == OTape || itemObj==OPoemC || itemObj==OPoemK || itemObj==OPoemR || itemObj==OPoemB) {
+		spriteScale(tableInst, 1);
+		yadj=10;
+	} else {
+		sprite_factor = 70/tableInst.sprite_width;
+		spriteScale(tableInst, sprite_factor);		
+	}
+	tableInst.x=x + (sprite_width - tableInst.sprite_width)/2 + xadj;
+	tableInst.y=y - tableInst.sprite_height + sprite_height*.75 + yadj;
 }
 
-if(itemObj == OBottleY || itemObj == OBottleK || itemObj == OBottleU || itemObj == OBottleR) {	
-	textRoomMinor("I put the bottle into the recess in the table.");
-} else {
-	textRoomMinor(stringGet("tableSlotWrong"));
-}

@@ -3,9 +3,10 @@
 
 // testingLiveInit();
 
-randomise()
+randomise();
 invInit();
 worldInit();
 itemsInit();
 textInit();
 //wireInit();
+debugInit();

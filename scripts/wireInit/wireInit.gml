@@ -1,5 +1,6 @@
 global.wireState = ds_map_create();
 
+
 enum w {
 	ud, lr, lu, ru, ld, rd
 }

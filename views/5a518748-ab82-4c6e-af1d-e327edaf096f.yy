@@ -11,7 +11,8 @@
         "1cc4419f-4ef0-4986-9212-b7d5e28c56f0",
         "4ec47a25-4b97-4ff6-808e-f38fc912ceb5",
         "b1c9e85a-c935-412d-89af-f3d1fd90b43b",
-        "4e888316-b140-4cab-a8f0-76f5629d2851"
+        "4e888316-b140-4cab-a8f0-76f5629d2851",
+        "82b39c3a-0aa9-4aac-9783-dc7be3356f37"
     ],
     "filterType": "GMScript",
     "folderName": "init",

@@ -20,10 +20,16 @@ if(itemGetQuant(_item) <= 0) {
 // itemSetQuant(_item, -1); // old method of recording item location. New method happens inside generateItemOnTable
 
 itemSetQuant(_item, itemGetQuant(_item)-1);
-itemSetLoc(_item, room);
+itemSetLoc(_item, "table");
 
 //generateItemOnTable(itemObj, id);
 tableSlotSave(itemObj, id);
+
+if(itemObj == OBottleY || itemObj == OBottleK || itemObj == OBottleU || itemObj == OBottleR) {	
+	textRoomMinor("I put the bottle into the recess in the table.");
+} else {
+	textRoomMinor(stringGet("tableSlotWrong"));
+}
 
 /*
 check if clickactive

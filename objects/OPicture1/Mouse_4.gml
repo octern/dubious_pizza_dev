@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-// if (live_call()) return live_result;
+// // if (live_call()) return live_result;
 
 if(worldGet("painting")=="open") exit;
 
@@ -63,3 +63,24 @@ if(corner != 0) {
 	}
 }
 	
+if(corner==0) {
+if( _r &&  _b &&  _g) {light_color=c_white; worldSet("lightColor", "Bright white");}
+if( _r && !_b &&  _g) {light_color=c_yellow; worldSet("lightColor", "Yellow");}
+if( _r &&  _b && !_g) {light_color=c_purple; worldSet("lightColor", "Purple");}
+if( _r && !_b && !_g) {light_color=c_red; worldSet("lightColor", "Red");}
+if(!_r &&  _b &&  _g) {light_color=c_aqua; worldSet("lightColor", "Aquamarine");}
+if(!_r && !_b &&  _g) {light_color=c_green; worldSet("lightColor", "Green");}
+if(!_r &&  _b && !_g) {light_color=c_teal; worldSet("lightColor", "Blue");}
+if(!_r && !_b && !_g) {light_color=c_black;  worldSet("lightColor", "Black");}
+	switch(worldGet("lightColor")) {
+		case "Bright white": _textKey = "pictureW"; break;
+		case "Yellow": _textKey="pictureY"; break;
+		case "Purple": _textKey="pictureP"; break;
+		case "Red": _textKey="pictureR"; break;
+		case "Aquamarine": _textKey="pictureA"; break;
+		case "Green": _textKey="pictureG"; break;
+		case "Blue": _textKey="pictureG"; break;
+		case "Black": _textKey="pictureDark"; break;
+	}
+	textRoomWrite(ds_map_find_value(global.roomStrings, _textKey));
+}

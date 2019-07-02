@@ -343,6 +343,25 @@
             }
         },
         {
+            "Key": "0f442762-b139-4a90-a580-232b520463cc",
+            "Value": {
+                "id": "8dc0fd04-fab4-4bc1-adf3-4218cd263fff",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/roomSetup\/roomSetup.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1096d168-811e-4636-b747-00a7792c08e7",
             "Value": {
                 "id": "c6fe14be-7939-4675-aa1c-38196a9c9f7d",
@@ -2243,6 +2262,25 @@
             }
         },
         {
+            "Key": "82b39c3a-0aa9-4aac-9783-dc7be3356f37",
+            "Value": {
+                "id": "07f714fb-988c-489d-be12-3a8cd9e0bf52",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/debugInit\/debugInit.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8339e737-2187-48fc-aae1-4a15472db4ff",
             "Value": {
                 "id": "1fa585d6-ee77-4bca-b1d6-6ebd08c40359",
@@ -2487,6 +2525,25 @@
                 ],
                 "resourcePath": "scripts\/itemCornerNudge\/itemCornerNudge.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "93566aad-c3b3-48a9-8fa7-9c5ee19f74ac",
+            "Value": {
+                "id": "2e62b7ff-6818-406d-af37-bda1fc1c68c3",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "options\/tvos\/options_tvos.yy",
+                "resourceType": "GMtvOSOptions"
             }
         },
         {
@@ -4156,6 +4213,7 @@
         "4ec47a25-4b97-4ff6-808e-f38fc912ceb5",
         "b1c9e85a-c935-412d-89af-f3d1fd90b43b",
         "4e888316-b140-4cab-a8f0-76f5629d2851",
+        "82b39c3a-0aa9-4aac-9783-dc7be3356f37",
         "9a190b0f-d34a-4ed2-8cea-ab787cbbe701",
         "27955618-d2ff-4fd1-9159-dbf97bd05a83",
         "6c84ebd8-ff6d-4258-9ceb-da5519c833d6",
@@ -4188,7 +4246,8 @@
         "67e12fb6-ec9d-49b7-a275-736d02e55242",
         "a856c18e-93b3-4e16-a2da-c8783b9d39ac",
         "f88601b8-0d3c-41b6-97f7-270ee7878fa6",
-        "57c6e62e-4a33-41bb-909d-f079ffd01c8e"
+        "57c6e62e-4a33-41bb-909d-f079ffd01c8e",
+        "0f442762-b139-4a90-a580-232b520463cc"
     ],
     "tutorial": ""
 }

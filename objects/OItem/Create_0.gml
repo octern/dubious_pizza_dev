@@ -1,18 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+// objects placed via room editor are always created
+// if it's supposed to be in inventory or in another room, it will be destroyed in the step event
 
-// Check if the item should be here. 
-show_debug_message("about to check if item is in inventory")
-itemCount = itemGetQuant(iItem);
-itemLoc = itemGetLoc(iItem);
-//if(itemCount != 0) {
-//if(itemCount != itemCount) {
-if(itemLoc != "origin" && itemLoc != room) {  
-	show_debug_message("this item shouldn't exist and is going away");
-	instance_destroy();
-	exit;
-}
+initialized = false;
 
 // sprite_index=bottleSprite;
 if(iScale) spriteScale(self, 4);

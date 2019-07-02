@@ -11,6 +11,8 @@ if(worldGet("elecPanel") == "open") {
 //		if(instance_number(OWirePanel)==0){
 //			_field=instance_create_layer(x,y,layer,OWirePanel);
 //		}
+		instance_activate_object(OBottleK);
+		instance_activate_object(OPoemB);		
 		if(instance_number(OBottleK)==0 and itemGetQuant(itemType.bottleK)==0) {
 			_bottle = instance_create_depth(_field.x,y,depth-2,OBottleK);
 			spriteScale(_bottle, 8);
