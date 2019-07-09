@@ -1,8 +1,23 @@
-if(!clickActive(mouse_x, mouse_y, true, OWireCoverCU, true)) {return false;}
-	
+if(!clickActive(mouse_x, mouse_y, true, OWireCoverCU, false)) {return false;}
+
 if((instance_number(OBottleK) + instance_number(OPoemB)) > 0) {
 	textRoomMinor(textGet("panelOccupied"));
 	return false;
+}
+
+if(broken==-1) {
+	broken = broken_orig;
+	wire_dir = wire_dir_orig;
+	with(joined_to) {
+		broken = broken_orig;
+		wire_dir = wire_dir_orig;
+		joined_to = 0;
+	}
+	joined_to = 0;
+	global.wire1 = 0;
+//	audio_play_sound(tapeOff, 1, false);
+	textRoomMinor("I separated the wires.");
+	return true;
 }
 
 if(global.activeItem!=itemType.tape) {
@@ -11,7 +26,12 @@ if(global.activeItem!=itemType.tape) {
 }
 
 if(global.wire1 == 0) {
+	if(!broken) {
+		textRoomMinor("Splicing an undamaged wire is not a well-defined concept.\n(click one of the damaged ends)");
+		return false;
+	}
 	global.wire1 = self;
+	textRoomMinor("What should I tape this to?");
 } else if(global.wire1 == self) {
 	global.wire1 = 0;
 } else {
@@ -27,8 +47,15 @@ if(global.wire1 == 0) {
 	if(rt==global.wire1) {show_debug_message("left");} else {
 		show_debug_message("not touching");
 		touching = 0;
+//		global.wire1 = self; // don't move the first wire if the second was invalid
+		textRoomMinor("those wires aren't anywhere near each other.")
+		return false;
 	}
 	obroken = global.wire1.broken;
+	if(!broken || !obroken) {
+		textRoomMinor("splicing an undamaged wire is not a well-defined concept.");
+		return false;
+	}
 	if(broken && global.wire1.broken && touching) {
 		show_debug_message("these could be joined" + string(broken) + string(obroken));
 // join a horizontal broken wire to a vertical wire above it

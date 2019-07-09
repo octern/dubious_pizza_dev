@@ -34,6 +34,13 @@
                     "mvc": "1.0",
                     "FrameId": "b76429de-f3d2-443b-86f7-027d664003ed",
                     "LayerId": "5346b12f-c7a7-4dc6-8b1e-0e58298ad2da"
+                },
+                {
+                    "id": "e16b9e64-edfa-419d-b7eb-e634f191a5de",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "b76429de-f3d2-443b-86f7-027d664003ed",
+                    "LayerId": "5e540a12-b1f3-4510-88a8-5e807c01f4e2"
                 }
             ]
         },
@@ -56,6 +63,13 @@
                     "mvc": "1.0",
                     "FrameId": "caaa7daf-4ddf-4e31-8b54-fc7870925082",
                     "LayerId": "5346b12f-c7a7-4dc6-8b1e-0e58298ad2da"
+                },
+                {
+                    "id": "1d23841c-97b3-4c07-8b7e-c25d164a608b",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "caaa7daf-4ddf-4e31-8b54-fc7870925082",
+                    "LayerId": "5e540a12-b1f3-4510-88a8-5e807c01f4e2"
                 }
             ]
         },
@@ -78,6 +92,13 @@
                     "mvc": "1.0",
                     "FrameId": "715a0172-6bcf-41cb-a9b5-ce524f3f0f79",
                     "LayerId": "5346b12f-c7a7-4dc6-8b1e-0e58298ad2da"
+                },
+                {
+                    "id": "8037b460-2498-43e5-bca5-2549713a11d1",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "715a0172-6bcf-41cb-a9b5-ce524f3f0f79",
+                    "LayerId": "5e540a12-b1f3-4510-88a8-5e807c01f4e2"
                 }
             ]
         },
@@ -100,6 +121,42 @@
                     "mvc": "1.0",
                     "FrameId": "9b01c8e2-51a2-46bd-aa53-9854f73f2b74",
                     "LayerId": "5346b12f-c7a7-4dc6-8b1e-0e58298ad2da"
+                },
+                {
+                    "id": "8c65a03b-3af2-42c0-acfd-99abeeb7e32a",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "9b01c8e2-51a2-46bd-aa53-9854f73f2b74",
+                    "LayerId": "5e540a12-b1f3-4510-88a8-5e807c01f4e2"
+                }
+            ]
+        },
+        {
+            "id": "5183d475-5043-4f97-a98b-10836522ffb1",
+            "modelName": "GMSpriteFrame",
+            "mvc": "1.0",
+            "SpriteId": "4adfaafe-37d7-44b9-8cab-a4f37176ce04",
+            "compositeImage": {
+                "id": "e95e3376-d348-48f3-8668-d9a6ffed2516",
+                "modelName": "GMSpriteImage",
+                "mvc": "1.0",
+                "FrameId": "5183d475-5043-4f97-a98b-10836522ffb1",
+                "LayerId": "00000000-0000-0000-0000-000000000000"
+            },
+            "images": [
+                {
+                    "id": "85dd2cc1-ad08-46f1-9640-14b3ac2e8f43",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "5183d475-5043-4f97-a98b-10836522ffb1",
+                    "LayerId": "5e540a12-b1f3-4510-88a8-5e807c01f4e2"
+                },
+                {
+                    "id": "75ddd139-61e7-4ad2-b034-d4835c9fa61d",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "5183d475-5043-4f97-a98b-10836522ffb1",
+                    "LayerId": "5346b12f-c7a7-4dc6-8b1e-0e58298ad2da"
                 }
             ]
         }
@@ -108,6 +165,17 @@
     "gridY": 0,
     "height": 96,
     "layers": [
+        {
+            "id": "5e540a12-b1f3-4510-88a8-5e807c01f4e2",
+            "modelName": "GMImageLayer",
+            "mvc": "1.0",
+            "SpriteId": "4adfaafe-37d7-44b9-8cab-a4f37176ce04",
+            "blendMode": 0,
+            "isLocked": false,
+            "name": "Layer 1",
+            "opacity": 100,
+            "visible": true
+        },
         {
             "id": "5346b12f-c7a7-4dc6-8b1e-0e58298ad2da",
             "modelName": "GMImageLayer",

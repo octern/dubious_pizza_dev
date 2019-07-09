@@ -1,8 +1,7 @@
 roomAdd=argument0;
 currentRoom = room;
 
-roomSequence = [ROne, RTwo, RThree, RFour];
-global.roomParents[RWires] = RThree;
+roomSequence = [ROne, RTwo, RFour, RThree];
 
 if(roomAdd==1 || roomAdd==-1) {
 	roomLen=array_length_1d(roomSequence);

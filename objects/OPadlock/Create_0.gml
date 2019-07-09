@@ -10,8 +10,8 @@ solved=0;
 
 image_speed=0;
 
-image_xscale=4;
-image_yscale=4;
+//image_xscale=4;
+//image_yscale=4;
 
 dial1 = instance_create_depth(x+18, y+sprite_height/2-13, depth-1, ODial);
 //dial5 = instance_create_layer(x-5, y-5, "Instances", ODial);

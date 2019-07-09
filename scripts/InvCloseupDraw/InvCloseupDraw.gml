@@ -1,4 +1,4 @@
-if (live_call(argument0)) return live_result;
+// if (live_call(argument0)) return live_result;
 
 _item = argument0;
 

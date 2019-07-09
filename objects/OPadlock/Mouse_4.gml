@@ -9,6 +9,8 @@ if(worldGet("toolbox")=="unlocked") {
 	instance_destroy(dial2);
 	instance_destroy(dial3);
 	instance_destroy(dial4);
+	worldSet("toolbox", "open");
+	roomChange("dn"); // return from closeup to parent room
 } else {
 	if(clickActive(mouse_x, mouse_y, true, ODial, true)) {
 		textRoomMinor(ds_map_find_value(global.roomStrings, "Padlock"));

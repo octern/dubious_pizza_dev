@@ -19,6 +19,7 @@ if(ds_list_size(coll) > 0) {
 
 */
 
+
 instance_activate_object(OTextMinor);
 textbox=instance_find(OTextMinor, 0);
 textbox._string=argument0;
