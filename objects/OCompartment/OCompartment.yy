@@ -1,16 +1,14 @@
 {
-    "id": "4ee09019-d918-43f7-86ad-6189c8284b0b",
+    "id": "34671f8e-f499-4a94-99e0-7e3ec1803659",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "OBottleK",
+    "name": "OCompartment",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "overriddenProperties": [
-        
-    ],
-    "parentObjectId": "bd03738d-6437-4acd-886c-0de668c58eab",
+    "overriddenProperties": null,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -26,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "23b2b6bc-458c-4d35-8b13-0c7249526e41",
+    "spriteId": "ed9d7b7a-1ab0-428c-9f78-58dacdfd43d5",
     "visible": true
 }

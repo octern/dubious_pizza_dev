@@ -8,22 +8,7 @@
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
-        {
-            "id": "56b8cff4-130b-462e-9634-5ac411a061ee",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "bd03738d-6437-4acd-886c-0de668c58eab",
-            "propertyId": "bf052500-54f0-46b0-ba82-93e999d581ae",
-            "value": "itemType.box"
-        },
-        {
-            "id": "2080466c-d902-47b5-aff2-e86c2205250f",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "bd03738d-6437-4acd-886c-0de668c58eab",
-            "propertyId": "899fa307-bb5f-452d-8e04-acb58af4baa6",
-            "value": "270"
-        }
+        
     ],
     "parentObjectId": "bd03738d-6437-4acd-886c-0de668c58eab",
     "persistent": false,

@@ -14,7 +14,8 @@
         "fe2b0588-a585-4d26-90e3-5b5fde467f56",
         "d0de832d-2b3c-4c7e-a274-e7c9157e23cd",
         "4adfaafe-37d7-44b9-8cab-a4f37176ce04",
-        "f419febb-4eab-4be2-8bbd-d6a3c6bbad07"
+        "f419febb-4eab-4be2-8bbd-d6a3c6bbad07",
+        "ed9d7b7a-1ab0-428c-9f78-58dacdfd43d5"
     ],
     "filterType": "GMSprite",
     "folderName": "puzzle",

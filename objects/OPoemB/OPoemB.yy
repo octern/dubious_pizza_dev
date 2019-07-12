@@ -8,22 +8,7 @@
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
-        {
-            "id": "af70bbad-aa7e-4aac-85a3-3ee0458f02b8",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "bd03738d-6437-4acd-886c-0de668c58eab",
-            "propertyId": "bf052500-54f0-46b0-ba82-93e999d581ae",
-            "value": "itemType.poemB"
-        },
-        {
-            "id": "f6b82661-bcdb-49d6-809d-4001500f3593",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "bd03738d-6437-4acd-886c-0de668c58eab",
-            "propertyId": "899fa307-bb5f-452d-8e04-acb58af4baa6",
-            "value": "0"
-        }
+        
     ],
     "parentObjectId": "bd03738d-6437-4acd-886c-0de668c58eab",
     "persistent": false,
