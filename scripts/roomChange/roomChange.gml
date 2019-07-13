@@ -1,6 +1,7 @@
 roomAdd=argument0;
 currentRoom = room;
 
+// rooms
 roomSequence = [ROne, RTwo, RFour, RThree];
 
 if(roomAdd==1 || roomAdd==-1) {
