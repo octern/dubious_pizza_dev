@@ -2,7 +2,10 @@
 
 // if (live_call()) return live_result;
 
-if(!clickActive(mouse_x, mouse_y, true, OItem, true)) exit;
+if(!clickActive(mouse_x, mouse_y, true, OItem, true) || contents!=-1) {
+	show_debug_message("there's already an item there. I should take it.");
+	exit;
+}
 
 show_debug_message("click is active");
 

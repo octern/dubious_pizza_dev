@@ -29,13 +29,7 @@ if(corner != 0) {
 		worldSet("painting", "open");
 	}
 	if(worldGet("painting") == "open") {
-		x+=10;
-		y+=30;
-		for(var i=0; i<instance_number(OPips); i++) {
-			_pip = instance_find(OPips, i)
-			_pip.x+=10;
-			_pip.y+=30;
-		}
+		paintingSolved();
 	} else {
 		if(corner=="tl" || corner=="br") image_angle=4;
 		if(corner=="tr" || corner=="bl") image_angle=356;
