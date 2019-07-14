@@ -14,7 +14,7 @@ if(roomAdd==1 || roomAdd==-1) {
 } else if(roomAdd=="dn") {
 	var newRoom = global.roomParents[currentRoom];
 }
-		
+
 
 room_goto(newRoom);
 
