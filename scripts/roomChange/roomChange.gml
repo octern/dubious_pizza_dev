@@ -15,7 +15,7 @@ if(roomAdd==1 || roomAdd==-1) {
 	var newRoom = global.roomParents[currentRoom];
 }
 		
-
+	
 room_goto(newRoom);
 
 view_wview[0] = window_get_width()
