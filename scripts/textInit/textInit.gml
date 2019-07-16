@@ -21,7 +21,10 @@ ds_map_replace(global.roomStrings, "panelUnscrew", "I unscrewed the panel. ");
 ds_map_replace(global.roomStrings, "table", "A round table with four recesses in it. Odd.");
 ds_map_replace(global.roomStrings, "tableSlot", "I could put something here");
 ds_map_replace(global.roomStrings, "tableSlotWrong", "That doesn't fit in the recess, making my action seem arbitrary.");
-ds_map_replace(global.roomStrings, "panelOccupied", "Hold on, I'm trying to remember whether my electrical engineering prof said it _was_, or _was not_, a good idea to have tinder and potentially flammable liquids nearby while working on exposed wiring.");
+ds_map_replace(global.roomStrings, "tableSlotBottle", "I put the bottle in the recess on the table.");
+ds_map_replace(global.roomStrings, "tableSlotBottleWrong", "A light beneath the bottles briefly illuminates, and then goes out. ");
+ds_map_replace(global.roomStrings, "tableSlotBottleRight", "A light illuminates, and a cheerful tune plays (diegetically)!");
+ds_map_replace(global.roomStrings, "panelOccupied", "Hold on, I'm trying to remember whether my electrical engineering professor said it _was_, or _was not_, a good idea to have tinder and possibly flammable liquids nearby while working on exposed wiring.");
 ds_map_replace(global.roomStrings, "wiresNoTape", "Yep, these wires are damaged.");
 ds_map_replace(global.roomStrings, "doorScaryUnlock", "I unlocked the very scary door that might lead down into a murder room. ");
 

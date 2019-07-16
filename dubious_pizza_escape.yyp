@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "15e545e9-9b94-4036-8ba1-580c63683663",
+            "Value": {
+                "id": "db4f3f8f-3b16-48d9-acdd-80eba62a7b40",
+                "resourcePath": "objects\/OTableController\/OTableController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "17a90864-364b-441e-8a80-29621f14c52a",
             "Value": {
                 "id": "9bc6869a-8214-478d-8bab-ec879f1c0521",
@@ -1663,6 +1671,14 @@
             }
         },
         {
+            "Key": "ea2d1f76-58c3-4717-bf0b-1424deff1312",
+            "Value": {
+                "id": "f4a1c38f-b170-449b-9f37-aac7455d8255",
+                "resourcePath": "scripts\/tableSolutionCheck\/tableSolutionCheck.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ec9b094a-511e-4c5d-ac0c-c5eda9a9b1d6",
             "Value": {
                 "id": "0ab53ca1-56ee-4de5-bebb-ad869ca4c0c3",
@@ -1903,7 +1919,8 @@
         "f88601b8-0d3c-41b6-97f7-270ee7878fa6",
         "57c6e62e-4a33-41bb-909d-f079ffd01c8e",
         "0f442762-b139-4a90-a580-232b520463cc",
-        "cda2a99d-80e1-413f-96c5-d819e5e67aba"
+        "cda2a99d-80e1-413f-96c5-d819e5e67aba",
+        "ea2d1f76-58c3-4717-bf0b-1424deff1312"
     ],
     "tutorial": ""
 }

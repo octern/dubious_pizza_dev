@@ -1,18 +1,18 @@
 {
-    "id": "5cc52dde-4e1a-489b-b348-cf06e1e709d9",
+    "id": "15e545e9-9b94-4036-8ba1-580c63683663",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "OTable",
+    "name": "OTableController",
     "eventList": [
         {
-            "id": "743c09e2-62bc-4ef7-a454-4d966848562f",
+            "id": "a373175c-04d6-4c34-b330-428ad9d87a6a",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "5cc52dde-4e1a-489b-b348-cf06e1e709d9"
+            "eventtype": 3,
+            "m_owner": "15e545e9-9b94-4036-8ba1-580c63683663"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "d0de832d-2b3c-4c7e-a274-e7c9157e23cd",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

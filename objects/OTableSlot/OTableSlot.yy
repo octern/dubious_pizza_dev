@@ -113,6 +113,20 @@
             "value": "0",
             "varName": "tableInited",
             "varType": 3
+        },
+        {
+            "id": "07147abc-11aa-4beb-b3ee-642580b42a2b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "solution",
+            "varType": 5
         }
     ],
     "solid": false,

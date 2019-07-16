@@ -2,6 +2,8 @@
 
 // if (live_call()) return live_result;
 
+if(worldGet("table")=="open") return false;
+
 if(!clickActive(mouse_x, mouse_y, true, OItem, true) || contents!=-1) {
 	show_debug_message("there's already an item there. I should take it.");
 	exit;
@@ -29,7 +31,14 @@ itemSetLoc(_item, "table");
 tableSlotSave(itemObj, id);
 
 if(itemObj == OBottleY || itemObj == OBottleK || itemObj == OBottleU || itemObj == OBottleR) {	
-	textRoomMinor("I put the bottle into the recess in the table.");
+	if(tableSolutionCheck()) {
+		worldSet("table", "open");
+		instance_activate_object(OKey);
+		tableobj = instance_find(OTable, 0);
+		tableobj.image_index=1;
+	} else {
+		textRoomMinor("I put the bottle into the recess in the table.");
+	}
 } else {
 	textRoomMinor(stringGet("tableSlotWrong"));
 }
