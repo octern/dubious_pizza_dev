@@ -1,4 +1,8 @@
 if(!clickActive(mouse_x, mouse_y, true, OWireCoverCU, false)) {return false;}
+if(global.panelJustRemoved) {
+	global.panelJustRemoved=false;
+	return false;
+}
 
 if((instance_number(OBottleK) + instance_number(OPoemB)) > 0) {
 	textRoomMinor(textGet("panelOccupied"));

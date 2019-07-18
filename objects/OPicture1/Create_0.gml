@@ -13,6 +13,6 @@ picturePipsInit();
 if(worldGet("painting") == "open") {
 	paintingSolved();
 } else {
-//	instance_deactivate_object(instance_find(OPoemC, 0));
-//	instance_deactivate_object(instance_find(OBottleR, 0));
+	instance_deactivate_object(instance_find(OPoemC, 0));
+	instance_deactivate_object(instance_find(OBottleR, 0));
 }

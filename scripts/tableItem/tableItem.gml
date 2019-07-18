@@ -4,7 +4,15 @@
 
 if(worldGet("table")=="open") return false;
 
-if(!clickActive(mouse_x, mouse_y, true, OItem, true) || contents!=-1) {
+if(!clickActive(mouse_x, mouse_y, true, OBottle, true)) {
+	show_debug_message("I'm clicking another bottle, so I shouldn't be putting this down.");
+	exit;
+}
+if(!clickActive(mouse_x, mouse_y, true, OItem, true)) {
+	show_debug_message("I'm clicking something else, so I shouldn't be putting this down.");
+	exit;
+}
+if(contents!=-1) {
 	show_debug_message("there's already an item there. I should take it.");
 	exit;
 }
