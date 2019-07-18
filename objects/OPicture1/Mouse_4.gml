@@ -8,7 +8,7 @@ if(nudged>0) exit;
 
 var corner = itemCornerNudge();
 if(corner != 0) {
-	nudged = 15;
+	nudged = 10;
 //	if(ds_queue_size(corners) == ds_queue_size(solution)) ds_queue_dequeue(corners);
 //	ds_queue_enqueue(corners, corner);
 //	corners_s = ds_queue_write(corners);
