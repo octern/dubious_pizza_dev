@@ -4,6 +4,7 @@
 // // if (live_call()) return live_result;
 
 if(worldGet("painting")=="open") exit;
+if(nudged>0) exit;
 
 var corner = itemCornerNudge();
 if(corner != 0) {
