@@ -1,5 +1,5 @@
-instance_activate_object(OBottleR);
-instance_activate_object(OPoemC);
+//instance_activate_object(OBottleR);
+//instance_activate_object(OPoemC);
 thisbottle = instance_find(OBottleR, 0);
 newy=thisbottle.y + thisbottle.sprite_height;
 ychange = newy-y;

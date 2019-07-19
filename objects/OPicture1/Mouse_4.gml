@@ -30,6 +30,8 @@ if(corner != 0) {
 		worldSet("painting", "open");
 	}
 	if(worldGet("painting") == "open") {
+		instance_activate_object(OBottleR);
+		instance_activate_object(OPoemC);
 		paintingSolved();
 	} else {
 		if(corner=="tl" || corner=="br") image_angle=4;
