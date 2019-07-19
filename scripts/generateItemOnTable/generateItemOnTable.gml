@@ -1,6 +1,6 @@
 itemObj = argument[0];
 tableSlotActive = argument[1];
-
+_debug = false;
 
 
 with(tableSlotActive) {
@@ -9,15 +9,16 @@ with(tableSlotActive) {
 	tableInst.tableSlot = id;
 	contents = itemObj;
 
-	show_debug_message("generateItemOnTable info");
-	show_debug_message(string(itemObj));
-	show_debug_message(string(tableInst));
-	show_debug_message(contents);
-	show_debug_message(tableInst.sprite_index);
-	show_debug_message(tableInst.iSprite);
-	show_debug_message(tableInst.iItem);
-	show_debug_message(tableInst.tableSlot);
-
+	if(_debug) {
+		show_debug_message("generateItemOnTable info");
+		show_debug_message(string(itemObj));
+		show_debug_message(string(tableInst));
+		show_debug_message(contents);
+		show_debug_message(tableInst.sprite_index);
+		show_debug_message(tableInst.iSprite);
+		show_debug_message(tableInst.iItem);
+		show_debug_message(tableInst.tableSlot);
+	}
 	tableInst.image_angle=0;
 	yadj=0;
 	xadj=0;
