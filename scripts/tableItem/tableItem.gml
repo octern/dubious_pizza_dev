@@ -17,12 +17,12 @@ if(contents!=-1) {
 	exit;
 }
 
-show_debug_message("click is active");
+// show_debug_message("click is active");
 
 _item = global.activeItem;
 if(_item==0) exit;
 
-show_debug_message("there's an item");
+// show_debug_message("there's an item");
 
 itemObj = global.itemDefinitions[_item, itemProperty.object];
 show_debug_message("attempting to put item " + string(_item) + "on table. I have " + string(itemGetQuant(_item)) + " of it.");
