@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "OBottleR",
     "eventList": [
-        
+        {
+            "id": "26951c37-ef27-408f-9fa0-bc14c7f84222",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 66,
+            "eventtype": 9,
+            "m_owner": "802f5584-29c7-4c7d-a4d3-068391958bb4"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
