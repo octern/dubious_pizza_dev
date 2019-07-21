@@ -1,2 +1,2 @@
-global.iconBoxes = true;
-global.itemCounts = false;
+global.iconBoxes = false;
+global.itemCounts = true;

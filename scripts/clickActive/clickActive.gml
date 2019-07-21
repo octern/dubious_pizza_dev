@@ -20,5 +20,7 @@ ctext = ntext ? instance_number(OText) + instance_number(OTextMinor) : 0;
 // return true if the click didn't overlap with anything else (or we're not checking) AND 
 //		there is no text box visible (or we aren't checking)
 active = !coverlap && ctext==0;
-// show_debug_message("clickActive result: overlap " + string(coverlap) + " and text " + string(ctext));
+show_debug_message("clickActive result: overlap " + string(coverlap) + " and text " + string(ctext));
+collider = instance_position(cx, cy, other);
+show_debug_message("colliding with " + string(collider));
 return(active);

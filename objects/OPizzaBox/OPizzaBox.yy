@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "OPizzaBox",
     "eventList": [
-        
+        {
+            "id": "a0a6d75c-a4e1-4ae4-83f4-408e8c363d9f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 6,
+            "m_owner": "732d3a56-3c0a-4bc5-8201-461c7afe786d"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
@@ -39,8 +48,23 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "c5225607-a9d3-4ffc-b466-383dc7e80a11",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "False",
+            "varName": "open",
+            "varType": 3
+        }
+    ],
     "solid": false,
-    "spriteId": "0986b695-8bea-4401-a199-466adada7599",
+    "spriteId": "288d6035-cdfd-46de-afc3-364f85be255e",
     "visible": true
 }

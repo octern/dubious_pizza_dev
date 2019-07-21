@@ -447,6 +447,14 @@
             }
         },
         {
+            "Key": "288d6035-cdfd-46de-afc3-364f85be255e",
+            "Value": {
+                "id": "6ec82eef-bc17-456d-93cc-d8f429eab9b6",
+                "resourcePath": "sprites\/SPizzaBoxLg\/SPizzaBoxLg.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2b9168df-38fb-45e3-9356-e3342f357cfc",
             "Value": {
                 "id": "2cf09c8b-33fe-445f-a316-70480f4d235b",
