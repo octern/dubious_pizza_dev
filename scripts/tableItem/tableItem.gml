@@ -39,14 +39,23 @@ itemSetLoc(_item, "table");
 tableSlotSave(itemObj, id);
 tableInit();
 
-if(itemObj == OBottleY || itemObj == OBottleK || itemObj == OBottleU || itemObj == OBottleR) {	
-	if(tableSolutionCheck()) {
-		worldSet("table", "open");
-		instance_activate_object(OKey);
-		tableobj = instance_find(OTable, 0);
-		tableobj.image_index=1;
-	} else {
-		textRoomMinor("I put the bottle into the recess in the table.");
+//if(itemObj == OBottleY || itemObj == OBottleK || itemObj == OBottleU || itemObj == OBottleR) {	
+if(object_get_parent(itemObj)==OBottle) {
+	res = tableSolutionCheck();
+	switch res {
+		case "right":
+			worldSet("table", "open");
+			instance_activate_object(OKey);
+			tableobj = instance_find(OTable, 0);
+			tableobj.image_index=1;
+			textRoomMinor(stringGet("tableSlotBottleRight"));
+			break;
+		case "incomplete":
+			textRoomMinor(stringGet("tableSlotBottle"));
+			break;
+		case "wrong":
+			textRoomMinor(stringGet("tableSlotBottleWrong"));
+			break;
 	}
 } else {
 	textRoomMinor(stringGet("tableSlotWrong"));

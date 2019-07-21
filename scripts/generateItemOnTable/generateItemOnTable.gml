@@ -4,7 +4,7 @@ _debug = false;
 
 
 with(tableSlotActive) {
-	tableInst = instance_create_depth(x,y,depth-1,itemObj);
+	tableInst = instance_create_layer(x,y,"bottles",istemObj);
 	if ( instance_exists(tableInst) ) show_debug_message("Item Exists");
 	tableInst.tableSlot = id;
 	contents = itemObj;
