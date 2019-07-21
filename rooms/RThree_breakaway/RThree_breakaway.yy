@@ -3,8 +3,8 @@
     "name": "RThree_breakaway",
     "id": "5d20eb5b-d837-4bf9-8a07-107350ece125",
     "creationCodeFile": "",
-    "inheritCode": true,
-    "inheritCreationOrder": true,
+    "inheritCode": false,
+    "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
         "62c74a3c-8532-4df5-be1f-75cf67d50941",
@@ -200,7 +200,7 @@
         }
     ],
     "modelName": "GMRoom",
-    "parentId": "fd4d07b9-b4e7-4b58-b80f-818610925f0c",
+    "parentId": "00000000-0000-0000-0000-000000000000",
     "physicsSettings":     {
         "id": "d8ea74ea-9ff4-41ce-a5c0-3ef304434323",
         "inheritPhysicsSettings": false,

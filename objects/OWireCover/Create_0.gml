@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 if(worldGet("elecPanel")=="open") {
-	sprite_index=SWireFrame;
+//	sprite_index=SWireFrame;
 	exit;
 }
 

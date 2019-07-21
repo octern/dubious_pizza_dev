@@ -6,3 +6,4 @@ if(worldGet("table") == "closed") {
 } else {
 	image_index=1;
 }
+
