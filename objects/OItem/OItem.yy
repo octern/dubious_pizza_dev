@@ -86,7 +86,7 @@
             "rangeMax": 359,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
+            "value": "-1",
             "varName": "iRotation",
             "varType": 0
         },
