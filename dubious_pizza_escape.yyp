@@ -1815,6 +1815,14 @@
             }
         },
         {
+            "Key": "f953d712-b9c9-4610-80e8-16fc9dc62587",
+            "Value": {
+                "id": "5a689871-fa54-493c-91bb-4a87dd0e5e0e",
+                "resourcePath": "sounds\/ALog\/ALog.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "fab501ee-2589-4435-9965-c6fdc30a89cb",
             "Value": {
                 "id": "696547f1-cfd8-4c62-aedd-8dc11448bc09",

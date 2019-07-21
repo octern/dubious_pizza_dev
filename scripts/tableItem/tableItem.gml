@@ -48,6 +48,7 @@ if(object_get_parent(itemObj)==OBottle) {
 			instance_activate_object(OKey);
 			tableobj = instance_find(OTable, 0);
 			tableobj.image_index=1;
+			audio_play_sound(ALog, 1, false);
 			textRoomMinor(stringGet("tableSlotBottleRight"));
 			break;
 		case "incomplete":
