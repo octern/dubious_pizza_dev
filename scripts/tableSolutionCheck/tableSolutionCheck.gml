@@ -6,4 +6,5 @@ for(slotnum=0;slotnum<instance_number(OTableSlot);slotnum++) {
 	solved = solved && slot.contents == slot.solution;
 	show_debug_message("solution status is: " + string(solved));
 }
+if(solved) {return solved}
 return solved;

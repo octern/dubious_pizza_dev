@@ -37,6 +37,7 @@ itemSetLoc(_item, "table");
 
 //generateItemOnTable(itemObj, id);
 tableSlotSave(itemObj, id);
+tableInit();
 
 if(itemObj == OBottleY || itemObj == OBottleK || itemObj == OBottleU || itemObj == OBottleR) {	
 	if(tableSolutionCheck()) {
