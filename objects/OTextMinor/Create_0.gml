@@ -5,5 +5,6 @@ _string = "error: needed to assign some text";
 fadeIn=false;
 fadeOut=false;
 image_blend=c_black;
+image_speed=0;
 
 instance_deactivate_object(OTextMinor);

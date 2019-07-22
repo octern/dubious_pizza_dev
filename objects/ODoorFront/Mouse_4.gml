@@ -4,4 +4,4 @@
 // // if (live_call()) return live_result; 
 
 _textKey = "doorFront";
-textRoomWrite(ds_map_find_value(global.roomStrings, _textKey));
+textRoomMinor(ds_map_find_value(global.roomStrings, _textKey));

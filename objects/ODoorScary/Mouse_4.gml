@@ -6,13 +6,13 @@
 if(worldGet("scarydoor")=="locked") {
 	if(global.activeItem!=itemType.key) {
 		_textKey = "doorScary";
-		textRoomWrite(ds_map_find_value(global.roomStrings, _textKey));
+		textRoomMinor(ds_map_find_value(global.roomStrings, _textKey));
 		return false;
 	} else {
 		worldSet("scarydoor", "unlocked");
 		_textKey = "doorScaryUnlock";
 		image_index=1;
-		textRoomWrite(ds_map_find_value(global.roomStrings, _textKey));
+		textRoomMinor(ds_map_find_value(global.roomStrings, _textKey));
 		return true;
 	}
 } else if(worldGet("scarydoor")=="unlocked") {

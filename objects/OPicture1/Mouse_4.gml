@@ -79,5 +79,5 @@ if(!_r && !_b && !_g) {light_color=c_black;  worldSet("lightColor", "Black");}
 		case "Blue": _textKey="pictureG"; break;
 		case "Black": _textKey="pictureDark"; break;
 	}
-	textRoomWrite(ds_map_find_value(global.roomStrings, _textKey));
+	textRoomMinor(ds_map_find_value(global.roomStrings, _textKey));
 }
