@@ -3,6 +3,8 @@
 
 // // if (live_call()) return live_result;
 
+image_speed=0;
+
 drawItem = global.closeupItem;
 
 _sprite = global.itemDefinitions[drawItem, itemProperty.closeup];

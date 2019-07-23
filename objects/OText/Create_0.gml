@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+image_speed=0;
 _string = "error: needed to assign some text";
 fadeIn=false;
 fadeOut=false;

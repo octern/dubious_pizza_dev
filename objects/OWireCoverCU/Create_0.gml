@@ -6,6 +6,9 @@ if(worldGet("elecPanel") == "open") {
 	exit;
 }
 
+image_index=0;
+image_speed=0;
+
 screw1=instance_create_depth(x+sprite_width/20, y+sprite_height/15, depth-1, OScrew);
 screw2=instance_create_depth(x+sprite_width/20*19, y+sprite_height/15, depth-1, OScrew);
 screw3=instance_create_depth(x+sprite_width/20, y+sprite_height/15*14, depth-1, OScrew);
