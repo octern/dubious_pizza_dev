@@ -4,9 +4,9 @@
 // testingLiveInit();
 
 randomise();
+debugInit();
 invInit();
 worldInit();
 itemsInit();
 textInit();
 //wireInit();
-debugInit();
