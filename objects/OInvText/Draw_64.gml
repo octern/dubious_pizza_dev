@@ -4,7 +4,7 @@
 
 // // if (live_call()) return live_result;
 
-draw_text_ext_transformed_color(x/2,y/2+50, item_string, -1, 200, 
+draw_text_ext_transformed_color(text_x,text_y, item_string, -1, 200, 
 	2,2, 0, 
 	c_red, c_red, c_red, c_white, 1);
 
