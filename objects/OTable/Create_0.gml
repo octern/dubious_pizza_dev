@@ -6,4 +6,4 @@ if(worldGet("table") == "closed") {
 } else {
 	image_index=1;
 }
-
+image_speed = 0;

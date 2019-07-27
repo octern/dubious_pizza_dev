@@ -8,7 +8,7 @@ global.roomStrings = ds_map_create();
 ds_map_replace(global.roomStrings, "panelClosed", "If I could just get this cover off, I could probably do something really dangerous!");
 ds_map_replace(global.roomStrings, "pictureDark", "The frame is thick and kind of distorted. The picture is too dim to see. ");
 ds_map_replace(global.roomStrings, "pictureR", "This is the beach house my friend and I stayed at for a week after we finished college. I remember it as being mellow but a little sad, as we'd sit and watch the sunsets together. ");
-ds_map_replace(global.roomStrings, "pictureG", "This is the beach house my friend and I stayed at for a week after we finished college. We smoked so much weed that summer.");
+ds_map_replace(global.roomStrings, "pictureG", "This is the beach house my friend and I stayed at for a week after we finished college. I remember smoking weed all day long.");
 ds_map_replace(global.roomStrings, "pictureB", "This is the beach house my friend and I stayed at for a week after we finished college. I remember it as being so calm and soothing there. We spent whole days just letting the stress of the last semester drain away. ");
 ds_map_replace(global.roomStrings, "pictureY", "This is the beach house my friend and I stayed at for a week after we finished college. I remember those days as energetic and exciting, with the sun beaming down and not a cloud anywhere. ");
 ds_map_replace(global.roomStrings, "pictureA", "This is the beach house my friend and I stayed at for a week after we finished college. The smell and sight and sound of the ocean was everywhere. ");
