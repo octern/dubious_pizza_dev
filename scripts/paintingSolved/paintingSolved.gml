@@ -5,6 +5,8 @@ newy=thisbottle.y + thisbottle.sprite_height;
 ychange = newy-y;
 y=newy;
 for(var i=0; i<instance_number(OPips); i++) {
-	_pip = instance_find(OPips, i)
-	_pip.y+=ychange;
+	instance_destroy(instance_find(OPips, i));
+// let's not move the pips, let's just destroy them.
+//	_pip = instance_find(OPips, i)
+//	_pip.y+=ychange;
 }

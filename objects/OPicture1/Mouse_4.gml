@@ -73,7 +73,7 @@ if(!_r && !_b && !_g) {light_color=c_black;  worldSet("lightColor", "Black");}
 		case "Red": _textKey="pictureR"; break;
 		case "Aquamarine": _textKey="pictureA"; break;
 		case "Green": _textKey="pictureG"; break;
-		case "Blue": _textKey="pictureG"; break;
+		case "Blue": _textKey="pictureB"; break;
 		case "Black": _textKey="pictureDark"; break;
 	}
 	textRoomMinor(ds_map_find_value(global.roomStrings, _textKey));
