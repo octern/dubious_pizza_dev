@@ -1,9 +1,21 @@
 /// @description Insert description here
 // You can write your code in this editor
 item_string = global.itemDefinitions[global.closeupItem, itemProperty.description];
+
+item_obj = global.itemDefinitions[global.closeupItem, itemProperty.object];
+is_poem = object_is_ancestor(item_obj, OPoem);
+
+
+
 text_x = x/2;
 text_y = y/2+50;
-text_scale = 1.75;
+if(is_poem) {
+	text_scale = 1;
+	text_tint = c_green;
+} else {
+	text_scale = 1.75;
+	text_tint = c_blue;
+}
 text_y_start = text_y;
 text_increment = string_height("A");
 text_height = string_height(item_string);
@@ -15,3 +27,4 @@ text_max_scroll = y - (text_height * text_scale) - text_scroll_extra + (text_inc
 
 dn_timer = 0;
 up_timer = 0;
+

@@ -319,6 +319,14 @@
             }
         },
         {
+            "Key": "1dd1e521-222c-4ff5-9b4b-63b8ec3887a8",
+            "Value": {
+                "id": "517c7aab-e9e5-4abf-9af7-284218c42d34",
+                "resourcePath": "objects\/OPoem\/OPoem.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1fcdd62b-0086-43c5-9904-962f087f47d3",
             "Value": {
                 "id": "034fe83a-a787-4d27-84dc-f74db519a1fe",
