@@ -49,3 +49,28 @@ But all my prey know me when they see me coming.
 ...I don't think my friend has ever had a cat. 
 Also, this is the kind of thing we sometimes hear from people who want to become vampires for the wrong reasons. ";
 
+global.easteregg_poem = @"
+Oh shit. I'm just going to assume this is cherry juice.
+It is not a merry juice
+indeed, tis a juice of melancholy
+caused by my old friend's shut-in folly
+
+if I'm to plumb this mystery
+which (no pun intended) holds me captive
+I must retrace our history
+and with wits and wisdom be adaptive.
+
+Am I in danger? Or is my friend
+(hemmed in, as he is, by regrets past)
+a man obsessed with his own end
+or a burgeoning iconoclast?
+
+The solution that I seek
+may lie in wisdom from ancestors
+I will save keys to open doors
+And ignore those tips from Nester
+
+This doggerel I am spewing forth
+merely seeks to fill your time
+which is my space, dimension fourth
+and -- OMG, a metal slime!";

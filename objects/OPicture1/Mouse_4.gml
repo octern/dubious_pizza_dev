@@ -3,11 +3,8 @@
 
 // // if (live_call()) return live_result;
 
-if(worldGet("painting")=="open") exit;
-if(nudged>0) exit;
-
 var corner = itemCornerNudge();
-if(corner != 0) {
+if(corner != 0 && worldGet("painting") != "open" && nudged <= 0) {
 	nudged = 10;
 //	if(ds_queue_size(corners) == ds_queue_size(solution)) ds_queue_dequeue(corners);
 //	ds_queue_enqueue(corners, corner);
@@ -58,9 +55,9 @@ if(corner != 0) {
 			_pip.y+=_pip.nudgey;
 		}			
 	}
+	return true;
 }
 	
-if(corner==0) {
 if( _r &&  _b &&  _g) {light_color=c_white; worldSet("lightColor", "Bright white");}
 if( _r && !_b &&  _g) {light_color=c_yellow; worldSet("lightColor", "Yellow");}
 if( _r &&  _b && !_g) {light_color=c_purple; worldSet("lightColor", "Purple");}
@@ -80,4 +77,3 @@ if(!_r && !_b && !_g) {light_color=c_black;  worldSet("lightColor", "Black");}
 		case "Black": _textKey="pictureDark"; break;
 	}
 	textRoomMinor(ds_map_find_value(global.roomStrings, _textKey));
-}
