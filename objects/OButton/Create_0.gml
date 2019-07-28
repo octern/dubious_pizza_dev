@@ -1,5 +1,10 @@
 /// @description Insert description here
-// You can write your code in this editor
+
+// only use these if the debug flag is on
+if(!global.lightButtons) {
+	instance_destroy();
+	exit;
+}
 
 image_speed = 0;
 press_scale = .95;

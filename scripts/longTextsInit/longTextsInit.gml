@@ -58,7 +58,7 @@ caused by my old friend's shut-in folly
 if I'm to plumb this mystery
 which (no pun intended) holds me captive
 I must retrace our history
-and with wits and wisdom be adaptive.
+and with wits and wisdom, be adaptive.
 
 Am I in danger? Or is my friend
 (hemmed in, as he is, by regrets past)
@@ -70,7 +70,7 @@ may lie in wisdom from ancestors
 I will save keys to open doors
 And ignore those tips from Nester
 
-This doggerel I am spewing forth
+This doggerel I am putting forth
 merely seeks to fill your time
 which is my space, dimension fourth
 and -- OMG, a metal slime!";

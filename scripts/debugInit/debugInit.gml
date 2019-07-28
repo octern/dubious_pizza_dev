@@ -6,3 +6,9 @@ global.itemCounts = false;
 
 // how many of each item to start the player withdebug
 global.testAllTheItems = 0;
+
+// buttons for picture lights
+global.lightButtons = true;
+
+// easy vs. hard screw solution
+global.easyScrews = true;
