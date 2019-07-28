@@ -1,10 +1,10 @@
-/// @desc scale an object's sprite tersely
-/// @param obj  object to scale
+/// @desc scale an instance sprite tersely
+/// @param inst  instance to scale
 
-var obj = argument[0];
+var inst = argument[0];
 var scale = argument[1];
 
-with(argument[0]) {
+with(inst) {
 	image_xscale=argument[1];
 	image_yscale=argument[1];
 }

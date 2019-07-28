@@ -14,7 +14,7 @@ if(is_poem) {
 	text_tint = c_green;
 } else {
 	text_scale = 1.75;
-	text_tint = c_blue;
+	text_tint = c_white;
 }
 text_y_start = text_y;
 text_increment = string_height("A");

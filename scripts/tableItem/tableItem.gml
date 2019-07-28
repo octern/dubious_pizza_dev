@@ -20,7 +20,11 @@ if(contents!=-1) {
 // show_debug_message("click is active");
 
 _item = global.activeItem;
-if(_item==0) exit;
+
+if(_item==0) {
+	textRoomMinor(textGet("tableSlot"));
+	exit;
+}
 
 // show_debug_message("there's an item");
 

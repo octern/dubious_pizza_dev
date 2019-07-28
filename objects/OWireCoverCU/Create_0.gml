@@ -20,6 +20,11 @@ screw2.image_angle=360-worldGet("screw2")*30;
 screw3.image_angle=360-worldGet("screw3")*30;
 screw4.image_angle=360-worldGet("screw4")*30;
 
+spriteScale(screw1, 1.5);
+spriteScale(screw2, 1.5);
+spriteScale(screw3, 1.5);
+spriteScale(screw4, 1.5);
+
 screws = ds_list_create();
 ds_list_add(screws, screw1, screw2, screw3, screw4);
 instance_deactivate_object(OBottleK);

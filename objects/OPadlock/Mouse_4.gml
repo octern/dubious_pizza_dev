@@ -13,6 +13,6 @@ if(worldGet("toolbox")=="unlocked") {
 	roomChange("dn"); // return from closeup to parent room
 } else {
 	if(clickActive(mouse_x, mouse_y, true, ODial, true)) {
-		textRoomMinor(ds_map_find_value(global.roomStrings, "Padlock"));
+		textRoomMinor(textGet("padlock"));
 	}
 }
