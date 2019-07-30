@@ -11,5 +11,5 @@ global.testAllTheItems = 0;
 global.lightButtons = true;
 
 // easy vs. hard screw solution
-global.easyScrews = true;
+global.easyScrews = false;
 
