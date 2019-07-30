@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "OPips",
     "eventList": [
-        
+        {
+            "id": "6b00ea34-1bc7-401a-8bc8-1d8571437503",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "4c712183-7e78-4be1-b9dd-72837bca9c3e"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
