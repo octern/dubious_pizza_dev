@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "09e3bb87-11f9-4aa7-b65d-8a96e96b9dfa",
+            "Value": {
+                "id": "8bebbda5-efae-4797-8a3d-a5bdbb1fa428",
+                "resourcePath": "sprites\/SFadeOverlayW\/SFadeOverlayW.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0a3ef083-ca2c-42b4-8267-0dd1dcbd23b6",
             "Value": {
                 "id": "1a45034e-9e86-4c29-a612-343fe4beeba7",
@@ -564,6 +572,14 @@
                 "id": "bbc8930f-472c-4eb3-b855-ec6ab886c2c7",
                 "resourcePath": "views\/3cd0954d-b8d5-431d-8d4c-985f480e37d4.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3e6944c6-610c-4243-9c2a-d9bb264bd889",
+            "Value": {
+                "id": "87c5b3ad-f7ea-40e5-98d1-c1b83169e850",
+                "resourcePath": "objects\/OFadeOverlay\/OFadeOverlay.yy",
+                "resourceType": "GMObject"
             }
         },
         {
