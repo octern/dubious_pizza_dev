@@ -1,8 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-fadeDuration = 4;
-fadePause = 3;
+//msg = get_string_async("fade duration", "10");
+//fadeDuration = -1;   
+fadeDuration = 120;
+fadePause = 10;
 fadingIn = true;
 fadingOut = false;
 fadingPause = false;
