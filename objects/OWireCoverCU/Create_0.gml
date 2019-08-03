@@ -14,7 +14,11 @@ screw2=instance_create_depth(x+sprite_width/20*19, y+sprite_height/15, depth-1, 
 screw3=instance_create_depth(x+sprite_width/20, y+sprite_height/15*14, depth-1, OScrew);
 screw4=instance_create_depth(x+sprite_width/20*19, y+sprite_height/15*14, depth-1, OScrew);
 
+// reset the screw sprite origin to the middle so it rotates properly
+sprite_set_offset(SScrew, sprite_get_width(SScrew)/2, sprite_get_height(SScrew)/2);
+
 // These angles define the solution to the padlock puzzle
+
 screw1.image_angle=360-worldGet("screw1")*30;
 screw2.image_angle=360-worldGet("screw2")*30;
 screw3.image_angle=360-worldGet("screw3")*30;
