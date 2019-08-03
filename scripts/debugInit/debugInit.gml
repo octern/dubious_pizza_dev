@@ -5,7 +5,7 @@ global.iconBoxes = false;
 global.itemCounts = false;
 
 // how many of each item to start the player with
-global.testAllTheItems = 0;
+global.testAllTheItems = 1;
 
 // buttons for picture lights
 global.lightButtons = true;
