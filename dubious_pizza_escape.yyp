@@ -834,7 +834,7 @@
             "Key": "59c4ca93-1a19-4f58-b5da-a924cbc44903",
             "Value": {
                 "id": "965f0345-ea9e-4e72-96ca-429266f932d6",
-                "resourcePath": "objects\/obj_arrow\/obj_arrow.yy",
+                "resourcePath": "objects\/OArrow\/OArrow.yy",
                 "resourceType": "GMObject"
             }
         },
