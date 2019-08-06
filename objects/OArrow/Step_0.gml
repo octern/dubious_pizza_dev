@@ -1,8 +1,8 @@
-/// @description Insert description here
-// You can write your code in this editor
-if(changeDir) {
-	fadeWait--;
-}
-if(changeDir && fadeWait<=0) {
-	roomChange(changeDir);
-}
+//demo for how to insert fade during room transition
+
+//if(changeDir) {
+//	fadeWait--;
+//}
+//if(changeDir!=0 && fadeWait<=0) {
+//	roomChange(changeDir);
+//}
