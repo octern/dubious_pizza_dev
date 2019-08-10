@@ -1034,7 +1034,7 @@
             "Key": "7bf9f23e-aa1d-4762-a20c-9c2865728b2c",
             "Value": {
                 "id": "cdce523e-2698-4a80-92e9-4111654aee91",
-                "resourcePath": "fonts\/font0\/font0.yy",
+                "resourcePath": "fonts\/FArial12\/FArial12.yy",
                 "resourceType": "GMFont"
             }
         },
@@ -1762,7 +1762,7 @@
             "Key": "ec9b094a-511e-4c5d-ac0c-c5eda9a9b1d6",
             "Value": {
                 "id": "0ab53ca1-56ee-4de5-bebb-ad869ca4c0c3",
-                "resourcePath": "objects\/OText\/OText.yy",
+                "resourcePath": "objects\/OTextMajor\/OTextMajor.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1859,6 +1859,14 @@
             "Value": {
                 "id": "698e681b-de8c-4232-b7bc-07cb3a52689a",
                 "resourcePath": "objects\/OBottle\/OBottle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f5ad6236-4f42-409f-b6dc-d4d5dbfcafb0",
+            "Value": {
+                "id": "bd6b947c-9904-411f-b9b5-87017dd8bbc1",
+                "resourcePath": "objects\/OText\/OText.yy",
                 "resourceType": "GMObject"
             }
         },
