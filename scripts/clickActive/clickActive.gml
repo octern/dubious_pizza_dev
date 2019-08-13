@@ -15,7 +15,7 @@ overlapobj = argument_count >= 4 ? argument[3] : other;
 ntext = argument_count >= 5 ? argument[4] : true;
 
 coverlap = noverlap ? position_meeting(cx, cy, overlapobj) : false;
-ctext = ntext ? instance_number(OText) + instance_number(OTextMinor) : 0;
+ctext = ntext ? instance_number(OTextMajor) + instance_number(OTextMinor) : 0;
 
 // return true if the click didn't overlap with anything else (or we're not checking) AND 
 //		there is no text box visible (or we aren't checking)

@@ -20,7 +20,7 @@ if(fadeOut) {
 		image_alpha -= .02;
 	} else {
 		fadeOut=false;
-		instance_deactivate_object(OText);
+		instance_deactivate_object(OTextMajor);
 	}
 }
 draw_self();

@@ -30,5 +30,5 @@ ds_map_replace(global.roomStrings, "doorScaryUnlock", "I unlocked the very scary
 ds_map_replace(global.roomStrings, "toolboxLocked", "It looks like the same old toolbox they had in high school.\nI wonder if the lock is to keep people out? Or to keep unknown horrors inside?\nProbably people.");
 ds_map_replace(global.roomStrings, "toolboxOpen", "It looks like the same old toolbox they had in high school.");
 
-instance_deactivate_object(OText);
+instance_deactivate_object(OTextMajor);
 instance_deactivate_object(OTextMinor);

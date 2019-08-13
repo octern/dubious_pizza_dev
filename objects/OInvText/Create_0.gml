@@ -28,3 +28,4 @@ text_max_scroll = y - (text_height * text_scale) - text_scroll_extra + (text_inc
 dn_timer = 0;
 up_timer = 0;
 
+scrollRefY = 0;
