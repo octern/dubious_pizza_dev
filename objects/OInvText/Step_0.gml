@@ -57,3 +57,7 @@ if(keyboard_check(vk_down)) {
 if(keyboard_check_released(vk_down)) {
 	dn_timer = 0;
 }
+
+if(keyboard_check_pressed(ord("A"))) DNewX = get_string_async("new text X", "0");
+if(keyboard_check_pressed(ord("S"))) DNewY = get_string_async("new text Y", "0");
+if(keyboard_check_pressed(ord("D"))) DNewW = get_string_async("new text wrap", "200");

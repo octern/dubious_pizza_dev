@@ -1279,6 +1279,14 @@
             }
         },
         {
+            "Key": "9f0b3689-8609-495f-a0be-ebc2e6ede96a",
+            "Value": {
+                "id": "04f75751-0251-4935-abd3-ccd18de24166",
+                "resourcePath": "rooms\/RInvCloseupHDbackup\/RInvCloseupHDbackup.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "9f62169a-8e8f-4200-8d95-2bfda655fe7e",
             "Value": {
                 "id": "b331cc40-0ab6-4cda-8a18-c4ec266a18cd",
