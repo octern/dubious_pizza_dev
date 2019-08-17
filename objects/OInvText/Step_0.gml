@@ -34,8 +34,14 @@ if(!initialized) {
 	scroll_timer = 10;
 	// I have no idea why this is needed, but the text won't scroll far enough without it
 	text_scroll_extra = 200 * text_scale;
+	window_height = window_get_height();
+	textOffscreen = text_height - window_height + text_y;
+	
+// old cargo cult formula
+//	text_max_scroll = text_y_start - (text_height * text_scale) + (text_increment * text_scale * 4);
 
-	text_max_scroll = text_y_start - (text_height * text_scale) + (text_increment * text_scale * 4);
+// sweet new formula
+	text_max_scroll = text_y_start - textOffscreen - text_increment * 4;
 
 	dn_timer = 0;
 	up_timer = 0;
