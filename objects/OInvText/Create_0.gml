@@ -3,3 +3,4 @@
 
 // initialization code is in step event bcs we want to set params externally
 initialized = false;
+textWidth = sprite_width;

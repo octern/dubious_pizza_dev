@@ -5,4 +5,5 @@ worldInit();
 itemsInit();
 textInit();
 longTextsInit();
+displayInit();
 //wireInit();

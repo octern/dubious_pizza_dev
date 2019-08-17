@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if(!initialized) exit;
+
 changeY = mouse_y - scrollRefY;
 candidateY = text_y + changeY;
 if(candidateY > text_y_start) {

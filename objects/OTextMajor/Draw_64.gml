@@ -4,10 +4,12 @@
 
 // // if (live_call()) return live_result;
 
+text_scale = 1;
+
 var text_x = x-sprite_width/2+30;
 var text_y = y-sprite_height/2+30;
 draw_text_ext_transformed_color(text_x, text_y, _string, -1, sprite_width*.8, 
-	1.5,1.5, 0, 
+	text_scale, text_scale, 0, 
 	c_purple, c_blue, c_red, c_black, image_alpha);
 
 
@@ -23,3 +25,5 @@ show_debug_message("text xy: "+string(text_x)+","+string(text_y));
 
 
 //show_debug_message("text here");
+
+

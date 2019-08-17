@@ -2,7 +2,7 @@
     "id": "7bf9f23e-aa1d-4762-a20c-9c2865728b2c",
     "modelName": "GMFont",
     "mvc": "1.1",
-    "name": "FArial12",
+    "name": "FPoem",
     "AntiAlias": 1,
     "TTFName": "",
     "ascenderOffset": 0,
