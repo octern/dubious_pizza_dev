@@ -31,9 +31,10 @@ if(!initialized) {
 	text_y_start = text_y;
 	text_increment = string_height("A");
 	text_height = string_height(item_string);
+	textWidth = sprite_width;
 	scroll_timer = 10;
-	// I have no idea why this is needed, but the text won't scroll far enough without it
-	text_scroll_extra = 200 * text_scale;
+//	// I have no idea why this is needed, but the text won't scroll far enough without it
+//	text_scroll_extra = 200 * text_scale;
 	window_height = window_get_height();
 	textOffscreen = text_height - window_height + text_y;
 	
