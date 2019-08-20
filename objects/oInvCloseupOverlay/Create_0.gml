@@ -28,6 +28,10 @@ show_debug_message(string(item_textBlocks[0,0]));
 
 text_start_y = 127;
 
+for(testy=0; testy<2000; testy+=100) {
+	draw_text(600, testy, string(testy));
+}
+
 for(i=0; i<array_length_1d(textBlocks); i++) {
 	textBlock = item_textBlocks[i];
 	format = textBlock[0];
@@ -36,7 +40,8 @@ for(i=0; i<array_length_1d(textBlocks); i++) {
 
 	invtext = instance_create_depth(613, text_start_y,1,OInvText);
 	widthFactor = target_width / invtext.sprite_width
-	text_start_y += string_height(words) + between_texts_margin;
+	words_height = string_height(words);
+	text_start_y = text_start_y + between_texts_margin;
 
 	invtext.image_xscale = widthFactor;
 	invtext.item_string = words;
