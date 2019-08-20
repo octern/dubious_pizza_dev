@@ -13,3 +13,5 @@ global.lightButtons = true;
 // easy vs. hard screw solution
 global.easyScrews = false;
 
+// extended text for kraken poem to test scrolling
+global.longPoem = true;

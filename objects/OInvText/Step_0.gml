@@ -12,6 +12,8 @@ if(!initialized) {
 // instead of setting text to display on create, we let the inventory screen set them
 // this way we can have different text in different boxes. 
 
+text_scale = 1;
+text_tint = global.text_tint;
 // but if they weren't set, do the normal thing by default. 
 	if(!variable_instance_exists(id, "item_string")) {
 		item_string = global.itemDefinitions[global.closeupItem, itemProperty.description];
@@ -21,6 +23,7 @@ if(!initialized) {
 	initialized=true;
 	text_x = x;
 	text_y = y;
+/*
 	if(is_poem) {
 		text_scale = 1;
 		text_tint = c_green;
@@ -28,6 +31,7 @@ if(!initialized) {
 		text_scale = 1;
 		text_tint = c_white;
 	}
+*/
 	text_y_start = text_y;
 	text_increment = string_height("A");
 	text_height = string_height(item_string);
