@@ -8,7 +8,7 @@ target_width = 380;
 
 item_textBlocks = textParse(item_string);
 
-show_debug_message("full array");
+/*show_debug_message("full array");
 show_debug_message(string(item_textBlocks));
 show_debug_message("first subarr");
 show_debug_message(string(item_textBlocks[0]));
@@ -27,35 +27,28 @@ show_debug_message(string(item_textBlocks[0,0]));
 */
 
 text_start_y = 127;
+text_start_x = 613;
 
-for(testy=0; testy<2000; testy+=100) {
-	draw_text(600, testy, string(testy));
-}
+// set to true for help debugging text display issues
+pixelsTest = true;
 
 for(i=0; i<array_length_1d(textBlocks); i++) {
 	textBlock = item_textBlocks[i];
 	format = textBlock[0];
 	words = textBlock[1];
-	textFormatSet(format);
 
-	invtext = instance_create_depth(613, text_start_y,1,OInvText);
+	invtext = instance_create_depth(text_start_x, text_start_y,1,OInvText);
+	if(pixelsTest) {text_start_x -= 60;}
 	widthFactor = target_width / invtext.sprite_width
-	words_height = string_height(words);
-	text_start_y = text_start_y + between_texts_margin;
 
 	invtext.image_xscale = widthFactor;
-	invtext.item_string = words;
+	invtext.words = words;
 	invtext.item_obj = global.itemDefinitions[global.closeupItem, itemProperty.object];
 	invtext.is_poem = object_is_ancestor(invtext.item_obj, OPoem);
+	invtext.format = format;
 // The step event is where the text box sets font and determines its size.
 // we manually run that now so that the next box can be positioned appropriately
 	with(invtext) { event_perform(ev_step, 0); }
+	text_start_y = text_start_y + invtext.text_height + invtext.between_texts_margin;
+
 }
-/*
-invtext2 = instance_create_depth(613, 127 + 80 + invtext.text_height,1,OInvText);
-invtext2.image_xscale = widthFactor;
-invtext2.item_string = global.itemDefinitions[global.closeupItem, itemProperty.description];
-invtext2.item_obj = global.itemDefinitions[global.closeupItem, itemProperty.object];
-invtext2.is_poem = object_is_ancestor(invtext2.item_obj, OPoem);
-with(invtext2) { event_perform(ev_step, 0); }
-*/

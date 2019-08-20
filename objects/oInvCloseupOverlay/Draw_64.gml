@@ -3,6 +3,9 @@
 
 // // if (live_call()) return live_result;
 
-//draw_text_ext_transformed_color(50, 600, item_string, -1, 300, 
-//	3, 3, 0, 
-//	c_blue, c_white, c_green, c_white, 1);
+
+if(pixelsTest) {
+	for(testy=0; testy<2000; testy+=100) {
+		draw_text_color(600, testy, string(testy), c_blue, c_blue, c_red, c_red, 1);
+	}
+}

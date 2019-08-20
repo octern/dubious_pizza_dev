@@ -15,8 +15,8 @@ if(!initialized) {
 text_scale = 1;
 text_tint = global.text_tint;
 // but if they weren't set, do the normal thing by default. 
-	if(!variable_instance_exists(id, "item_string")) {
-		item_string = global.itemDefinitions[global.closeupItem, itemProperty.description];
+	if(!variable_instance_exists(id, "words")) {
+		words = global.itemDefinitions[global.closeupItem, itemProperty.description];
 		item_obj = global.itemDefinitions[global.closeupItem, itemProperty.object];
 		is_poem = object_is_ancestor(item_obj, OPoem);
 	}
@@ -32,9 +32,10 @@ text_tint = global.text_tint;
 		text_tint = c_white;
 	}
 */
+	textFormatSet(format);
+	text_height = string_height(words);
 	text_y_start = text_y;
 	text_increment = string_height("A");
-	text_height = string_height(item_string);
 	textWidth = sprite_width;
 	scroll_timer = 10;
 //	// I have no idea why this is needed, but the text won't scroll far enough without it

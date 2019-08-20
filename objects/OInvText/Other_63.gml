@@ -12,7 +12,7 @@ if(ds_map_find_value(async_load, "status")) {
 			case DNewY:
 				text_y = newVal;
 				text_y_start = text_y;
-				text_height = string_height(item_string);
+				text_height = string_height(words);
 				text_max_scroll = text_y_start - (text_height * text_scale) + (text_increment * text_scale * 4);
 				scrollRefY = 0;
 				break;
