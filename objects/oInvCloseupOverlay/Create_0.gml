@@ -29,8 +29,8 @@ show_debug_message(string(item_textBlocks[0,0]));
 text_start_y = 127;
 text_start_x = 613;
 
-// set to true for help debugging text display issues
-pixelsTest = true;
+// set to true for help debugging text positioning
+pixelsText = global.pixelsTest;
 
 for(i=0; i<array_length_1d(textBlocks); i++) {
 	textBlock = item_textBlocks[i];

@@ -4,3 +4,4 @@
 // testingLiveInit();
 
 initInit();
+debug_timer = 0;
