@@ -49,6 +49,7 @@ for(i=0; i<array_length_1d(textBlocks); i++) {
 // The step event is where the text box sets font and determines its size.
 // we manually run that now so that the next box can be positioned appropriately
 	with(invtext) { event_perform(ev_step, 0); }
-	text_start_y = text_start_y + invtext.text_height + invtext.between_texts_margin;
+	text_height_returned = invtext.text_height;
+	text_start_y = text_start_y + text_height_returned + invtext.between_texts_margin;
 
 }

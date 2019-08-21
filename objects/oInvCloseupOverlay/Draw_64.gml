@@ -5,7 +5,12 @@
 
 
 if(pixelsTest) {
-	for(testy=0; testy<2000; testy+=100) {
-		draw_text_color(600, testy, string(testy), c_blue, c_blue, c_red, c_red, 1);
+//	origFont = draw_get_font();
+//	draw_set_font(FDebug);
+	for(testy=0; testy<2000; testy+=50) {
+		for(testx=0; testx<2000; testx+=50) {
+			coord=string(testx) + ", " + string(testy);
+			draw_text_transformed_color(testx, testy, coord, .25, .25, 0, c_fuchsia, c_yellow, c_white, c_green, 1);
+		}
 	}
 }

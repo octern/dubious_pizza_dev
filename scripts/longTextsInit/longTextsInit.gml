@@ -23,7 +23,7 @@ Wishing I could follow the direction of my arm.
 It sounds like my friend has been needing help. Should I have been listening better?##desc@@";
 
 
-global.itemDefinitions[itemType.poemK, itemProperty.description] = @"#A page, somewhat wrinkled, written in a flowing script##desc@@
+global.itemDefinitions[itemType.poemK, itemProperty.description] = @"A page, somewhat wrinkled, written in a flowing script##desc@@
 
 I dreamed I was a kraken, immense and slow. 
 I slept away ages in the watery deeps, then opened my thousand eyes to find I'd drifted. 
@@ -33,16 +33,16 @@ Will they ever look back at me?##poem@@
 
 Now I feel guilty about not staying in touch more. It sounds like my friend's really been feeling isolated.##desc@@";
 
-global.itemDefinitions[itemType.poemB, itemProperty.description] = @"##desc#A page with two of the corners trimmed, written with a precise hand
+global.itemDefinitions[itemType.poemB, itemProperty.description] = @"A page with two of the corners trimmed, written with a precise hand##desc@@
 
-##poem#I dreamed I was a bee, seeking flowers
+I dreamed I was a bee, seeking flowers
 Dancing my excitement to my sibling bees.
 But I couldn't find the right steps
 and they ignored me and the sustenance I longed to share.
-##desc#
+##poem@@
 -----
 
-I always felt like I understood my friend. It sounds like they didn't think anyone ever did.";
+I always felt like I understood my friend. It sounds like they didn't think anyone ever did.#desc@@";
 
 global.itemDefinitions[itemType.poemC, itemProperty.description] = @"##desc#A stained page with jagged text
 

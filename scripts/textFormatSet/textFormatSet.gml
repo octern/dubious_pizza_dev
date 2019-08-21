@@ -1,14 +1,11 @@
+show_debug_message("arg number: " + string(argument_count))
 if(argument_count==0) {
-	format = global.defaultTextFormat;
+	_format = global.defaultTextFormat;
 } else {
-	format = argument[0];
+	_format = argument[0];
 }
 
-draw_set_font(FDefault);
-global.text_tint = c_white;
-between_texts_margin = 20;
-
-switch format {
+switch _format {
 	case "desc":
 		draw_set_font(FDefault);
 		text_tint = c_white;
