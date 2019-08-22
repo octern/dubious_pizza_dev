@@ -13,7 +13,7 @@ if(!initialized) {
 // this way we can have different text in different boxes. 
 
 text_scale = 1;
-text_tint = global.text_tint;
+if(!variable_instance_exists(id, "text_tint")) {text_tint = global.text_tint};
 // but if they weren't set, do the normal thing by default. 
 	if(!variable_instance_exists(id, "words")) {
 		words = global.itemDefinitions[global.closeupItem, itemProperty.description];

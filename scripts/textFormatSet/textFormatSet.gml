@@ -1,4 +1,4 @@
-show_debug_message("arg number: " + string(argument_count))
+// show_debug_message("arg number: " + string(argument_count))
 if(argument_count==0) {
 	_format = global.defaultTextFormat;
 } else {

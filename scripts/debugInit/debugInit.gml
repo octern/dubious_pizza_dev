@@ -17,4 +17,4 @@ global.easyScrews = false;
 global.longPoem = true;
 
 // show coordinates on screen to help debug positioning
-global.pixelsTest = true;
+global.pixelsTest = false;

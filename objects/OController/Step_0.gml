@@ -6,7 +6,7 @@ if(keyboard_check(ord("D"))) {
 }
 if(debug_timer>0) {
 	debug_timer--;
-	if(keyboard_check(ord("C"))) {
+	if(keyboard_check_released(ord("C"))) {
 		global.pixelsTest = !global.pixelsTest;
 	}
 	if(keyboard_check_released(ord("W"))) {
@@ -14,22 +14,22 @@ if(debug_timer>0) {
 			fadeWhite(10);
 		} else { fadeWhite(200);}
 	}
-	if(keyboard_check(ord("R"))) {
+	if(keyboard_check_released(ord("R"))) {
 		game_restart();
 	}
-	if(keyboard_check(ord("N"))) {
+	if(keyboard_check_released(ord("N"))) {
 		textNarration();
 	}
 	if(keyboard_check_released(ord("B"))) {
 		global.iconBoxes = !global.iconBoxes;
 	}
-	if(keyboard_check(ord("I"))) {
+	if(keyboard_check_released(ord("I"))) {
 		global.testAllTheItems = !global.testAllTheItems;
 	}
-	if(keyboard_check(ord("L"))) {
+	if(keyboard_check_released(ord("L"))) {
 		global.lightButtons = !global.lightButtons;
 	}
-	if(keyboard_check(vk_enter)) {
+	if(keyboard_check_released(vk_enter)) {
 		room_restart();
 	}	
 }
