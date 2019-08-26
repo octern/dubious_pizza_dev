@@ -9,16 +9,16 @@ switch _format {
 	case "desc":
 		draw_set_font(FDefault);
 		text_tint = c_white;
-		between_texts_margin = 20;
+		between_texts_margin = 10;
 		break;
 	case "poem":
 		draw_set_font(FPoem);
-		text_tint = c_blue;
-		between_texts_margin = 20;
+		text_tint = text_tint==0 ? text_tint : make_color_rgb(200,200,255);
+		between_texts_margin = 10;
 		break;
 	default:
 		draw_set_font(FDefault);
 		text_tint = c_white;
-		between_texts_margin = 20;
+		between_texts_margin = 10;
 		break;
 }

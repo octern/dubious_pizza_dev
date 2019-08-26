@@ -4,11 +4,6 @@
 
 // // if (live_call()) return live_result;
 
-textFormatSet(format);
-draw_text_ext_transformed_color(text_x,text_y, words, -1, textWidth, 
-	text_scale,text_scale, 0, 
-	c_white, c_white, global.text_tint, c_white, 1);
-textFormatSet();
 //	c_red, c_red, c_yellow, c_white, 1);
 
 //draw_text_ext_transformed_color(50, 700, words, -1, 300, 

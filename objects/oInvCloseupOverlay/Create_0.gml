@@ -45,6 +45,7 @@ for(i=0; i<array_length_1d(textBlocks); i++) {
 	invtext.words = words;
 	invtext.item_obj = global.itemDefinitions[global.closeupItem, itemProperty.object];
 	invtext.is_poem = object_is_ancestor(invtext.item_obj, OPoem);
+	if(invtext.is_poem) { invtext.text_tint = invtext.item_obj.text_tint; }
 	invtext.format = format;
 // The step event is where the text box sets font and determines its size.
 // we manually run that now so that the next box can be positioned appropriately
@@ -52,4 +53,18 @@ for(i=0; i<array_length_1d(textBlocks); i++) {
 	text_height_returned = invtext.text_height;
 	text_start_y = text_start_y + text_height_returned + invtext.between_texts_margin;
 
+}
+
+
+window_height = window_get_height();
+textFinalBottom = text_start_y - invtext.between_texts_margin;
+textMaxScrlAmt = textFinalBottom - window_height;
+//textFinalBottom = bottom y coord of bottom block 
+//textMaxScrlAmt = amount each piece of text should scroll up
+
+for(i=0; i<array_length_1d(textBlocks); i++) {
+	textO = instance_find(OInvText, i);
+	thistext_ystart = textO.text_y_start;
+	thistext_miny = thistext_ystart - textMaxScrlAmt;
+	textO.text_max_scroll = thistext_miny - textO.text_increment * 8	;
 }

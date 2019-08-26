@@ -35,7 +35,7 @@ if(!variable_instance_exists(id, "text_tint")) {text_tint = global.text_tint};
 	textFormatSet(format);
 	text_height = string_height(words);
 	text_y_start = text_y;
-	text_increment = string_height("A");
+	text_increment = global.textIncrementStd;
 	textWidth = sprite_width;
 	scroll_timer = 10;
 //	// I have no idea why this is needed, but the text won't scroll far enough without it
@@ -55,6 +55,18 @@ if(!variable_instance_exists(id, "text_tint")) {text_tint = global.text_tint};
 	scrollRefY = 0;
 }
 
+
+if(keyboard_check(vk_up)) {
+	if(up_timer <= 0) {
+		if(text_y < text_y_start) {
+			text_y += text_increment;
+		}
+		up_timer = scroll_timer;
+	}
+
+	up_timer -= 1;
+}
+
 if(keyboard_check(vk_down)) {
 	if(dn_timer <= 0) {
 		if(text_y > text_max_scroll) {
@@ -68,6 +80,9 @@ if(keyboard_check(vk_down)) {
 
 if(keyboard_check_released(vk_down)) {
 	dn_timer = 0;
+}
+if(keyboard_check_released(vk_up)) {
+	up_timer = 0;
 }
 
 if(keyboard_check_pressed(ord("A"))) DNewX = get_string_async("new text X", "0");

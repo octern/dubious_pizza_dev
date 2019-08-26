@@ -1,8 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+debug_timer_setting = room_speed * 2;
 if(keyboard_check(ord("D"))) {
-	debug_timer = room_speed*2;
+	debug_timer = debug_timer_setting;
 }
 if(debug_timer>0) {
 	debug_timer--;

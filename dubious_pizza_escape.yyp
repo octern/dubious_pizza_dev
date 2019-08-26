@@ -567,11 +567,27 @@
             }
         },
         {
+            "Key": "3ab45a49-9230-4b2c-9548-a2ae4dbd5b58",
+            "Value": {
+                "id": "0e8f6410-4a25-4475-97c7-a79010d508ce",
+                "resourcePath": "scripts\/dialogInit\/dialogInit.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3c612e3a-e204-47be-928b-b2411333afc0",
             "Value": {
                 "id": "b4fa8132-d3ea-4c98-b462-1a20ab69113e",
                 "resourcePath": "objects\/OPadlock\/OPadlock.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3c713084-9200-4bc8-acc1-612a961c2b19",
+            "Value": {
+                "id": "8799388b-9717-4998-9247-8bb5ddee5e58",
+                "resourcePath": "sprites\/sprite77\/sprite77.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2064,7 +2080,8 @@
         "b0491834-e962-49d9-ba18-7efb9ae2f278",
         "8561ea4b-a87c-416e-bcc3-8f0a460b5380",
         "739c4380-8d9f-4dd1-aab4-4b743abc7671",
-        "02e75718-d752-4d6c-8291-5caef82d637e"
+        "02e75718-d752-4d6c-8291-5caef82d637e",
+        "3ab45a49-9230-4b2c-9548-a2ae4dbd5b58"
     ],
     "tutorial": ""
 }

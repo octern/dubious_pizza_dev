@@ -4,8 +4,8 @@
 
 if(debug_timer>0) {
 	oldalpha = draw_get_alpha();
-	draw_set_alpha(.5);
-	draw_rectangle_color(0,0,8,8,c_yellow, c_gray, c_yellow, c_gray, false);
+	draw_set_alpha(debug_timer / debug_timer_setting);
+	draw_rectangle_color(0,0,64,64,c_yellow, c_gray, c_yellow, c_gray, false);
 	draw_set_alpha(oldalpha);
 }
 if(global.pixelsTest) {

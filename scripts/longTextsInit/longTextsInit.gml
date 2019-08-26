@@ -42,11 +42,11 @@ and they ignored me and the sustenance I longed to share.
 ##poem@@
 -----
 
-I always felt like I understood my friend. It sounds like they didn't think anyone ever did.#desc@@";
+I always felt like I understood my friend. It sounds like they didn't think anyone ever did.##desc@@";
 
-global.itemDefinitions[itemType.poemC, itemProperty.description] = @"##desc#A stained page with jagged text
+global.itemDefinitions[itemType.poemC, itemProperty.description] = @"A stained page with jagged text##desc@@
 
-##poem#I dreamed I was a cat. 
+I dreamed I was a cat. 
 Once, I was a giant predator. 
 Humans reshaped me in their image.
 But the joke's on them:
@@ -57,47 +57,47 @@ All mice,
 Any downed bird. 
 Perhaps I am no longer large,
 But all my prey know me when they see me coming. 
-##desc#-----
+##poem@@-----
 
 ...I don't think my friend has ever had a cat. 
-Also, this is the kind of thing we sometimes hear from people who want to become vampires for the wrong reasons. ";
+Also, this is the kind of thing we sometimes hear from people who want to become vampires for the wrong reasons.##desc@@";
 
 //global.easteregg_poem = @"
 if(global.longPoem) {
-	global.itemDefinitions[itemType.poemK, itemProperty.description] = @"##desc#A long, scrolling page, written by an inquisitive hand
+	global.itemDefinitions[itemType.poemK, itemProperty.description] = @"A long, scrolling page, written by an inquisitive hand##desc@@
 
-	##poem#Oh shit. I'm just going to assume this is cherry juice.
-	It is not a merry juice
-	indeed, tis a juice of melancholy
-	caused by my old friend's shut-in folly
+Oh shit. I'm just going to assume this is cherry juice.
+It is not a merry juice
+indeed, tis a juice of melancholy
+caused by my old friend's shut-in folly
 
-	if I'm to plumb this mystery
-	which (no pun intended) holds me captive
-	I must retrace our history
-	and, with wits and wisdom, be adaptive.
+If I'm to plumb this mystery
+which (no pun intended) holds me captive
+I must retrace our history
+and with wit and insight, be adaptive.
 
-	Am I in danger? Or is my friend
-	(hemmed in, as he is, by regrets past)
-	a man obsessed with his own end
-	or a burgeoning iconoclast?
+Am I in danger? Or is my friend --
+hemmed in, as he, by regrets past --
+a man obsessed with his own end
+or a burgeoning iconoclast?
 
-	The solution that I seek
-	may lie in wisdom from ancestors
-	I will save keys to open doors
-	And ignore those tips from Nester
+The solution that I seek
+may lie in wisdom from ancestors
+I will save keys to open doors
+And ignore those tips from Nester
 
-	This doggerel I offer you
-	merely seeks to fill your time
-	an indulgence you will soon undo,
-	yet -- omg, a metal slime!
+This doggerel I offer you
+merely seeks to fill your time
+an indulgence you will soon undo,
+yet -- omg, a metal slime!
 
 ---
 
 
-	Oh shit. I'm just going to assume this is cherry juice.
-	It is not a merry juice
-	indeed, tis a juice of melancholy
-	caused by my old friend's shut-in folly
+Oh shit. I'm just going to assume this is cherry juice.
+It is not a merry juice
+indeed, tis a juice of melancholy
+caused by my old friend's shut-in folly
 
 	if I'm to plumb this mystery
 	which (no pun intended) holds me captive
@@ -117,5 +117,11 @@ if(global.longPoem) {
 	This doggerel I offer you
 	merely seeks to fill your time
 	an indulgence you will soon undo,
-	yet -- omg, a metal slime!";
+	yet -- omg, a metal slime!##poem@@
+
+----
+
+My friend seems to be exploring something I don't understand, perhaps the
+secrets underlying our very universe. ##desc@@";
 }
+
