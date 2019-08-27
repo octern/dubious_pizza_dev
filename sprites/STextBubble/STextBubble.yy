@@ -2,7 +2,7 @@
     "id": "3c713084-9200-4bc8-acc1-612a961c2b19",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprite77",
+    "name": "STextBubble",
     "For3D": false,
     "HTile": false,
     "VTile": false,

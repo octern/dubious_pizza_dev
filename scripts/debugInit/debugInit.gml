@@ -18,3 +18,6 @@ global.longPoem = true;
 
 // show coordinates on screen to help debug positioning
 global.pixelsTest = false;
+
+// replace bee poem with test dialog;
+global.beeDialogTest = true;

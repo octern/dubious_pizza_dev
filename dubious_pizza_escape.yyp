@@ -586,7 +586,7 @@
             "Key": "3c713084-9200-4bc8-acc1-612a961c2b19",
             "Value": {
                 "id": "8799388b-9717-4998-9247-8bb5ddee5e58",
-                "resourcePath": "sprites\/sprite77\/sprite77.yy",
+                "resourcePath": "sprites\/STextBubble\/STextBubble.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1831,6 +1831,14 @@
             }
         },
         {
+            "Key": "ed497c8c-c513-4918-8dcf-b76add00b720",
+            "Value": {
+                "id": "dcfdd5df-2a0b-448b-8f10-55caed618878",
+                "resourcePath": "scripts\/spriteResizeAbs\/spriteResizeAbs.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ed9d7b7a-1ab0-428c-9f78-58dacdfd43d5",
             "Value": {
                 "id": "ec0b0ec0-ddb5-4f41-8c12-e6ef9dbb4b3a",
@@ -2048,6 +2056,7 @@
         "9d6de87f-1a5b-451d-9b4f-fdc7962a5cf7",
         "c98e6870-f258-4e4d-8369-e6d9d0a39a93",
         "93f839cf-e631-4a06-bbdf-478ffa2086bc",
+        "ed497c8c-c513-4918-8dcf-b76add00b720",
         "9f0a8e6a-ecc0-4b28-a149-579007f5b077",
         "2cee1095-2b3c-4491-af71-22cb74a8871c",
         "250117bb-74fb-4683-82d5-d0dcf9c9f714",

@@ -1,10 +1,13 @@
 global.dialogs = ds_map_create();
 
-ds_map_replace(global.dialogs, "testDialog", @"
-  where am i##dia1@@
-  in the village##dia2@@
-  it's pretty sweet##dia1@@
-  we're especially proud of our recreational hockey league.##dia2@@
-  are they good?##dia@@
-  yes, we're Number One##dia2@@
-");
+testDialog = @"
+where am i##dia1@@
+in the village##dia2@@
+it's pretty sweet##dia1@@
+we're especially proud of our recreational hockey league##dia2@@
+are they good?##dia1@@
+yes, we're Number One##dia2@@
+";
+
+ds_map_replace(global.dialogs, "testDialog", testDialog);
+

@@ -37,7 +37,7 @@ for(i=0; i<array_length_1d(textBlocks); i++) {
 	format = textBlock[0];
 	words = textBlock[1];
 
-	invtext = instance_create_depth(text_start_x, text_start_y,depth-1000,OInvText);
+	invtext = instance_create_layer(text_start_x, text_start_y,"text",OInvText);
 	if(pixelsTest) {text_start_x -= 60;}
 	widthFactor = target_width / invtext.sprite_width
 

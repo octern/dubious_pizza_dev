@@ -33,10 +33,10 @@ if(!variable_instance_exists(id, "text_tint")) {text_tint = global.text_tint};
 	}
 */
 	textFormatSet(format);
-	text_height = string_height(words);
+	text_width = sprite_width;
+	text_height = string_height_ext(words, -1, text_width*.95);
 	text_y_start = text_y;
 	text_increment = global.textIncrementStd;
-	textWidth = sprite_width;
 	scroll_timer = 10;
 //	// I have no idea why this is needed, but the text won't scroll far enough without it
 //	text_scroll_extra = 200 * text_scale;
