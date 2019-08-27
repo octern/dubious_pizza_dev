@@ -37,15 +37,19 @@ for(i=0; i<array_length_1d(textBlocks); i++) {
 	format = textBlock[0];
 	words = textBlock[1];
 
-	invtext = instance_create_depth(text_start_x, text_start_y,1,OInvText);
+	invtext = instance_create_depth(text_start_x, text_start_y,depth-1000,OInvText);
 	if(pixelsTest) {text_start_x -= 60;}
 	widthFactor = target_width / invtext.sprite_width
 
 	invtext.image_xscale = widthFactor;
 	invtext.words = words;
 	invtext.item_obj = global.itemDefinitions[global.closeupItem, itemProperty.object];
+	refobj = instance_create_depth(-100, -100, 0, invtext.item_obj);
+	text_tint = refobj.text_tint;
+	instance_deactivate_object(refobj.id);
 	invtext.is_poem = object_is_ancestor(invtext.item_obj, OPoem);
-	if(invtext.is_poem) { invtext.text_tint = invtext.item_obj.text_tint; }
+	invtext.text_tint = text_tint;
+//	if(invtext.is_poem) { invtext.text_tint = invtext.item_obj.text_tint; }
 	invtext.format = format;
 // The step event is where the text box sets font and determines its size.
 // we manually run that now so that the next box can be positioned appropriately
