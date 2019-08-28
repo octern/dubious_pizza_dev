@@ -327,14 +327,6 @@
             }
         },
         {
-            "Key": "1ba01fd8-2cb5-4398-a5e0-fe6c4bbb3510",
-            "Value": {
-                "id": "60c25388-db1f-4441-bcff-2e7fd19d8124",
-                "resourcePath": "rooms\/RInvCloseupVHD\/RInvCloseupVHD.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "1ba18e1c-6525-483c-bbf7-a403c99851de",
             "Value": {
                 "id": "37d89e3f-6658-44a3-9d8b-4eea02d1b947",
@@ -639,14 +631,6 @@
             }
         },
         {
-            "Key": "40a02176-ccd7-4f53-aa2c-372f474a0608",
-            "Value": {
-                "id": "8c4317ba-d7a3-4b52-adea-0689b9555a06",
-                "resourcePath": "rooms\/RInvCloseupV\/RInvCloseupV.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "41e2c147-8b97-4ff0-a95b-d5c736aa38de",
             "Value": {
                 "id": "70ffdf9e-52fb-465b-b4ec-009b5e32cff3",
@@ -716,14 +700,6 @@
                 "id": "69843958-e14b-48a5-be53-2db5770160b3",
                 "resourcePath": "objects\/OWireCover\/OWireCover.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "4a8b0e68-886c-4797-875c-2b05c52d843f",
-            "Value": {
-                "id": "2a5e09f8-2d8a-42b7-a40e-336277b41e2a",
-                "resourcePath": "rooms\/RFour_brekaway\/RFour_brekaway.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -892,14 +868,6 @@
                 "id": "3b8c195f-c0e7-4e15-8582-a47a153acaaf",
                 "resourcePath": "objects\/OTable\/OTable.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "5d20eb5b-d837-4bf9-8a07-107350ece125",
-            "Value": {
-                "id": "1a432751-12da-4308-b14d-c15e6476e7f3",
-                "resourcePath": "rooms\/RThree_breakaway\/RThree_breakaway.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -1335,14 +1303,6 @@
             }
         },
         {
-            "Key": "9f0b3689-8609-495f-a0be-ebc2e6ede96a",
-            "Value": {
-                "id": "04f75751-0251-4935-abd3-ccd18de24166",
-                "resourcePath": "rooms\/RInvCloseupHDbackup\/RInvCloseupHDbackup.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "9f62169a-8e8f-4200-8d95-2bfda655fe7e",
             "Value": {
                 "id": "b331cc40-0ab6-4cda-8a18-c4ec266a18cd",
@@ -1580,14 +1540,6 @@
                 "id": "e48643ab-74c2-4886-8206-04746c7ab51c",
                 "resourcePath": "objects\/OScrewdriver\/OScrewdriver.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "be8dc7c8-4751-48a6-8106-9ef1d2733741",
-            "Value": {
-                "id": "95efbc69-d07c-472c-9868-70904b6d9b11",
-                "resourcePath": "rooms\/RInvCloseupOrigRes\/RInvCloseupOrigRes.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
