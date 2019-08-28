@@ -8,7 +8,7 @@ arrai = 0
 if(string_pos("@@",remainingStr) == 0) {
     arra[arrai] = remainingStr;
 }
-while(string_pos("@@",remainingStr) != 0 && arrai < 10) {
+while(string_pos("@@",remainingStr) != 0 && arrai < 1000) {
     segment = string_copy(remainingStr, 1, string_pos("@@",remainingStr)-1);
  //   trace(segment);
     remainingStr = string_copy(remainingStr, string_pos("@@",remainingStr)+2, string_length(remainingStr));

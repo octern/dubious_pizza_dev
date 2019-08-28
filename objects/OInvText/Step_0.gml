@@ -11,7 +11,8 @@ if(!initialized) {
 
 // instead of setting text to display on create, we let the inventory screen set them
 // this way we can have different text in different boxes. 
-
+dialogMarginY = 8;
+dialogMarginX = 8;
 text_scale = 1;
 if(!variable_instance_exists(id, "text_tint")) {text_tint = global.text_tint};
 // but if they weren't set, do the normal thing by default. 

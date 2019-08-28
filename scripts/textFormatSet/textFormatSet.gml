@@ -7,6 +7,8 @@ if(argument_count==0) {
 
 is_dialog=false;
 text_base = c_white;
+bubble_align = "normal";
+bubble_jitter = 30;
 
 switch _format {
 	case "desc":
@@ -26,7 +28,8 @@ switch _format {
 		text_tint = c_gray;
 		text_base = c_gray;
 		bg_tint = c_fuchsia;
-		between_texts_margin = 20;
+		between_texts_margin = 30;
+		bubble_align = "left";
 		break;
 	case "dia2":
 		draw_set_font(FDefault);
@@ -35,7 +38,8 @@ switch _format {
 		text_base = c_gray;
 		text_tint = c_gray;
 		bg_tint = c_yellow;
-		between_texts_margin = 20;
+		between_texts_margin = 30;
+		bubble_align = "right";
 		break;
 	default:
 		draw_set_font(FDefault);
