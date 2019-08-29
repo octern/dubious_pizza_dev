@@ -2,7 +2,7 @@
     "id": "0ababb90-f7a9-4596-8625-a7d35454afed",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprite781",
+    "name": "SPhoneRound",
     "For3D": false,
     "HTile": false,
     "VTile": false,
@@ -33,6 +33,28 @@
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
                     "FrameId": "7373103e-1e98-43c1-bc63-2cf086e9a39b",
+                    "LayerId": "35555913-98cf-4778-996f-d4eb99e3c569"
+                }
+            ]
+        },
+        {
+            "id": "7d0ec325-21a7-4f75-a993-44f55cbc9646",
+            "modelName": "GMSpriteFrame",
+            "mvc": "1.0",
+            "SpriteId": "0ababb90-f7a9-4596-8625-a7d35454afed",
+            "compositeImage": {
+                "id": "c45e3141-048f-474d-b83f-31d8df4e23d5",
+                "modelName": "GMSpriteImage",
+                "mvc": "1.0",
+                "FrameId": "7d0ec325-21a7-4f75-a993-44f55cbc9646",
+                "LayerId": "00000000-0000-0000-0000-000000000000"
+            },
+            "images": [
+                {
+                    "id": "0026dade-6905-4200-a5dd-b06e7103559c",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "7d0ec325-21a7-4f75-a993-44f55cbc9646",
                     "LayerId": "35555913-98cf-4778-996f-d4eb99e3c569"
                 }
             ]

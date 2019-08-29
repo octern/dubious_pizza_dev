@@ -154,7 +154,7 @@
             "Key": "0ababb90-f7a9-4596-8625-a7d35454afed",
             "Value": {
                 "id": "06cb01f4-0605-44f3-90d6-bae98a28efef",
-                "resourcePath": "sprites\/sprite781\/sprite781.yy",
+                "resourcePath": "sprites\/SPhoneRound\/SPhoneRound.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -564,6 +564,14 @@
                 "id": "dcc63ae0-0492-4fc5-ad97-5ec3cb8927c5",
                 "resourcePath": "objects\/OButton\/OButton.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "39508bdf-4dba-49d1-a5ef-9f56cfa47f54",
+            "Value": {
+                "id": "07c675e0-ab1c-44e0-90ff-964d258c6fe2",
+                "resourcePath": "views\/39508bdf-4dba-49d1-a5ef-9f56cfa47f54.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1047,6 +1055,14 @@
             }
         },
         {
+            "Key": "7afbd8f9-df6e-4953-9ce1-3381584b95b0",
+            "Value": {
+                "id": "353df717-9382-4754-b3be-d637e25a5578",
+                "resourcePath": "sprites\/STextAreaBG\/STextAreaBG.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7bf9f23e-aa1d-4762-a20c-9c2865728b2c",
             "Value": {
                 "id": "cdce523e-2698-4a80-92e9-4111654aee91",
@@ -1084,6 +1100,14 @@
                 "id": "9ce28490-e629-4434-9376-e5c1f18c1e0c",
                 "resourcePath": "sprites\/SSlimeBlue\/SSlimeBlue.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "80f579e1-af6c-40b0-9b28-17bc8d5cde0a",
+            "Value": {
+                "id": "b4222dc6-4260-449c-8810-2313b39d68bf",
+                "resourcePath": "objects\/OTextAreaBG\/OTextAreaBG.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1595,6 +1619,14 @@
             "Value": {
                 "id": "718d29ad-4b20-4149-bdfd-f7a94c966cdc",
                 "resourcePath": "objects\/OPoemR\/OPoemR.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c82cba98-4f48-45d6-8ed5-876e5f02857f",
+            "Value": {
+                "id": "9cc1473c-3325-4bb6-b994-de9b37468761",
+                "resourcePath": "objects\/OTextFramePhoneRound\/OTextFramePhoneRound.yy",
                 "resourceType": "GMObject"
             }
         },

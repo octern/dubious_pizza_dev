@@ -8,10 +8,38 @@
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
         "67d8a072-6338-4622-a832-ace472ba2964",
-        "0216b42a-e573-4f22-82b6-b3ade0e5a1f9"
+        "0216b42a-e573-4f22-82b6-b3ade0e5a1f9",
+        "1acf226a-048a-451c-a025-9ed116df6769",
+        "90a748c4-1e7a-4b93-95e5-37aa444b8ba2"
     ],
     "IsDnD": false,
     "layers": [
+        {
+            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "text_frame",
+            "id": "37f5ffad-77c3-41a8-bcd6-96c89c6681eb",
+            "depth": -2300,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "instances": [
+{"name": "inst_439A891F","id": "1acf226a-048a-451c-a025-9ed116df6769","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_439A891F","objId": "c82cba98-4f48-45d6-8ed5-876e5f02857f","properties": null,"rotation": 0,"scaleX": 16,"scaleY": 14.28302,"mvc": "1.1","x": 352,"y": 0}
+            ],
+            "layers": [
+
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "modelName": "GMRInstanceLayer",
+            "mvc": "1.0",
+            "userdefined_depth": false,
+            "visible": true
+        },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "text",
@@ -26,7 +54,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-
+{"name": "inst_48CD51A2","id": "90a748c4-1e7a-4b93-95e5-37aa444b8ba2","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 0,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_48CD51A2","objId": "80f579e1-af6c-40b0-9b28-17bc8d5cde0a","properties": null,"rotation": 0,"scaleX": 26,"scaleY": 39.3125,"mvc": "1.1","x": 400,"y": 43}
             ],
             "layers": [
 
