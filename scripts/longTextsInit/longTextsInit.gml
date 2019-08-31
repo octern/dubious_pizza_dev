@@ -71,58 +71,44 @@ It is not a merry juice
 indeed, tis a juice of melancholy
 caused by my old friend's shut-in folly
 
+
+
+
 If I'm to plumb this mystery
 which (no pun intended) holds me captive
 I must retrace our history
 and with wit and insight, be adaptive.
 
+
+
+
 Am I in danger? Or is my friend --
-hemmed in, as he, by regrets past --
-a man obsessed with his own end
+hemmed in, as they are, by regrets past --
+a man obsessed with their own end
 or a burgeoning iconoclast?
+
+
+
 
 The solution that I seek
 may lie in wisdom from ancestors
 I will save keys to open doors
 And ignore those tips from Nester
 
+
+
+
 This doggerel I offer you
 merely seeks to fill your time
 an indulgence you will soon undo,
 yet -- omg, a metal slime!
 
----
 
 
-Oh shit. I'm just going to assume this is cherry juice.
-It is not a merry juice
-indeed, tis a juice of melancholy
-caused by my old friend's shut-in folly
-
-	if I'm to plumb this mystery
-	which (no pun intended) holds me captive
-	I must retrace our history
-	and, with wits and wisdom, be adaptive.
-
-	Am I in danger? Or is my friend
-	(hemmed in, as he is, by regrets past)
-	a man obsessed with his own end
-	or a burgeoning iconoclast?
-
-	The solution that I seek
-	may lie in wisdom from ancestors
-	I will save keys to open doors
-	And ignore those tips from Nester
-
-	This doggerel I offer you
-	merely seeks to fill your time
-	an indulgence you will soon undo,
-	yet -- omg, a metal slime!##poem@@
 
 ----
 
-My friend seems to be exploring something I don't understand, perhaps the
-secrets underlying our very universe. ##desc@@";
+My friend seems to be exploring something I don't understand, perhaps the secrets underlying our very universe. ##desc@@";
 }
 
 if(global.beeDialogTest) {

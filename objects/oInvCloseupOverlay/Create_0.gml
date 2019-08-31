@@ -4,30 +4,14 @@ instance_deactivate_object(OInvSlot);
 instance_deactivate_object(OInvMemory);
 instance_deactivate_object(OInvMag);
 item_string = global.itemDefinitions[global.closeupItem, itemProperty.description];
-target_width = 380;
+
+textArea = instance_find(OTextAreaBG, 0)
+target_width = textArea.sprite_width;
 
 item_textBlocks = textParse(item_string);
 
-/*show_debug_message("full array");
-show_debug_message(string(item_textBlocks));
-show_debug_message("first subarr");
-show_debug_message(string(item_textBlocks[0]));
-show_debug_message("first subarr extracted");
-z = item_textBlocks[0];
-show_debug_message(string(z));
-/*
-show_debug_message("first subarr first item");
-zz = z[0];
-show_debug_message(string(zz));
-show_debug_message("first subarr first item first item");
-zzz = zz[0];
-show_debug_message(string(zzz));
-show_debug_message("first item");
-show_debug_message(string(item_textBlocks[0,0]));
-*/
-
-text_start_y = 127;
-text_start_x = 613;
+text_start_y = textArea.y;
+text_start_x = textArea.x;
 
 // set to true for help debugging text positioning
 pixelsTest = global.pixelsTest;
@@ -72,3 +56,22 @@ for(i=0; i<array_length_1d(textBlocks); i++) {
 	thistext_miny = thistext_ystart - textMaxScrlAmt;
 	textO.text_max_scroll = thistext_miny - textO.text_increment * 8	;
 }
+
+/*show_debug_message("full array");
+show_debug_message(string(item_textBlocks));
+show_debug_message("first subarr");
+show_debug_message(string(item_textBlocks[0]));
+show_debug_message("first subarr extracted");
+z = item_textBlocks[0];
+show_debug_message(string(z));
+/*
+show_debug_message("first subarr first item");
+zz = z[0];
+show_debug_message(string(zz));
+show_debug_message("first subarr first item first item");
+zzz = zz[0];
+show_debug_message(string(zzz));
+show_debug_message("first item");
+show_debug_message(string(item_textBlocks[0,0]));
+*/
+
