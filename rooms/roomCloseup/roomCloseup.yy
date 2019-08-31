@@ -3,7 +3,7 @@
     "name": "roomCloseup",
     "id": "1801683c-b48d-4d3d-b788-3fd794c37353",
     "creationCodeFile": "RoomCreationCode.gml",
-    "inheritCode": false,
+    "inheritCode": true,
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [

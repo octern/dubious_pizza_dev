@@ -11,6 +11,8 @@ if(room==room0) {
 
 roomSetup();
 
+roomType = "normal";
+
 /*
 var _randItems = irandom_range(2,8);
 
