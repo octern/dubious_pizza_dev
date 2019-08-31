@@ -3,4 +3,4 @@
 
 // // if (live_call()) return live_result;
 
-instance_destroy(instance_find(OInvCloseupOverlay, 0));
+instance_destroy(instance_find(OInvTextController, 0));

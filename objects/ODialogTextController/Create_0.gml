@@ -1,4 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-instance_destroy(instance_find(OInvTextController, 0));
+source_string = global.dialogString;
+
+event_inherited();

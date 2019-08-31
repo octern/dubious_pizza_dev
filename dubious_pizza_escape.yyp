@@ -242,7 +242,7 @@
             "Key": "13ba3405-05d5-4c5f-8daa-0af3ecc45af0",
             "Value": {
                 "id": "33d21ff2-2758-4bb9-96a6-46637053ae0b",
-                "resourcePath": "objects\/OInvCloseupOverlay\/OInvCloseupOverlay.yy",
+                "resourcePath": "objects\/OOverlayTextController\/OOverlayTextController.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -731,6 +731,14 @@
             "Value": {
                 "id": "9429cfc0-1f6e-4cc5-8f5a-a40dd19f1dd6",
                 "resourcePath": "objects\/OPips\/OPips.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4e48d2e7-9e41-4073-a1fa-5324798d7227",
+            "Value": {
+                "id": "808579a9-4906-4362-abb8-8e403aff2368",
+                "resourcePath": "objects\/ODialogTextController\/ODialogTextController.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1567,6 +1575,22 @@
             }
         },
         {
+            "Key": "be5ad971-c306-42a9-88f3-3f23a615d02e",
+            "Value": {
+                "id": "3777be9c-6104-47fa-970f-a66ec689694d",
+                "resourcePath": "scripts\/dialogGet\/dialogGet.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "beb27891-5f45-405c-891a-b667cca8b896",
+            "Value": {
+                "id": "60a55080-e28d-4107-96a5-0afdeeedcd7e",
+                "resourcePath": "objects\/OInvTextController\/OInvTextController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bee5718a-2434-4eee-b7bd-2cb3e5f2cbb0",
             "Value": {
                 "id": "bdf4921c-3d3d-4e2e-9692-83f700980538",
@@ -2077,6 +2101,7 @@
         "930e068b-9e77-4721-923c-eb4e9006a436",
         "fbb9ac1d-ab68-4db6-b78b-3d5bc4d43234",
         "666e0613-3e60-43dc-a96d-0f05866994d0",
+        "be5ad971-c306-42a9-88f3-3f23a615d02e",
         "12d813d5-c686-4383-bf1b-737a4613f82c",
         "1ba18e1c-6525-483c-bbf7-a403c99851de",
         "d250173f-fe13-48af-8d54-1cf51040bced",

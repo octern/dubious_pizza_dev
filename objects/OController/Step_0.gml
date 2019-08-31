@@ -15,6 +15,7 @@ if(debug_timer>0) {
 			global.pixelsTest = !global.pixelsTest;
 		}
 		if(keyboard_check_released(ord("E"))) {
+			global.dialogString = dialogGet("testDialog");
 			room_goto(RDialog);
 		}
 		if(keyboard_check_released(ord("I"))) {

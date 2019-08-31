@@ -1,14 +1,19 @@
 // this controls the creation and display of inv text boxes.
 
+// we use a dummy sprite for the room editor, but in practice this should be invisible
+image_speed = 0;
+sprite_index = SNothing;
+
+if(!variable_instance_exists(id, "source_string")) {source_string = "undefined text?!"};
+
 instance_deactivate_object(OInvSlot);
 instance_deactivate_object(OInvMemory);
 instance_deactivate_object(OInvMag);
-item_string = global.itemDefinitions[global.closeupItem, itemProperty.description];
 
 textArea = instance_find(OTextAreaBG, 0)
 target_width = textArea.sprite_width;
 
-item_textBlocks = textParse(item_string);
+item_textBlocks = textParse(source_string);
 
 text_start_y = textArea.y;
 text_start_x = textArea.x;

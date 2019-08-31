@@ -2,7 +2,7 @@
     "id": "13ba3405-05d5-4c5f-8daa-0af3ecc45af0",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "OInvCloseupOverlay",
+    "name": "OOverlayTextController",
     "eventList": [
         {
             "id": "4e2979ef-f26c-4590-9e35-7f1b149778ad",

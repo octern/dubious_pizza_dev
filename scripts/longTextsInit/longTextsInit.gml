@@ -105,7 +105,7 @@ yet -- omg, a metal slime!
 
 
 
-
+##poem@@
 ----
 
 My friend seems to be exploring something I don't understand, perhaps the secrets underlying our very universe. ##desc@@";
