@@ -32,7 +32,7 @@ for(i=0; i<array_length_1d(textBlocks); i++) {
 
 	invtext.image_xscale = widthFactor;
 	invtext.words = words;
-	invtext.item_obj = global.itemDefinitions[global.closeupItem, itemProperty.object];
+	invtext.item_obj = textDetailsObj;
 	refobj = instance_create_depth(-100, -100, 0, invtext.item_obj);
 	text_tint = refobj.text_tint;
 	instance_deactivate_object(refobj.id);
