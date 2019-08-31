@@ -11,7 +11,7 @@ instance_deactivate_object(OInvMemory);
 instance_deactivate_object(OInvMag);
 
 textArea = instance_find(OTextAreaBG, 0)
-target_width = textArea.sprite_width;
+target_width = textArea.sprite_width * .99;
 
 item_textBlocks = textParse(source_string);
 

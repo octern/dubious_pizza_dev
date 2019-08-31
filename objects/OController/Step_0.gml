@@ -16,6 +16,7 @@ if(debug_timer>0) {
 		}
 		if(keyboard_check_released(ord("E"))) {
 			global.dialogString = dialogGet("testDialog");
+			global.closeupRoom = room;
 			room_goto(RDialog);
 		}
 		if(keyboard_check_released(ord("I"))) {

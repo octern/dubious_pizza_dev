@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "1717215d-0f82-4631-b79d-ebdea8c0d4aa",
+            "Value": {
+                "id": "cf0e9e8a-600c-4d23-af39-7a76e778102a",
+                "resourcePath": "scripts\/closeupClose\/closeupClose.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "17a90864-364b-441e-8a80-29621f14c52a",
             "Value": {
                 "id": "9bc6869a-8214-478d-8bab-ec879f1c0521",
@@ -308,6 +316,14 @@
                 "id": "9e9f99f7-c0c7-443f-98dd-2d0655cec8a8",
                 "resourcePath": "scripts\/itemGetQuant\/itemGetQuant.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "18c2bae4-1b9d-4442-80cd-f4e89854944a",
+            "Value": {
+                "id": "ae98f381-b864-4c8c-a8d1-5a841d8642ca",
+                "resourcePath": "objects\/OBackdrop\/OBackdrop.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1011,6 +1027,14 @@
             "Value": {
                 "id": "79373e8b-38a9-4c93-9214-7a3ca79ec646",
                 "resourcePath": "sprites\/SWireGH1\/SWireGH1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "72fbb945-6246-4f3a-841e-798cdd2a90fd",
+            "Value": {
+                "id": "dd7ed4c1-ae3d-4ca8-9850-535a5847f5c0",
+                "resourcePath": "sprites\/SBlackBackdrop\/SBlackBackdrop.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2131,7 +2155,8 @@
         "8561ea4b-a87c-416e-bcc3-8f0a460b5380",
         "739c4380-8d9f-4dd1-aab4-4b743abc7671",
         "02e75718-d752-4d6c-8291-5caef82d637e",
-        "3ab45a49-9230-4b2c-9548-a2ae4dbd5b58"
+        "3ab45a49-9230-4b2c-9548-a2ae4dbd5b58",
+        "1717215d-0f82-4631-b79d-ebdea8c0d4aa"
     ],
     "tutorial": ""
 }

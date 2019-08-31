@@ -34,7 +34,7 @@ if(!variable_instance_exists(id, "text_tint")) {text_tint = global.text_tint};
 	}
 */
 	textFormatSet(format);
-	text_width = sprite_width;
+	text_width = sprite_width - bubble_jitter;
 	text_height = string_height_ext(words, -1, text_width*.95);
 	text_y_start = text_y;
 	text_increment = global.textIncrementStd;
