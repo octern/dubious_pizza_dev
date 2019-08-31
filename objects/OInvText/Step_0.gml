@@ -34,8 +34,9 @@ if(!variable_instance_exists(id, "text_tint")) {text_tint = global.text_tint};
 	}
 */
 	textFormatSet(format);
-	text_width = sprite_width - bubble_jitter;
-	text_height = string_height_ext(words, -1, text_width*.95);
+	text_container_width = sprite_width - max(bubble_jitter, marginL) - min(bubble_jitter, marginR);
+	text_width = text_container_width * .95;
+	text_height = string_height_ext(words, -1, text_width);
 	text_y_start = text_y;
 	text_increment = global.textIncrementStd;
 	scroll_timer = 10;
@@ -86,6 +87,6 @@ if(keyboard_check_released(vk_up)) {
 	up_timer = 0;
 }
 
-if(keyboard_check_pressed(ord("A"))) DNewX = get_string_async("new text X", "0");
-if(keyboard_check_pressed(ord("S"))) DNewY = get_string_async("new text Y", "0");
-if(keyboard_check_pressed(ord("D"))) DNewW = get_string_async("new text wrap", "200");
+if(keyboard_check_pressed(ord("1"))) DNewX = get_string_async("new text X", "0");
+if(keyboard_check_pressed(ord("2"))) DNewY = get_string_async("new text Y", "0");
+if(keyboard_check_pressed(ord("3"))) DNewW = get_string_async("new text wrap", "200");
