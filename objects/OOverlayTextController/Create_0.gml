@@ -27,7 +27,7 @@ for(i=0; i<array_length_1d(textBlocks); i++) {
 	words = textBlock[1];
 
 	invtext = instance_create_layer(text_start_x, text_start_y,"text",OInvText);
-	if(pixelsTest) {text_start_x -= 60;}
+	if(pixelsTest) {text_start_x -= 20;}
 	widthFactor = target_width / invtext.sprite_width
 
 	invtext.image_xscale = widthFactor;

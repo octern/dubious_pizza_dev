@@ -28,6 +28,12 @@ if(debug_timer>0) {
 		if(keyboard_check_released(ord("N"))) {
 			textNarration();
 		}
+		if(keyboard_check_released(ord("P"))) {
+			phone=instance_find(OTextFramePhoneRound, 0);
+			if(phone.sprite_index == SNothing) {
+				phone.sprite_index = SPhoneRound;
+			} else {phone.sprite_index = SNothing;}
+		}
 		if(keyboard_check_released(ord("R"))) {
 			game_restart();
 		}
