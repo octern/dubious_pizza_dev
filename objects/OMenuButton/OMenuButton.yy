@@ -62,7 +62,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "$00FFFFFF",
+            "value": "$FFFFFFFF",
             "varName": "bgcolor",
             "varType": 7
         },
@@ -76,8 +76,22 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "$00807F00",
+            "value": "$FFFFF493",
             "varName": "text_tint",
+            "varType": 7
+        },
+        {
+            "id": "161fcf7b-b467-4348-a2fa-c696720011bf",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "$FF191719",
+            "varName": "text_tint_active",
             "varType": 7
         }
     ],

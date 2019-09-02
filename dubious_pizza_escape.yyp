@@ -367,6 +367,14 @@
             }
         },
         {
+            "Key": "1d5788d0-5da2-429f-a0f6-63104dad9b8f",
+            "Value": {
+                "id": "c2f3165b-95ad-4382-bf66-3eec57a3ca02",
+                "resourcePath": "datafiles_yy\/gmlive.html.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "1dd1e521-222c-4ff5-9b4b-63b8ec3887a8",
             "Value": {
                 "id": "517c7aab-e9e5-4abf-9af7-284218c42d34",
@@ -452,6 +460,14 @@
                 "id": "056024a7-5084-48a1-8b3d-71f1db5ce4c2",
                 "resourcePath": "views\/23e20c70-85ee-4953-8212-3549e7224c4a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "23fbe7cd-196a-4da9-b5e1-d5de170c162d",
+            "Value": {
+                "id": "6377492f-bf2e-4911-b9d7-72ad5f9aac58",
+                "resourcePath": "datafiles_yy\/gc.dll.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -543,6 +559,14 @@
             }
         },
         {
+            "Key": "33634c94-b392-4387-9e8a-14a6330a1256",
+            "Value": {
+                "id": "c6e4788c-eddb-429a-bcda-fb6b642f8a70",
+                "resourcePath": "objects\/obj_gmlive\/obj_gmlive.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "344123ca-5df1-4ec9-bfac-cb7cb9a904fd",
             "Value": {
                 "id": "4339fe57-65a9-40fe-8ad5-7b4faae57b1a",
@@ -556,6 +580,14 @@
                 "id": "49a09750-9d8c-4177-96d8-9576aded1be3",
                 "resourcePath": "objects\/OCompartment\/OCompartment.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "34ebc914-3fea-42f7-a6b9-db18b75cd055",
+            "Value": {
+                "id": "73492d00-4a10-484b-96e5-59d7bbd8305d",
+                "resourcePath": "extensions\/GMLive\/GMLive.yy",
+                "resourceType": "GMExtension"
             }
         },
         {
@@ -636,6 +668,14 @@
                 "id": "bbc8930f-472c-4eb3-b855-ec6ab886c2c7",
                 "resourcePath": "views\/3cd0954d-b8d5-431d-8d4c-985f480e37d4.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3daf277a-bb7b-460c-be09-32e09c08c393",
+            "Value": {
+                "id": "4d3ac260-c65c-412d-8cf4-f21aa5b877fa",
+                "resourcePath": "datafiles_yy\/neko.dll.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -1175,14 +1215,6 @@
             }
         },
         {
-            "Key": "8339e737-2187-48fc-aae1-4a15472db4ff",
-            "Value": {
-                "id": "1fa585d6-ee77-4bca-b1d6-6ebd08c40359",
-                "resourcePath": "scripts\/createRandomItem\/createRandomItem.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "83889b02-be57-4feb-82ba-4183ef4b7735",
             "Value": {
                 "id": "f2c9ae90-507c-4beb-9f7a-6f6455ac1996",
@@ -1292,14 +1324,6 @@
                 "id": "2e62b7ff-6818-406d-af37-bda1fc1c68c3",
                 "resourcePath": "options\/tvos\/options_tvos.yy",
                 "resourceType": "GMtvOSOptions"
-            }
-        },
-        {
-            "Key": "93f839cf-e631-4a06-bbdf-478ffa2086bc",
-            "Value": {
-                "id": "734f106c-4a76-4af1-8e8a-24b2d26dc5f7",
-                "resourcePath": "scripts\/spriteScale1\/spriteScale1.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -1572,6 +1596,14 @@
                 "id": "8d420449-017b-4833-bcb1-ebfc35f93421",
                 "resourcePath": "sprites\/SBottleKLg\/SBottleKLg.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b7806dbd-185c-4640-909e-b5aaec5d4b60",
+            "Value": {
+                "id": "abf22ea8-5f37-4dde-8ab7-099990af681c",
+                "resourcePath": "datafiles_yy\/gmlive-server.n.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -2127,7 +2159,6 @@
         "cfecfc14-d655-4374-9290-e97a8fe9b968",
         "9d6de87f-1a5b-451d-9b4f-fdc7962a5cf7",
         "c98e6870-f258-4e4d-8369-e6d9d0a39a93",
-        "93f839cf-e631-4a06-bbdf-478ffa2086bc",
         "ed497c8c-c513-4918-8dcf-b76add00b720",
         "9f0a8e6a-ecc0-4b28-a149-579007f5b077",
         "2cee1095-2b3c-4491-af71-22cb74a8871c",
@@ -2135,7 +2166,6 @@
         "180ccad3-f63f-4049-9243-4ef0635f9b4d",
         "f0c8430f-99f8-4ebd-99dc-4d8ba9931479",
         "992a2c16-5849-4e76-b9ac-d7627421aba7",
-        "8339e737-2187-48fc-aae1-4a15472db4ff",
         "0be1496f-06d9-42fe-8640-b16ccdf36479",
         "20a1ebc2-f093-4545-a92d-6b3c47de4ca3",
         "930e068b-9e77-4721-923c-eb4e9006a436",

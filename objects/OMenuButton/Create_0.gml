@@ -3,3 +3,4 @@
 
 buttonText = "Memories";
 initialized = false;
+mouse_present = 0;

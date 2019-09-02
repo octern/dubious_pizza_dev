@@ -1,4 +1,5 @@
-// // if (live_call()) return live_result;
+// the live_call isn't working, likely due to interaction with game_restart()
+// if (live_call()) return live_result;
 
 #macro MAX_INV_ITEMS 12
 #macro SLOT_PIXELS 100
@@ -22,6 +23,8 @@ for(i=0; i<inv_rows; i++) {
 		slotNum+=1;
 	}
 }
+ 
+show_debug_message("invInit loading again :D");
 
 button_x = inst.slotX - SLOT_PIXELS - INV_BORDERWIDTH;
 button_y = inst.slotY + SLOT_PIXELS + INV_BORDERWIDTH;
