@@ -15,6 +15,8 @@ target_width = textArea.sprite_width * .99;
 
 item_textBlocks = textParse(source_string);
 
+textObjects = array_create(array_length_1d(item_textBlocks));
+
 text_start_y = textArea.y;
 text_start_x = textArea.x;
 
@@ -26,7 +28,8 @@ for(i=0; i<array_length_1d(textBlocks); i++) {
 	format = textBlock[0];
 	words = textBlock[1];
 
-	invtext = instance_create_layer(text_start_x, text_start_y,"text",OInvText);
+	textObjects[i] = instance_create_layer(text_start_x, text_start_y,"text",OInvText);
+	invtext = textObjects[i];
 	if(pixelsTest) {text_start_x -= 20;}
 	widthFactor = target_width / invtext.sprite_width
 

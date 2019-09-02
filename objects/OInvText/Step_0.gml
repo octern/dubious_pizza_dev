@@ -11,10 +11,12 @@ if(!initialized) {
 
 // instead of setting text to display on create, we let the inventory screen set them
 // this way we can have different text in different boxes. 
-dialogMarginY = 8;
-dialogMarginX = 8;
-text_scale = 1;
-if(!variable_instance_exists(id, "text_tint")) {text_tint = global.text_tint};
+	dialogMarginY = 8;
+	dialogMarginX = 8;
+	text_scale = 1;
+	if(!variable_instance_exists(id, "text_tint")) {
+		 text_tint = global.text_tint
+	};
 // but if they weren't set, do the normal thing by default. 
 	if(!variable_instance_exists(id, "words")) {
 		words = global.itemDefinitions[global.closeupItem, itemProperty.description];
@@ -38,6 +40,7 @@ if(!variable_instance_exists(id, "text_tint")) {text_tint = global.text_tint};
 	text_width = text_container_width * .95;
 	text_height = string_height_ext(words, -1, text_width);
 	text_y_start = text_y;
+	most_recent_ystart = text_y_start;
 	text_increment = global.textIncrementStd;
 	scroll_timer = 10;
 //	// I have no idea why this is needed, but the text won't scroll far enough without it
