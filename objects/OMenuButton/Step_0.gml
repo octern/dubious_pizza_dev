@@ -15,6 +15,8 @@ if(point_in_rectangle(mouse_x, mouse_y, x, y, x+sprite_width, y+sprite_height)) 
 	mouse_present = 1;
 } else {image_index=0; mouse_present=0;}
 
-if(mouse_check_button_released(mb_any)) {
+if(mouse_check_button_released(mb_any) && mouse_present) {
+	global.dialogString = dialogGet("testDialog");
+	global.closeupRoom = room;
 	room_goto(RDialog);
 }

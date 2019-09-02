@@ -4,3 +4,5 @@ testDialog = @"where am i##dia1A@@in the village##dia1B@@it's pretty sweet##dia1
 
 ds_map_replace(global.dialogs, "testDialog", testDialog);
 
+// test dialog (this isn't a flag)
+global.dialogString = dialogGet("testDialog");

@@ -21,3 +21,4 @@ global.pixelsTest = false;
 
 // replace bee poem with test dialog;
 global.beeDialogTest = true;
+
