@@ -22,3 +22,11 @@ for(i=0; i<inv_rows; i++) {
 		slotNum+=1;
 	}
 }
+
+button_x = inst.slotX - SLOT_PIXELS - INV_BORDERWIDTH;
+button_y = inst.slotY + SLOT_PIXELS + INV_BORDERWIDTH;
+button_w = 2*SLOT_PIXELS + 2*INV_BORDERWIDTH;
+dialogButton = instance_create_layer(button_x, button_y, layer, OMenuButton);
+dialogButton.image_xscale = button_w / dialogButton.sprite_width;
+
+

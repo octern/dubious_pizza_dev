@@ -919,6 +919,14 @@
             }
         },
         {
+            "Key": "5e8ed377-3155-4ade-8066-2c48197dab93",
+            "Value": {
+                "id": "a70a1499-ab65-4046-a539-ef4459f94dc2",
+                "resourcePath": "objects\/OMenuButton\/OMenuButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5ef039ee-c04b-4cbe-983c-b170fadf30db",
             "Value": {
                 "id": "ef71caa1-c0dd-4daa-80c2-308e00a8c9e8",
