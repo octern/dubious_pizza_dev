@@ -15,11 +15,7 @@ if(roomAdd==1 || roomAdd==-1) {
 	var newRoom = global.roomParents[currentRoom];
 }
 
-if(newRoom = ROne && worldGet("scarydoor")=="open") {
-	winGame();
-} else {
-	room_goto(newRoom);
-}
+return(newRoom);
 
 view_wview[0] = window_get_width()
 view_hview[0] = window_get_height()

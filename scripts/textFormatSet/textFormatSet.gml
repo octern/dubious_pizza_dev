@@ -29,7 +29,7 @@ switch _format {
 		dialog_bg = STextBubble;
 		text_tint = c_gray;
 		text_base = c_gray;
-		bg_tint = c_fuchsia;
+		bg_tint = make_color_rgb(254, 255, 209);
 		between_texts_margin = 30;
 		bubble_align = "left";
 		bubble_jitter = 30;
@@ -37,6 +37,30 @@ switch _format {
 		marginR = 5;
 		break;
 	case "dia1B":
+		draw_set_font(FDefault);
+		dialog_bg = STextBubble;
+		is_dialog = true;
+		text_base = c_gray;
+		text_tint = c_gray;
+		bg_tint = make_color_rgb(249, 217, 255);
+		between_texts_margin = 30;
+		bubble_jitter = 30;
+		bubble_align = "right";
+		break;
+	case "dia1":
+		draw_set_font(FDefault);
+		is_dialog = true;
+		dialog_bg = STextBubble;
+		text_tint = c_gray;
+		text_base = c_gray;
+		bg_tint = c_fuchsia;
+		between_texts_margin = 30;
+		bubble_align = "left";
+		bubble_jitter = 30;
+		marginL = 5;
+		marginR = 5;
+		break;
+	case "dia2":
 		draw_set_font(FDefault);
 		dialog_bg = STextBubble;
 		is_dialog = true;

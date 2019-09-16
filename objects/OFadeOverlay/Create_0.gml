@@ -10,3 +10,4 @@ fadingOut = false;
 fadingPause = false;
 timer = 0;
 pauseTimer = 0;
+fadeColor = c_white;

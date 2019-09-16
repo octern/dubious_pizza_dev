@@ -439,6 +439,14 @@
             }
         },
         {
+            "Key": "23311a50-b383-4bba-bbd4-d90958077f4d",
+            "Value": {
+                "id": "192ccf2e-9e4f-4651-bb04-57b86410f293",
+                "resourcePath": "scripts\/globalsInit\/globalsInit.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "23412096-05b2-4689-964c-10e32a3610ad",
             "Value": {
                 "id": "7adfd8e5-8848-47c0-95f9-6b798b54c84e",
@@ -695,6 +703,14 @@
             }
         },
         {
+            "Key": "3e994aea-61d5-421a-b48d-b17b7caefbe5",
+            "Value": {
+                "id": "89a61acb-4763-419c-8edf-4e134edf2e8a",
+                "resourcePath": "scripts\/navInit\/navInit.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3eb8a43c-d6e0-42ab-804b-13602b4e9616",
             "Value": {
                 "id": "1628e0eb-a1e7-4a28-962b-053e4ddd5d32",
@@ -930,7 +946,7 @@
             "Key": "59c4ca93-1a19-4f58-b5da-a924cbc44903",
             "Value": {
                 "id": "965f0345-ea9e-4e72-96ca-429266f932d6",
-                "resourcePath": "objects\/OArrow\/OArrow.yy",
+                "resourcePath": "objects\/ONavArrow\/ONavArrow.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2194,7 +2210,9 @@
         "739c4380-8d9f-4dd1-aab4-4b743abc7671",
         "02e75718-d752-4d6c-8291-5caef82d637e",
         "3ab45a49-9230-4b2c-9548-a2ae4dbd5b58",
-        "1717215d-0f82-4631-b79d-ebdea8c0d4aa"
+        "1717215d-0f82-4631-b79d-ebdea8c0d4aa",
+        "3e994aea-61d5-421a-b48d-b17b7caefbe5",
+        "23311a50-b383-4bba-bbd4-d90958077f4d"
     ],
     "tutorial": ""
 }

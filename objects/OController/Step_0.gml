@@ -39,8 +39,8 @@ if(debug_timer>0) {
 		}
 		if(keyboard_check_released(ord("W"))) {
 			if keyboard_check(vk_shift) {
-				fadeWhite(10);
-			} else { fadeWhite(200);}
+				fadeWhite(10, -1, c_blue);
+			} else { fadeWhite(200, -1, c_green);}
 		}
 		if(keyboard_check_released(vk_enter)) {
 			room_restart();

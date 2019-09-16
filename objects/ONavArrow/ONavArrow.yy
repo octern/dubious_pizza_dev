@@ -2,7 +2,7 @@
     "id": "59c4ca93-1a19-4f58-b5da-a924cbc44903",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "OArrow",
+    "name": "ONavArrow",
     "eventList": [
         {
             "id": "3d9e0b29-0c82-4e10-801f-309edea44d4a",
@@ -37,7 +37,7 @@
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "2166665b-9a1e-4276-9f9c-cff8092d612a",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

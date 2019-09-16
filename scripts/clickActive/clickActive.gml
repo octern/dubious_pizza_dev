@@ -8,6 +8,13 @@
 //if(argument_count==0) {argument = array_create(1, mouse_x);}
 // show_debug_message("arguments to ClickActive: " + string(argument_count));
 
+// regrettably we need to check on this manually in everything that can be clicked. 
+// We do this in the item prototype and in the class for nav items
+
+// if we're doing a cinematic, never allow clicks on anything. 
+if(global.cinematic) {return false;}
+
+
 cx = argument_count >= 1 ? argument[0] : mouse_x;
 cy = argument_count >= 2 ? argument[1] : mouse_y;
 noverlap = argument_count >= 3 ? argument[2] : true;

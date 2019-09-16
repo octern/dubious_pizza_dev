@@ -7,8 +7,10 @@ if(!open) {
 	image_index=1;
 	return true;
 }
+
 if(instance_number(OPoemR) > 0) {
 	show_debug_message("taking robot poem instead of box") 
 } else {
-	itemPickup(id);
+	if(variable_instance_exists(id, "poemGone")) {itemPickup(id);}
+	poemGone = 1;
 }

@@ -29,4 +29,4 @@ if(fadingOut) {
 	}
 }
 alpha = timer/fadeDuration;
-draw_sprite_ext(SFadeOverlayW, 0, 0, 0, window_get_width(), window_get_height(), 0, colr, alpha);
+draw_sprite_ext(SFadeOverlayW, 0, 0, 0, window_get_width(), window_get_height(), 0, fadeColor, alpha);
