@@ -407,6 +407,14 @@
             }
         },
         {
+            "Key": "2057c35c-3c32-427f-bc98-8e2626ac5f10",
+            "Value": {
+                "id": "ed64d88d-af05-4a54-886b-e2e912ebcbad",
+                "resourcePath": "scripts\/dialogTitleGet\/dialogTitleGet.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "20a1ebc2-f093-4545-a92d-6b3c47de4ca3",
             "Value": {
                 "id": "0d8886ab-85d9-4585-9b26-9a46da129ad4",
@@ -1220,6 +1228,14 @@
                 "id": "19f1a2c2-0800-41a6-978d-fd99855647dd",
                 "resourcePath": "views\/81408db6-4fd9-4bdd-93de-93783872f555.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "82a26da3-37ab-435f-b6e5-4333c3275f6b",
+            "Value": {
+                "id": "a26dfead-5a20-4bc9-8776-21a71e409d88",
+                "resourcePath": "objects\/OTextTitleBG\/OTextTitleBG.yy",
+                "resourceType": "GMObject"
             }
         },
         {

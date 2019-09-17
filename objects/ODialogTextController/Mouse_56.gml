@@ -30,4 +30,7 @@ if(text_block_index < array_length_1d(textObjects)) {
 	}
 	text_block_index++;
 	if(text_block_index == array_length_1d(textObjects)) {scrollAllowed = true;}
+} else {
+// this runs if they've completed the text
+	instance_activate_object(OInvCloseupClose);
 }

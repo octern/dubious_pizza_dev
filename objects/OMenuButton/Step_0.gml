@@ -17,7 +17,7 @@ if(point_in_rectangle(mouse_x, mouse_y, x, y, x+sprite_width, y+sprite_height)) 
 
 
 if(mouse_check_button_released(mb_any) && mouse_present) {
-	global.dialogString = dialogGet("gap_year");
+	global.dialogString = "gap_year";
 	global.closeupRoom = room;
 	fadeWhite(fadeTime, 30, c_blue);
 	roomChangeCountdown = fadeTime;
