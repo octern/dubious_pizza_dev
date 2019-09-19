@@ -69,6 +69,34 @@
             "value": "title",
             "varName": "textType",
             "varType": 2
+        },
+        {
+            "id": "2fe0864d-7dfb-4591-8728-a8902e2453fb",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "diaTitle",
+            "varName": "format",
+            "varType": 2
+        },
+        {
+            "id": "9726541b-6424-445b-8a9e-c25df92f0954",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "text_tint",
+            "varType": 0
         }
     ],
     "solid": false,

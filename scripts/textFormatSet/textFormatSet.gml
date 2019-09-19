@@ -23,6 +23,16 @@ switch _format {
 		text_tint = text_tint==0 ? text_tint : make_color_rgb(200,200,255);
 		between_texts_margin = 10;
 		break;
+	case "diaTitle":
+		draw_set_font(FTitle);
+		text_tint = text_tint==0 ? text_tint : make_color_rgb(255,255,255);
+		between_texts_margin = 10;
+		break;	
+	case "diaDocs":
+		draw_set_font(FDocs);
+		text_tint = text_tint==0 ? text_tint : make_color_rgb(255,255,255);
+		between_texts_margin = 10;
+		break;	
 	case "dia1A":
 		draw_set_font(FDefault);
 		is_dialog = true;
