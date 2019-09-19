@@ -1,7 +1,7 @@
 // // if (live_call()) return live_result;
 
 //  Don't edit these texts! Generate from this spreadsheet:
-// https://docs.google.com/spreadsheets/d/1h437OcqBYhETw8EKKBGGYpkJoJ63Tfe0CiDPohsPnmA/edit#gid=1207862610 
+// https://docs.google.com/spreadsheets/d/1h437OcqBYhETw8EKKBGGYpkJoJ63Tfe0CiDPohsPnmA/edit#gid=1207862610
 
 global.roomStrings = ds_map_create();
 
@@ -29,6 +29,9 @@ ds_map_replace(global.roomStrings, "wiresNoTape", "Yep, these wires are damaged.
 ds_map_replace(global.roomStrings, "doorScaryUnlock", "I unlocked the very scary door that might lead down into a murder room. ");
 ds_map_replace(global.roomStrings, "toolboxLocked", "It looks like the same old toolbox they had in high school.\nI wonder if the lock is to keep people out? Or to keep unknown horrors inside?\nProbably people.");
 ds_map_replace(global.roomStrings, "toolboxOpen", "It looks like the same old toolbox they had in high school.");
+ds_map_replace(global.roomStrings, "dialogDocs", "Click to advance");
+ds_map_replace(global.roomStrings, "dialogDocsDone", "esc or click X to exit");
+
 
 instance_deactivate_object(OTextMajor);
 instance_deactivate_object(OTextMinor);

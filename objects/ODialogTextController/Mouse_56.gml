@@ -33,4 +33,5 @@ if(text_block_index < array_length_1d(textObjects)) {
 } else {
 // this runs if they've completed the text
 	instance_activate_object(OInvCloseupClose);
+	docsArea.content = textGet("dialogDocsDone");
 }

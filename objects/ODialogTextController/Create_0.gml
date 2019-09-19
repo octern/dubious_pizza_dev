@@ -4,7 +4,7 @@
 source_string = dialogGet(global.dialogString);
 source_title = dialogTitleGet(global.dialogString);
 textDetailsObj = ODialogDetails;
-
+titlesSet = false;
 
 event_inherited();
 
