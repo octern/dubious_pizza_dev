@@ -21,8 +21,8 @@ if(text_block_index < array_length_1d(textObjects)) {
 	}
 	newText = textObjects[text_block_index];
 	instance_activate_object(newText.id);
-	newText.text_y = textArea.y + textArea.sprite_height - newText.text_height;
-	newText.most_recent_ystart = newText.text_y;
+	newText.text_y = textArea.y + textArea.sprite_height - newText.text_height - arbitraryExtraTextPadding;
+	newText.most_recent_ystart = newText.text_y; 
 	textFormatSet(newText.format);
 	for(i=0; i<text_block_index; i++) {
 		textObjects[i].text_y -= (newText.text_height + between_texts_margin);
@@ -32,6 +32,10 @@ if(text_block_index < array_length_1d(textObjects)) {
 	if(text_block_index == array_length_1d(textObjects)) {scrollAllowed = true;}
 } else {
 // this runs if they've completed the text
-	instance_activate_object(OInvCloseupClose);
+//	instance_activate_object(OInvCloseupClose);
+	with(instance_find(OInvCloseupClose, 0)) {
+		sprite_index = SInvCloseupClose;
+	}
+
 	docsArea.content = textGet("dialogDocsDone");
 }
