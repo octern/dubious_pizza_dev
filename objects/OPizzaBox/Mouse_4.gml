@@ -13,4 +13,5 @@ if(instance_number(OPoemR) > 0) {
 } else {
 	if(variable_instance_exists(id, "poemGone")) {itemPickup(id);}
 	poemGone = 1;
+	poemGone = 1;
 }

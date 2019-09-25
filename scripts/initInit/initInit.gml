@@ -6,6 +6,7 @@ worldInit();
 itemsInit();
 textInit();
 dialogInit();
+narrationInit();
 longTextsInit();
 displayInit();
 //wireInit();

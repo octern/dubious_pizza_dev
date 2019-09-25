@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+/*
 global.world=ds_map_secure_load("dpe_save.dat");
 global.world2=ds_map_secure_load("dpe_save.dat");
 

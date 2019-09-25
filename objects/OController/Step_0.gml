@@ -26,7 +26,9 @@ if(debug_timer>0) {
 			global.lightButtons = !global.lightButtons;
 		}
 		if(keyboard_check_released(ord("N"))) {
-			textNarration();
+			global.narrationString = "opening_narration";
+			global.closeupRoom = room;
+			room_goto(RNarration);
 		}
 		if(keyboard_check_released(ord("P"))) {
 			phone=instance_find(OTextFramePhoneRound, 0);
