@@ -12,14 +12,19 @@ text_y = window_get_height() / 2 - text_height / 2;
 
 
 if(fadingIn) {
-	if(text_alpha>=1) fadingIn=false;
-	else text_alpha = min(text_alpha + fadeStep, 1);
-	if(textBlocki < (array_length_1d(textBlocks) - 1)) {
-		fadeInDone = true;
-	} else {
-		with(instance_find(OInvCloseupClose, 0)) {
-			sprite_index = SInvCloseupClose;
+	if(text_alpha>=1) {
+		fadingIn=false;
+		if(textBlocki < (array_length_1d(textBlocks) - 1)) {
+			fadeInDone = true;
+		} else {
+			with(instance_find(OInvCloseupClose, 0)) {
+				sprite_index = SInvCloseupClose;
+				y = other.text_y + other.text_height + 10;
+				x = other.text_x + other.target_width - sprite_width * .75;
+			}
 		}
+	} else {
+		text_alpha = min(text_alpha + fadeStep, 1);
 	}
 }
 
@@ -40,6 +45,8 @@ if(fadeOutDone) {
 		
 
 if(mouse_check_button_released(mb_left) && fadeInDone) {
-	fadeInDone = false;
-	fadingOut = true;
+	if(textBlocki < (array_length_1d(textBlocks) - 1)) {
+		fadeInDone = false;
+		fadingOut = true;
+	}
 }
