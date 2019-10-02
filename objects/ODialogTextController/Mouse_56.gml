@@ -9,6 +9,9 @@ if(!variable_instance_exists(id, "mouse_press_y")) {
 	mouse_pressed_time = current_time;
 }
 
+// if the page was just created (~250ms), ignore accidental clicks 
+if(createdCooldown > 0) {exit;}
+
 // if the user appears to have been scrolling instead of clicking, don't run
 if(
 	(abs(mouse_press_y - mouse_y) > 10) ||

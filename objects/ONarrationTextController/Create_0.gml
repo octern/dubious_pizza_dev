@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-source_string = narrationGet(global.narrationString);
+source_string = narrationGet(global.dialogString);
 titlesSet = false;
 
 /*
@@ -28,6 +28,7 @@ instance_deactivate_object(OMenuButton);
 instance_deactivate_object(OInvMag);
 
 textArea = instance_find(OTextAreaBG, 0)
+textArea.image_index = 2;
 target_width = textArea.sprite_width * .99;
 
 textBlocks = textParse(source_string);

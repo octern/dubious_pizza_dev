@@ -5,4 +5,5 @@ instance_activate_object(OInvSlot);
 instance_activate_object(OInvMag);
 instance_activate_object(OInvMemory);
 instance_activate_object(OMenuButton);
-room_goto(global.closeupRoom);
+nextRoom = postTextDestination();
+room_goto(nextRoom);

@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if(createdCooldown >= 0) {createdCooldown -= 1;}
+
 if(!titlesSet) {
 	titlesSet = true;
 	for(iTitle = 0;iTitle < instance_number(OTextTitleBG); iTitle++) {

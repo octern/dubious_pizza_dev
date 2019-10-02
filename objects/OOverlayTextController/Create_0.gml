@@ -4,6 +4,9 @@
 image_speed = 0;
 sprite_index = SNothing;
 
+// this cooldown stops us from detecting accidental clicks in the first fraction of a second
+createdCooldown = room_speed / 3;
+
 if(!variable_instance_exists(id, "source_string")) {source_string = "undefined text?!"};
 
 instance_deactivate_object(OInvSlot);
