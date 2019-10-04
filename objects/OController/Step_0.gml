@@ -15,7 +15,7 @@ if(debug_timer>0) {
 			global.pixelsTest = !global.pixelsTest;
 		}
 		if(keyboard_check_released(ord("E"))) {
-			global.dialogString = "gap_year";
+			global.storyString = "gap_year";
 			global.closeupRoom = room;
 			room_goto(RDialog);
 		}
@@ -26,7 +26,7 @@ if(debug_timer>0) {
 			global.lightButtons = !global.lightButtons;
 		}
 		if(keyboard_check_released(ord("N"))) {
-			global.dialogString = "opening_narration";
+			global.storyString = "opening_narration";
 			global.closeupRoom = room;
 			room_goto(RNarration);
 		}

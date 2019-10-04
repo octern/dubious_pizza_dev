@@ -9,10 +9,7 @@ createdCooldown = room_speed / 3;
 
 if(!variable_instance_exists(id, "source_string")) {source_string = "undefined text?!"};
 
-instance_deactivate_object(OInvSlot);
-instance_deactivate_object(OInvMemory);
-instance_deactivate_object(OMenuButton);
-instance_deactivate_object(OInvMag);
+clearInventoryUI();
 
 textArea = instance_find(OTextAreaBG, 0)
 target_width = textArea.sprite_width * .99;

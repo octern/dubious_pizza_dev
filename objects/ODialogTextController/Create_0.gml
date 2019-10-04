@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-source_string = dialogGet(global.dialogString);
-source_title = dialogTitleGet(global.dialogString);
+source_string = dialogGet(global.storyString);
+source_title = dialogTitleGet(global.storyString);
 textDetailsObj = ODialogDetails;
 titlesSet = false;
 

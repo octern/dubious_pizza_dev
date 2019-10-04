@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-source_string = narrationGet(global.dialogString);
+source_string = narrationGet(global.storyString);
 titlesSet = false;
 
 /*
@@ -22,10 +22,7 @@ sprite_index = SNothing;
 
 if(!variable_instance_exists(id, "source_string")) {source_string = "undefined text?!"};
 
-instance_deactivate_object(OInvSlot);
-instance_deactivate_object(OInvMemory);
-instance_deactivate_object(OMenuButton);
-instance_deactivate_object(OInvMag);
+clearInventoryUI();
 
 textArea = instance_find(OTextAreaBG, 0)
 textArea.image_index = 2;

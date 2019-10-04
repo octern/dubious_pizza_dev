@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "0a8db470-035d-48dd-964e-2f21d7ed3d2a",
+            "Value": {
+                "id": "c017fb52-710d-4885-8b49-84aac98fec4d",
+                "resourcePath": "objects\/OStartButton\/OStartButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0ababb90-f7a9-4596-8625-a7d35454afed",
             "Value": {
                 "id": "06cb01f4-0605-44f3-90d6-bae98a28efef",
@@ -676,6 +684,14 @@
                 "id": "40021290-2e96-4f98-9c23-4da1171e4f4a",
                 "resourcePath": "sprites\/SPoemKEnv\/SPoemKEnv.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3a9d794b-9eda-422f-af6c-c35d052ba8a6",
+            "Value": {
+                "id": "e0829c81-fead-4a1f-8878-7869415c9c11",
+                "resourcePath": "rooms\/RStart\/RStart.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1244,6 +1260,14 @@
                 "id": "453c4cf4-2ad2-43bb-a181-d5801517d106",
                 "resourcePath": "sprites\/SPicture1\/SPicture1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7df3ccbb-f797-4677-abb2-3b90a92300ed",
+            "Value": {
+                "id": "1edd7844-9f8d-4ded-ac63-5457bf67b569",
+                "resourcePath": "fonts\/FGameTitle\/FGameTitle.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -1895,6 +1919,14 @@
             }
         },
         {
+            "Key": "d46bb1d3-7254-4cd7-bbbb-7cc55e6f794e",
+            "Value": {
+                "id": "bfca7bde-f5aa-48e3-83aa-1504bad0b0a4",
+                "resourcePath": "scripts\/clearInventoryUI\/clearInventoryUI.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "da708bca-e779-4b48-93ff-e7d1e3438775",
             "Value": {
                 "id": "e5bbc339-2771-4bdd-89af-1f3f4fc0e5bf",
@@ -2305,7 +2337,8 @@
         "2057c35c-3c32-427f-bc98-8e2626ac5f10",
         "6ac981e2-8df0-427e-9f18-cbdf3d9c0dec",
         "98ca4c7b-ab1d-4fd9-9f75-f80e5f51489b",
-        "4891d2ab-ab34-41b4-a13b-18e2699316e6"
+        "4891d2ab-ab34-41b4-a13b-18e2699316e6",
+        "d46bb1d3-7254-4cd7-bbbb-7cc55e6f794e"
     ],
     "tutorial": ""
 }

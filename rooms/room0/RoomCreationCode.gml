@@ -5,7 +5,8 @@ if(!instance_exists(OController)) {
 controllerInst = instance_find(OController, 0);
 
 if(room==room0) {
-	room_goto(ROne);
+	global.closeupRoom = ROne;
+	room_goto(RStart);
 	exit;
 }
 
