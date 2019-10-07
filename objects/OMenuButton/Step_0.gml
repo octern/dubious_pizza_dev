@@ -20,14 +20,6 @@ if(point_in_rectangle(mouse_x, mouse_y, x, y, x+sprite_width, y+sprite_height)) 
 if(mouse_check_button_released(mb_any) && mouse_present) {
 	global.storyString = "gap_year";
 	global.closeupRoom = room;
-	fadeWhite(fadeTime, 30, c_blue);
-	roomChangeCountdown = fadeTime;
-}
-
-if(roomChangeCountdown > 0) {
-	roomChangeCountdown--;
-	show_debug_message(string(roomChangeCountdown));
-} else if(roomChangeCountdown <= 0 && roomChangeCountdown > -100) {
-	room_goto(RDialog);
-	roomChangeCountdown = -100;
+	nextRoom = RDialog;
+	roomChangeFade(RDialog, fadeTime, 30, c_blue);
 }

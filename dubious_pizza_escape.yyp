@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "00d61a36-761a-4842-a63e-35341069b368",
+            "Value": {
+                "id": "200dea06-2bc8-4115-91fc-e067e58a2aa4",
+                "resourcePath": "objects\/ORoomFader\/ORoomFader.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "00f2c81a-72a3-4b7e-8e5e-87f25c19c324",
             "Value": {
                 "id": "8e3821ce-34da-4dae-a5c3-2c0c2bc71025",
@@ -1388,6 +1396,14 @@
                 "id": "016dbb5f-25ac-4675-bc8f-c1aa55ca07bd",
                 "resourcePath": "sprites\/SEggGreen\/SEggGreen.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8b2133e1-17cf-4571-99ce-4fb3ebaaf0a0",
+            "Value": {
+                "id": "d995e690-b118-4dab-947a-752ed036323a",
+                "resourcePath": "scripts\/roomChangeFade\/roomChangeFade.yy",
+                "resourceType": "GMScript"
             }
         },
         {
