@@ -4,4 +4,6 @@
 
 //InvCloseupDraw(itemInSlot);
 
+if(!global.showInv) {exit;}
+
 invCloseup();

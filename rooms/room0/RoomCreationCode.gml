@@ -12,6 +12,9 @@ if(room==room0) {
 
 roomSetup();
 
+global.showInv = true;
+//clearInventoryUI(false);
+
 /*
 var _randItems = irandom_range(2,8);
 

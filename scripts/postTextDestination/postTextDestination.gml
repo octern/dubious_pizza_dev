@@ -4,7 +4,7 @@ if(1==0) {
 	global.storyString = "opening_narration";
 	nextRoom = RNarration;
 } else if(global.storyString == "opening_narration") {
-	global.storyString = "come_over";
+	global.storyString = "invitation";
 	nextRoom = RDialog;
 }	
 else {

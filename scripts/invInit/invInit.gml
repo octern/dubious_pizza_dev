@@ -5,6 +5,8 @@
 #macro SLOT_PIXELS 100
 #macro INV_BORDERWIDTH 4
 
+global.showInv = true;
+
 var inv_cols=2;
 var inv_rows=ceil(MAX_INV_ITEMS/inv_cols);
 global.inv_edge = room_width - inv_cols*SLOT_PIXELS;
@@ -26,9 +28,9 @@ for(i=0; i<inv_rows; i++) {
  
 show_debug_message("invInit loading again :D");
 
-button_x = inst.slotX - INV_BORDERWIDTH;
-button_y = inst.slotY + SLOT_PIXELS + INV_BORDERWIDTH;
-button_w = 2*SLOT_PIXELS + 2*INV_BORDERWIDTH;
+button_x = inst.slotX ;
+button_y = inst.slotY + SLOT_PIXELS;
+button_w = 2*SLOT_PIXELS;
 dialogButton = instance_create_layer(button_x, button_y, layer, OMenuButton);
 dialogButton.image_xscale = button_w / dialogButton.sprite_width;
 

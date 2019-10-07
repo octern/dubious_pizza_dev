@@ -1,15 +1,19 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-instance_deactivate_object(OInvMag);
+clearInventoryUI();
 
 buttonText = "start";
-titleText = "dubious pizza escape"
+titleText = "dubious\n pizza \n escape"
 draw_set_font(FGameTitle);
-titleWidth = string_width(titleText) * 2;
-buttonWidth = string_width(buttonText) * 1.4;
-buttonHeight = string_height(buttonText) * 1.4;
-titleY = 200;
+titleFactor = 1.4;
+buttonFactor = 1.4;
+buttonMargin = (1-buttonFactor)/2;
+titleLineHeight = string_height("A");
+titleWidth = string_width(titleText) * titleFactor;
+buttonWidth = string_width(buttonText) * buttonFactor;
+buttonHeight = string_height(buttonText) * buttonFactor;
+titleY = 50;
 buttonY = y;
 titleX = window_get_width()/2 - titleWidth/2;
 buttonX = window_get_width()/2 - buttonWidth/2;
