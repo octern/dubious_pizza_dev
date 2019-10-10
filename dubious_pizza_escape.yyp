@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0238e3f6-7367-44c0-af78-3e39dd45a203",
+            "Value": {
+                "id": "db587a4b-fd0a-4bf5-a3fd-5841dba7df10",
+                "resourcePath": "sprites\/SFangs\/SFangs.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "02e75718-d752-4d6c-8291-5caef82d637e",
             "Value": {
                 "id": "41f1d352-be4e-4efc-b4b3-e919fc3c6161",
@@ -663,6 +671,14 @@
             }
         },
         {
+            "Key": "3617f7ce-a985-47ff-81f5-f04152c9e0ee",
+            "Value": {
+                "id": "06e757f3-fd94-4c01-bda6-b61f735e2967",
+                "resourcePath": "sprites\/SPizza\/SPizza.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3716529c-1cc8-4cd2-838a-bd5ceee8cbe3",
             "Value": {
                 "id": "b6621191-9a12-43f6-8254-48b86d38e12d",
@@ -908,6 +924,14 @@
                 "id": "c827645d-e2fd-42b0-87da-89488f412992",
                 "resourcePath": "objects\/OBottleK\/OBottleK.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "51e08348-fabc-4b92-a263-35c1dad864b3",
+            "Value": {
+                "id": "61134e0b-6324-43b2-b419-128594ab08fe",
+                "resourcePath": "sprites\/sprite82\/sprite82.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2354,7 +2378,8 @@
         "6ac981e2-8df0-427e-9f18-cbdf3d9c0dec",
         "98ca4c7b-ab1d-4fd9-9f75-f80e5f51489b",
         "4891d2ab-ab34-41b4-a13b-18e2699316e6",
-        "d46bb1d3-7254-4cd7-bbbb-7cc55e6f794e"
+        "d46bb1d3-7254-4cd7-bbbb-7cc55e6f794e",
+        "8b2133e1-17cf-4571-99ce-4fb3ebaaf0a0"
     ],
     "tutorial": ""
 }

@@ -21,5 +21,5 @@ if(mouse_check_button_released(mb_any) && mouse_present) {
 	global.storyString = "gap_year";
 	global.closeupRoom = room;
 	nextRoom = RDialog;
-	roomChangeFade(RDialog, fadeTime, 30, c_blue);
+	roomChangeFade(RDialog, fadeTime, 10, c_blue);
 }
