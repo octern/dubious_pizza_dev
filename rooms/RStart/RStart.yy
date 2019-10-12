@@ -2,7 +2,7 @@
 {
     "name": "RStart",
     "id": "3a9d794b-9eda-422f-af6c-c35d052ba8a6",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

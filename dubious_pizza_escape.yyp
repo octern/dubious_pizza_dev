@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "09eb12de-d0d2-48b0-8b9d-257035ea74ed",
+            "Value": {
+                "id": "0fd503d7-5f2a-4d20-bc25-c4a98d7523ee",
+                "resourcePath": "sounds\/ABGRoulette\/ABGRoulette.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "0a3ef083-ca2c-42b4-8267-0dd1dcbd23b6",
             "Value": {
                 "id": "1a45034e-9e86-4c29-a612-343fe4beeba7",
@@ -1420,6 +1428,14 @@
                 "id": "016dbb5f-25ac-4675-bc8f-c1aa55ca07bd",
                 "resourcePath": "sprites\/SEggGreen\/SEggGreen.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8b1c7efd-7ced-4d7a-94bc-fe7c5bd74e93",
+            "Value": {
+                "id": "a6941920-d478-491e-9256-09beeb34a57c",
+                "resourcePath": "fonts\/font5\/font5.yy",
+                "resourceType": "GMFont"
             }
         },
         {
