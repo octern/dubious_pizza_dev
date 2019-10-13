@@ -42,6 +42,7 @@ fadeInDone = false;
 fadeOutDone = false;
 fadeSpeed = 3;
 fadeStep = 1 / room_speed * fadeSpeed
+segmentInit = false;
 
 with(instance_find(OInvCloseupClose, 0)) {
 	sprite_index = SNothing;

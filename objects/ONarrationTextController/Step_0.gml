@@ -1,15 +1,19 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-textBlock = textBlocks[textBlocki];
-format = textBlock[0];
-words = textBlock[1];
+if(!segmentInit) {
+	textBlock = textBlocks[textBlocki];
+	format = textBlock[0];
+	wordsString = textBlock[1];
+	words = playSoundFromWords(wordsString);
 
-textFormatSet(format);
-text_height = string_height_ext(words, -1, target_width);
-text_x = textArea.x;
-text_y = window_get_height() / 2 - text_height / 2;
-
+	textFormatSet(format);
+	text_height = string_height_ext(words, -1, target_width);
+	text_x = textArea.x;
+	text_y = window_get_height() / 2 - text_height / 2;
+	
+	segmentInit = true;
+}
 
 if(fadingIn) {
 	if(text_alpha>=1) {
@@ -41,6 +45,7 @@ if(fadeOutDone) {
 	fadeInDone = false;
 	fadeOutDone = false;
 	fadingIn = true;
+	segmentInit = false;
 }
 		
 

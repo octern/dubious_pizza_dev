@@ -1,5 +1,5 @@
 if(1==0) {
-	exit; //panic the world's gone mad
+	exit; //panic 
 } else if(global.storyString == "opening_dialog") {
 	global.storyString = "opening_narration";
 	nextRoom = RNarration;

@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "070148a4-816f-46bc-9347-1d4158c52946",
+            "Value": {
+                "id": "fee252a0-734b-4c30-b24a-0ee5ceea2ce9",
+                "resourcePath": "sounds\/ADoorClose\/ADoorClose.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "07da0c5e-2fc6-40a0-9933-aa27f2397308",
             "Value": {
                 "id": "1f3da60d-623e-4e7e-83d6-f375d0ba5991",
@@ -1623,6 +1631,14 @@
             }
         },
         {
+            "Key": "a56223b9-0762-4178-a2d2-7ff7122650c1",
+            "Value": {
+                "id": "326392fd-f371-46af-a6b1-36799f6d6b25",
+                "resourcePath": "scripts\/playSoundFromWords\/playSoundFromWords.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a688a317-6bb3-4965-8180-c9f21c697b83",
             "Value": {
                 "id": "3da8643e-d90f-4f32-bff4-a9a2a3684c9c",
@@ -1652,6 +1668,14 @@
                 "id": "ea96d69f-f114-4532-9c15-7d509e5f069f",
                 "resourcePath": "sprites\/SScrew\/SScrew.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a8d663fe-dbef-4443-bf56-cafefe3a4846",
+            "Value": {
+                "id": "15cdfacb-5857-4d4a-9923-52879cd2063a",
+                "resourcePath": "sounds\/ADoorLocked\/ADoorLocked.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -2395,7 +2419,8 @@
         "98ca4c7b-ab1d-4fd9-9f75-f80e5f51489b",
         "4891d2ab-ab34-41b4-a13b-18e2699316e6",
         "d46bb1d3-7254-4cd7-bbbb-7cc55e6f794e",
-        "8b2133e1-17cf-4571-99ce-4fb3ebaaf0a0"
+        "8b2133e1-17cf-4571-99ce-4fb3ebaaf0a0",
+        "a56223b9-0762-4178-a2d2-7ff7122650c1"
     ],
     "tutorial": ""
 }
