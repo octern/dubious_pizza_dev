@@ -1975,6 +1975,14 @@
             }
         },
         {
+            "Key": "d0fa68e4-a959-4103-8f14-50df999dfbf4",
+            "Value": {
+                "id": "3a091f70-fd4a-46e7-8128-5b89a5499436",
+                "resourcePath": "sounds\/ADoorOpenBasement\/ADoorOpenBasement.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "d2333d6a-b2c3-4486-b760-0f049786e2ff",
             "Value": {
                 "id": "412afc1a-ee24-46df-a23b-472e7e7ed59e",
