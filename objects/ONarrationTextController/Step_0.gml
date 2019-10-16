@@ -11,16 +11,29 @@ if(!segmentInit) {
 	text_height = string_height_ext(words, -1, target_width);
 	text_x = textArea.x;
 	text_y = window_get_height() / 2 - text_height / 2;
-	
+
+// properties of text background box to use if this is an overlay on a room 
+	textbg_height = window_get_height();
+	textbg_width = window_get_width();
+
 	segmentInit = true;
+}
+
+if(global.roomType = "room") {
+	global.cinematic = true;
+	if(textbg_alpha < textbg_end_alpha) {
+		textbg_alpha = textbg_alpha + textbg_alpha_step;
+		exit;
+	}
 }
 
 if(fadingIn) {
 	if(text_alpha>=1) {
 		fadingIn=false;
-		if(textBlocki < (array_length_1d(textBlocks) - 1)) {
+		if(textBlocki < (array_length_1d(textBlocks))) {
 			fadeInDone = true;
 		} else {
+// when last block of text has been displayed
 			with(instance_find(OInvCloseupClose, 0)) {
 				sprite_index = SInvCloseupClose;
 				y = other.text_y + other.text_height + 10;
@@ -50,8 +63,23 @@ if(fadeOutDone) {
 		
 
 if(mouse_check_button_released(mb_left) && fadeInDone) {
-	if(textBlocki < (array_length_1d(textBlocks) - 1)) {
+	if(textBlocki < (array_length_1d(textBlocks))) {
 		fadeInDone = false;
 		fadingOut = true;
+	} else {
+		textFinished = true;
+	}
+}
+
+if(textFinished) {
+	if(global.roomType = "room") {
+		global.cinematic = false;
+		words = " ";
+		if(textbg_alpha > 0) {
+			textbg_alpha = textbg_alpha - textbg_alpha_step;
+		}
+		if(textbg_alpha <=0) {
+			instance_destroy(id);
+		}
 	}
 }

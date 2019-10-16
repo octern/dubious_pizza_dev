@@ -3,7 +3,7 @@
     "name": "RDialog",
     "id": "12cebe5d-6d33-4967-8b82-f67d9c33aa8e",
     "creationCodeFile": "",
-    "inheritCode": false,
+    "inheritCode": true,
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
@@ -195,7 +195,7 @@
         }
     ],
     "modelName": "GMRoom",
-    "parentId": "00000000-0000-0000-0000-000000000000",
+    "parentId": "8ef80cac-a54b-4da5-b84f-b06c97d96883",
     "physicsSettings":     {
         "id": "aa2fbf4f-1797-4962-ab50-a67a66ea8b3a",
         "inheritPhysicsSettings": false,

@@ -43,6 +43,19 @@ fadeOutDone = false;
 fadeSpeed = 3;
 fadeStep = 1 / room_speed * fadeSpeed
 segmentInit = false;
+textFinished = false;
+
+// properties of text background box to use if this is an overlay on a room 
+textbg_color=c_gray;
+textbg_end_alpha = .6
+textbg_fadein_sec = 1;
+textbg_fadein = room_speed/textbg_fadein_sec;
+textbg_alpha_step = textbg_end_alpha / textbg_fadein;
+textbg_alpha = 0;
+textbg_height = window_get_height();
+textbg_width = window_get_width();
+
+
 
 with(instance_find(OInvCloseupClose, 0)) {
 	sprite_index = SNothing;

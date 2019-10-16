@@ -3,7 +3,7 @@
     "name": "RNarration",
     "id": "f8fc6746-3f0e-494d-b19d-7ed17c4b13b8",
     "creationCodeFile": "",
-    "inheritCode": false,
+    "inheritCode": true,
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
@@ -182,7 +182,7 @@
         }
     ],
     "modelName": "GMRoom",
-    "parentId": "00000000-0000-0000-0000-000000000000",
+    "parentId": "8ef80cac-a54b-4da5-b84f-b06c97d96883",
     "physicsSettings":     {
         "id": "e691737d-f995-4c45-840c-7a73eca7aa87",
         "inheritPhysicsSettings": false,

@@ -3,7 +3,7 @@
     "name": "RInvCloseup",
     "id": "5fd083aa-1cf9-4b8c-ae66-33df9c8b31cb",
     "creationCodeFile": "",
-    "inheritCode": false,
+    "inheritCode": true,
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
@@ -132,7 +132,7 @@
         }
     ],
     "modelName": "GMRoom",
-    "parentId": "00000000-0000-0000-0000-000000000000",
+    "parentId": "8ef80cac-a54b-4da5-b84f-b06c97d96883",
     "physicsSettings":     {
         "id": "dc718291-107e-4279-9986-0ab65b8ef130",
         "inheritPhysicsSettings": false,

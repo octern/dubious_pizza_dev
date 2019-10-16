@@ -1471,6 +1471,14 @@
             }
         },
         {
+            "Key": "8ef80cac-a54b-4da5-b84f-b06c97d96883",
+            "Value": {
+                "id": "ec14f7d7-0558-44bd-9094-751592ae76f0",
+                "resourcePath": "rooms\/roomText\/roomText.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "91a809bc-47ad-4125-ae6b-4eedb9292be8",
             "Value": {
                 "id": "ac356fae-f6f2-4cfe-b8c9-1289e8b7781a",
@@ -2268,6 +2276,14 @@
                 "id": "ff6e5113-2a87-402c-b957-031c0c6c9abe",
                 "resourcePath": "objects\/OPicture1\/OPicture1.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f859650a-f132-47be-aa2a-e863e31ca948",
+            "Value": {
+                "id": "c2faa993-c938-47b3-ac53-6fe36f3d1851",
+                "resourcePath": "views\/8ef80cac-a54b-4da5-b84f-b06c97d96883-room.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
