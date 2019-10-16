@@ -30,7 +30,7 @@ if(global.roomType = "room") {
 if(fadingIn) {
 	if(text_alpha>=1) {
 		fadingIn=false;
-		if(textBlocki < (array_length_1d(textBlocks))) {
+		if(textBlocki < (array_length_1d(textBlocks) - 1)) {
 			fadeInDone = true;
 		} else {
 // when last block of text has been displayed
@@ -63,7 +63,7 @@ if(fadeOutDone) {
 		
 
 if(mouse_check_button_released(mb_left) && fadeInDone) {
-	if(textBlocki < (array_length_1d(textBlocks))) {
+	if(textBlocki < (array_length_1d(textBlocks) - 1)) {
 		fadeInDone = false;
 		fadingOut = true;
 	} else {
