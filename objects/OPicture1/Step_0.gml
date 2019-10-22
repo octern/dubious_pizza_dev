@@ -19,3 +19,16 @@ if(nudged>0) {
 		}
 	}
 }
+
+
+if(solvedTargetY >= 0) {
+	 if(y < solvedTargetY) {
+		y = min(solvedTargetY, y + solvedYSpeed);
+	 } 
+	 if(y == solvedTargetY && global.cinematic) {
+		audio_play_sound(ADoorClose, 0, false);
+		global.storyString = "painting_solved";
+		global.cinematic = false;
+	 }	 
+}
+

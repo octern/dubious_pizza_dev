@@ -1,9 +1,13 @@
 //instance_activate_object(OBottleR);
 //instance_activate_object(OPoemC);
 thisbottle = instance_find(OBottleR, 0);
-newy=thisbottle.y + thisbottle.sprite_height;
-ychange = newy-y;
-y=newy;
+solvedTargetY=thisbottle.y + thisbottle.sprite_height;
+ychange = solvedTargetY-y;
+solvedYTime = 2;
+solvedYSpeed = ychange / (room_speed*solvedYTime);
+global.cinematic = true;
+audio_play_sound(ADoorClose, 0, false);
+//y=newy;
 while(instance_number(OPips)>0) {
 	piptogo = instance_find(OPips, 0);
 	show_debug_message("destroying pips" + string(piptogo));
