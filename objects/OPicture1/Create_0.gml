@@ -12,7 +12,7 @@ picturePipsInit();
 
 // hide the items that are behind the painting
 if(worldGet("painting") == "open") {
-	paintingSolved();
+	paintingSolved("already");
 } else {
 	instance_deactivate_object(instance_find(OPoemC, 0));
 	instance_deactivate_object(instance_find(OBottleR, 0));

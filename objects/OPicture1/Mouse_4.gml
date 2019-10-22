@@ -29,7 +29,7 @@ if(corner != 0 && worldGet("painting") != "open" && nudged <= 0) {
 	if(worldGet("painting") == "open") {
 		instance_activate_object(OBottleR);
 		instance_activate_object(OPoemC);
-		paintingSolved();
+		paintingSolved("now");
 	} else {
 		if(corner=="tl" || corner=="br") image_angle=4;
 		if(corner=="tr" || corner=="bl") image_angle=356;
