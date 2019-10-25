@@ -6,8 +6,10 @@ instance_activate_object(OInvSlot);
 instance_activate_object(OInvMag);
 instance_activate_object(OInvMemory);
 instance_activate_object(OMenuButton);
+clearInventoryUI(false);
 
 if(global.roomType == "text") {
 	nextRoom = postTextDestination();
 	room_goto(nextRoom);
 }
+

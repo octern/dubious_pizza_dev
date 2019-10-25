@@ -22,3 +22,6 @@ global.pixelsTest = false;
 // replace bee poem with test dialog;
 global.beeDialogTest = true;
 
+// easy picture solution for testing
+global.easyPicture = true;
+

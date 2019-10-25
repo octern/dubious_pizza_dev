@@ -4,6 +4,12 @@
 source_string = narrationGet(global.storyString);
 titlesSet = false;
 
+if(global.roomType = "room") {
+	global.cinematic = true;
+} else {
+	clearInventoryUI();
+}
+
 /*
 1. Create the blocks
 2. For each block, use width of textbg
@@ -21,8 +27,6 @@ image_speed = 0;
 sprite_index = SNothing;
 
 if(!variable_instance_exists(id, "source_string")) {source_string = "undefined text?!"};
-
-clearInventoryUI();
 
 textArea = instance_find(OTextAreaBG, 0)
 textArea.image_index = 2;
@@ -60,4 +64,3 @@ textbg_width = window_get_width();
 with(instance_find(OInvCloseupClose, 0)) {
 	sprite_index = SNothing;
 }
-

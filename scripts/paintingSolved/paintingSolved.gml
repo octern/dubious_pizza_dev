@@ -21,7 +21,7 @@ if(whenSolved == "now") {
 	global.cinematic = true;
 	audio_play_sound(ADoorClose, 0, false);
 	global.storyString = "painting_solved";
-	overlaidNarrShow();
+	overlaidNarrShow(.07);	
 } else {
 	y=solvedTargetY;
 }

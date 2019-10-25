@@ -33,3 +33,7 @@ ds_list_add(picture1Solution, "br");
 ds_list_add(picture1Solution, "br");
 ds_list_add(picture1Solution, "bl");
 worldSet("picture1Solution", picture1Solution);
+picture1SolutionEasy = ds_list_create();
+ds_list_add(picture1SolutionEasy, "tl");
+ds_list_add(picture1SolutionEasy, "tr");
+if(global.easyPicture) {worldSet("picture1Solution", picture1SolutionEasy);}

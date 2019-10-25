@@ -37,7 +37,6 @@ if(textFinished) {
 }
 
 if(global.roomType = "room") {
-	global.cinematic = true;
 	if(textbg_alpha < textbg_end_alpha) {
 		textbg_alpha = textbg_alpha + textbg_alpha_step;
 		exit;

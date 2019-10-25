@@ -2,10 +2,12 @@
 // You can write your code in this editor
 
 if(global.roomType = "room") {
-	prior_alpha = draw_get_alpha();
-	draw_set_alpha(textbg_alpha);
-	draw_rectangle_color(0,0,textbg_width, textbg_height, textbg_color, textbg_color, textbg_color, textbg_color, false);
-	draw_set_alpha(prior_alpha)
+	if(textbg_alpha > 0) {
+		prior_alpha = draw_get_alpha();
+		draw_set_alpha(textbg_alpha);
+		draw_rectangle_color(0,0,textbg_width, textbg_height, textbg_color, textbg_color, textbg_color, textbg_color, false);
+		draw_set_alpha(prior_alpha)
+	}
 }
 
 textFormatSet(format)

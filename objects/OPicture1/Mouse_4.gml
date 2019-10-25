@@ -3,6 +3,8 @@
 
 // // if (live_call()) return live_result;
 
+if(global.cinematic) {exit;}
+
 var corner = itemCornerNudge();
 if(corner != 0 && worldGet("painting") != "open" && nudged <= 0) {
 	nudged = 10;
