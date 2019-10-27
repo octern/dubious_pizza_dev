@@ -5,6 +5,9 @@ global.storyString = "";
 if(newroom==RTwo) {
 	global.storyString = "RTwo";
 }
+if(newroom==RFour) {
+	global.storyString = "RFour";
+}
 
 roomShown = arrayFind(newroom, global.roomIntrosShown) != -1;
 

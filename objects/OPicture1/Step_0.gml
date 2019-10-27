@@ -23,8 +23,25 @@ if(nudged>0) {
 
 if(solvedTargetY >= 0) {
 	 if(y < solvedTargetY) {
+		if(!initialClunk) {
+			initialClunk = !initialClunk;
+			y = y + (solvedTargetY - y)*.1;
+			global.cinematic = true;
+		}
+		if(initialClunkPause > 0) {
+			initialClunkPause -= 1/room_speed;
+			exit;
+		}
 		y = min(solvedTargetY, y + solvedYSpeed);
-	 } 
+	} else {
+		y=solvedTargetY;
+	}
+	 if(!initialClunkMsg) {
+		initialClunkMsg	= !initialClunkMsg;
+		audio_play_sound(ADoorClose, 0, false);
+		global.storyString = "painting_solved";
+		overlaidNarrShow(.07);	
+	 }
 	 if(y == solvedTargetY && global.cinematic) {
 		audio_play_sound(ADoorClose, 0, false);
 		global.storyString = "painting_solved";

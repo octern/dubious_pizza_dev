@@ -17,11 +17,3 @@ while(instance_number(OPips)>0) {
 //	_pip.y+=ychange;
 }
 
-if(whenSolved == "now") {
-	global.cinematic = true;
-	audio_play_sound(ADoorClose, 0, false);
-	global.storyString = "painting_solved";
-	overlaidNarrShow(.07);	
-} else {
-	y=solvedTargetY;
-}
