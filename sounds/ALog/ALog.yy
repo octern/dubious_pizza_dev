@@ -3,7 +3,7 @@
     "modelName": "GMSound",
     "mvc": "1.0",
     "name": "ALog",
-    "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
+    "audioGroupGuid": "27088dc4-c669-4c7c-b126-a184669949e9",
     "bitDepth": 1,
     "bitRate": 128,
     "kind": 0,

@@ -1,5 +1,6 @@
 randomise();
 debugInit();
+globalsInit();
 navInit();
 invInit();
 worldInit();
