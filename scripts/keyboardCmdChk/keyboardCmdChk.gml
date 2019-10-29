@@ -4,6 +4,7 @@ if(keyboard_check_released(ord("M"))) {
 }
 if(keyboard_check_released(ord("S"))) {
 	global.volume_sfx = 1 - global.volume_sfx;
+	show_debug_message(string(global.volume_sfx));
 	audio_group_set_gain(audio_sfx, global.volume_sfx, 500);
 }
 
