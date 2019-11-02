@@ -1,7 +1,12 @@
 var newroom = argument0;
 
 global.storyString = "";
+narrType = "overlay";
 
+if(newroom==ROne && worldGet("toolbox")!="locked") {
+	global.storyString = "gap_year";
+	narrType = "flashback";	
+}
 if(newroom==RTwo) {
 	global.storyString = "RTwo";
 }
@@ -13,7 +18,14 @@ roomShown = arrayFind(newroom, global.roomIntrosShown) != -1;
 
 if(!roomShown) {
 	if (global.storyString != "") {
-		overlaidNarrShow();
-		append(global.roomIntrosShown, newroom);
+		if(narrType == "overlay") {
+			overlaidNarrShow();
+			append(global.roomIntrosShown, newroom);
+		}
+		else {
+			global.closeupRoom = room;
+			append(global.roomIntrosShown, newroom);
+			roomChangeFade(RDialog, 60, 10, c_gray);
+		}
 	}
 }
