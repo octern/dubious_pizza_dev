@@ -2,6 +2,8 @@ whenSolved = argument0;
 
 //instance_activate_object(OBottleR);
 //instance_activate_object(OPoemC);
+
+
 thisbottle = instance_find(OBottleR, 0);
 solvedTargetY=thisbottle.y + thisbottle.sprite_height;
 ychange = solvedTargetY-y;
@@ -16,4 +18,7 @@ while(instance_number(OPips)>0) {
 //	_pip = instance_find(OPips, i)
 //	_pip.y+=ychange;
 }
-
+if(whenSolved == "already") {
+	y = solvedTargetY;
+	image_angle = 2;
+}

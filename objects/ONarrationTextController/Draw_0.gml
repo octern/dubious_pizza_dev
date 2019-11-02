@@ -1,6 +1,25 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if(!segmentInit) {
+	textBlock = textBlocks[textBlocki];
+	format = textBlock[0];
+	wordsString = textBlock[1];
+	words = playSoundFromWords(wordsString);
+
+	textFormatSet(format);
+	text_height = string_height_ext(words, -1, target_width);
+	text_x = textArea.x;
+	text_y = window_get_height() / 2 - text_height / 2;
+
+// properties of text background box to use if this is an overlay on a room 
+	textbg_height = window_get_height();
+	textbg_width = window_get_width();
+
+	segmentInit = true;
+}
+
+
 if(global.roomType = "room") {
 	if(textbg_alpha > 0) {
 		prior_alpha = draw_get_alpha();

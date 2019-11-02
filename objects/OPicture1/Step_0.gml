@@ -21,11 +21,14 @@ if(nudged>0) {
 }
 
 
-if(solvedTargetY >= 0) {
+if(solvedTargetY >= 0 && !alreadySolved) {
+	nudged = 0;
 	 if(y < solvedTargetY) {
 		if(!initialClunk) {
 			initialClunk = !initialClunk;
-			y = y + (solvedTargetY - y)*.1;
+			y = y + (solvedTargetY - y)*.15;
+			image_angle = 2;
+			audio_play_sound(ADoorClose,0,false);
 			global.cinematic = true;
 		}
 		if(initialClunkPause > 0) {
@@ -38,7 +41,7 @@ if(solvedTargetY >= 0) {
 	}
 	 if(!initialClunkMsg) {
 		initialClunkMsg	= !initialClunkMsg;
-		audio_play_sound(ADoorClose, 0, false);
+//		audio_play_sound(ADoorClose, 0, false);
 		global.storyString = "painting_solved";
 		overlaidNarrShow(.07);	
 	 }

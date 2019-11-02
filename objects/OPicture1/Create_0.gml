@@ -10,8 +10,10 @@ solvedTargetY = -1;
 
 picturePipsInit();
 
+alreadySolved = false;
 // hide the items that are behind the painting
 if(worldGet("painting") == "open") {
+	alreadySolved = true;
 	paintingSolved("already");
 } else {
 	instance_deactivate_object(instance_find(OPoemC, 0));
