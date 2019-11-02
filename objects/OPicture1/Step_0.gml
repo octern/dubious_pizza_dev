@@ -33,9 +33,9 @@ if(solvedTargetY >= 0 && !alreadySolved) {
 		}
 		if(initialClunkPause > 0) {
 			initialClunkPause -= 1/room_speed;
-			exit;
+		} else {
+			y = min(solvedTargetY, y + solvedYSpeed);
 		}
-		y = min(solvedTargetY, y + solvedYSpeed);
 	} else {
 		y=solvedTargetY;
 	}

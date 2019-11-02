@@ -20,5 +20,5 @@ if(worldGet("painting") == "open") {
 	instance_deactivate_object(instance_find(OBottleR, 0));
 }
 initialClunk = false;
-initialClunkPause = 1;
+initialClunkPause = 1.5;
 initialClunkMsg = false;
