@@ -14,12 +14,20 @@ clearInventoryUI();
 textArea = instance_find(OTextAreaBG, 0)
 target_width = textArea.sprite_width * .99;
 
+textSurfaceX = textArea.x;
+textSurfaceY = textArea.y;
+textSurfaceH = textArea.sprite_height;
+textSurfaceW = textArea.sprite_width;
+
+// initialize the text surface just so we can check for its existence in draw events
+textSurface = surface_create(textSurfaceW, textSurfaceH)
+
 item_textBlocks = textParse(source_string);
 
 textObjects = array_create(array_length_1d(item_textBlocks));
 
-text_start_y = textArea.y;
-text_start_x = textArea.x;
+text_start_y = 0;
+text_start_x = 0;
 
 // set to true for help debugging text positioning
 pixelsTest = global.pixelsTest;
@@ -31,6 +39,7 @@ for(i=0; i<array_length_1d(textBlocks); i++) {
 
 	textObjects[i] = instance_create_layer(text_start_x, text_start_y,"text",OInvText);
 	invtext = textObjects[i];
+	invtext.controller = id;
 	if(pixelsTest) {text_start_x -= 20;}
 	widthFactor = target_width / invtext.sprite_width
 
@@ -53,9 +62,9 @@ for(i=0; i<array_length_1d(textBlocks); i++) {
 }
 
 
-window_height = window_get_height();
+// window_height = window_get_height();
 textFinalBottom = text_start_y - invtext.between_texts_margin;
-textMaxScrlAmt = textFinalBottom - window_height;
+textMaxScrlAmt = textFinalBottom - textSurfaceH;
 //textFinalBottom = bottom y coord of bottom block 
 //textMaxScrlAmt = amount each piece of text should scroll up
 

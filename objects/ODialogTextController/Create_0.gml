@@ -13,7 +13,8 @@ event_inherited();
 text_block_index = 1;
 with(textObjects[0]) {
 	yBeingSet = true;
-	text_y = other.textArea.y + other.textArea.sprite_height - text_height - other.arbitraryExtraTextPadding;
+//	text_y = other.textArea.y + other.textArea.sprite_height - text_height - other.arbitraryExtraTextPadding;
+	text_y = 0 + other.textArea.sprite_height - text_height - other.arbitraryExtraTextPadding;
 	most_recent_ystart = text_y;
 }
 for(i=text_block_index;i<array_length_1d(textObjects);i++) {
