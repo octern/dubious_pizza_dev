@@ -1,1 +1,1 @@
-global.roomType = "start";
+ global.roomType = "start";

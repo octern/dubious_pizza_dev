@@ -34,10 +34,6 @@ for(iText = 0; iText < array_length_1d(textObjects); iText++) {
 			text_base, text_base, text_tint, text_base, 1);
 		textFormatSet();
 
-		for(i=0; i<2000; i+=100) {
-			draw_rectangle(i,i,i+100,i+100, false);
-			draw_text(i,i,string(i))
-		}
 //		show_debug_message("showing text at " + string(text_words_x) + " " + string(text_words_y) + " of surface at " + string(controller.textSurfaceX) + " " + string(controller.textSurfaceY));
 	}
 }

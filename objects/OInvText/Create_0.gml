@@ -5,4 +5,9 @@
 initialized = false;
 textWidth = sprite_width;
 
-textSurf = surface_create(200,200);
+tempTextArea = instance_find(OTextAreaBG, 0);
+if(tempTextArea == noone) {
+	surface_height = window_get_height();
+} else {
+	surface_height = tempTextArea.sprite_height;
+}
