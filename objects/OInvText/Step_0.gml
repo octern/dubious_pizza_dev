@@ -63,7 +63,7 @@ if(!initialized) {
 
 if(keyboard_check(vk_up)) {
 	if(up_timer <= 0) {
-		if(text_y < text_y_start) {
+		if(text_y < text_y_start + 10) {
 			text_y += text_increment;
 		}
 		up_timer = scroll_timer;
