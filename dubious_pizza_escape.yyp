@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "05d4cd27-b0dd-4256-b94e-8d463959d8b5",
+            "Value": {
+                "id": "a73ea6d5-1baa-4075-ad59-4be3828fa0ea",
+                "resourcePath": "rooms\/RTheEnd\/RTheEnd.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "0653af53-e4ad-4857-8f8e-57e7a67fa722",
             "Value": {
                 "id": "85e9ac8a-cefd-434a-ae56-2b6c53532319",
@@ -1535,6 +1543,14 @@
             }
         },
         {
+            "Key": "8f5c5f32-d8a2-4fd7-987d-55e82ea601b7",
+            "Value": {
+                "id": "95a99ab0-8237-4162-8229-1f1c0b55b404",
+                "resourcePath": "scripts\/poemEndings\/poemEndings.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "91a809bc-47ad-4125-ae6b-4eedb9292be8",
             "Value": {
                 "id": "ac356fae-f6f2-4cfe-b8c9-1289e8b7781a",
@@ -2529,7 +2545,8 @@
         "76b9a444-f612-4526-a4ca-7f4ac577e1d6",
         "1973ea26-bf19-4d37-92fb-7be42ecd1294",
         "1f9571e7-76fc-485a-b52a-3d01fb06b07b",
-        "45238c6c-6eac-4e9c-a28a-621ba3029056"
+        "45238c6c-6eac-4e9c-a28a-621ba3029056",
+        "8f5c5f32-d8a2-4fd7-987d-55e82ea601b7"
     ],
     "tutorial": ""
 }

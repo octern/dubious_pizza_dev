@@ -12,6 +12,9 @@ if(1==0) {
 } else if(global.storyString == "friend_appears") {
 	global.storyString = "denoument";
 	nextRoom = RTalking;
+} else if(global.storyString == "ending_cat") {
+	global.storyString = "denoument";
+	nextRoom = RTheEnd;
 } else {
 	nextRoom = global.closeupRoom;
 }

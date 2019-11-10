@@ -114,3 +114,5 @@ My friend seems to be exploring something I don't understand, perhaps the secret
 if(global.beeDialogTest) {
 	global.itemDefinitions[itemType.poemB, itemProperty.description] = ds_map_find_value(global.dialogs, "testDialog");
 }
+
+
