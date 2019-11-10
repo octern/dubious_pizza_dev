@@ -41,6 +41,9 @@ if(debug_timer>0) {
 				phone.sprite_index = SPhoneRound;
 			} else {phone.sprite_index = SNothing;}
 		}
+		if(keyboard_check_released(ord("Q"))) {
+			global.silenceRoomNarrations = !global.silenceRoomNarrations;
+		}
 		if(keyboard_check_released(ord("R"))) {
 			game_restart();
 		}

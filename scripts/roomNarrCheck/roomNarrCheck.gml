@@ -1,5 +1,7 @@
 var newroom = argument0;
 
+if(global.silenceRoomNarrations) {exit;}
+
 global.storyString = "";
 narrType = "overlay";
 

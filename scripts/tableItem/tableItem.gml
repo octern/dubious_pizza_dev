@@ -46,26 +46,44 @@ tableInit();
 //if(itemObj == OBottleY || itemObj == OBottleK || itemObj == OBottleU || itemObj == OBottleR) {	
 if(object_get_parent(itemObj)==OBottle) {
 	res = tableSolutionCheck();
-	switch res {
-		case "right":
-			worldSet("table", "open");
-			instance_activate_object(OKey);
-			tableobj = instance_find(OTable, 0);
-			tableobj.image_index=1;
-			audio_play_sound(ALog, 1, false);
-			textRoomMinor(stringGet("tableSlotBottleRight"));
-			break;
-		case "incomplete":
-			textRoomMinor(stringGet("tableSlotBottle"));
-			break;
-		case "wrong":
-			textRoomMinor(stringGet("tableSlotBottleWrong"));
-			break;
+	if(res=="incomplete") {
+		textRoomMinor(stringGet("tableSlotBottle"));
+	} else {
+		global.cinematic = true;
+		audio_group_set_gain(audio_bgm, 0, 250);
+		audio_play_sound(ATableClick, 0, false);
+		bottleResultSeconds = 1;
+		bottleResultTimer = bottleResultSeconds * room_speed;
+		for(ibottle = 0; ibottle < instance_number(OBottle); ibottle++) {
+			with(instance_find(OBottle, ibottle)) {
+				// image_blend = c_yellow;
+				image_index = 1;
+			}
+		}
 	}
 } else {
-	textRoomMinor(stringGet("tableSlotWrong"));
-}
+	textRoomMinor(stringGet("tableSlotWrong"));	
+}		
 
+/*
+
+start cinematic
+stop music
+play click
+light up bottles
+start timer
+
+in step when timer runs out:
+	unlight bottles
+	if wrong 
+		play click. 
+	If right
+		play jingle 
+		reveal key 
+		worldSet("table", "open");		
+	display message
+	end cinematic
+	
 /*
 check if clickactive
 check if bottle already in slot

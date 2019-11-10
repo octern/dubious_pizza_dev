@@ -1415,6 +1415,14 @@
             }
         },
         {
+            "Key": "8361f4e1-dfee-464d-8dc6-00706af06962",
+            "Value": {
+                "id": "9df15ec2-7ab0-4412-adef-75842bbebf8f",
+                "resourcePath": "sounds\/ATableClick\/ATableClick.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "83889b02-be57-4feb-82ba-4183ef4b7735",
             "Value": {
                 "id": "f2c9ae90-507c-4beb-9f7a-6f6455ac1996",

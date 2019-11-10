@@ -25,3 +25,6 @@ global.beeDialogTest = true;
 // easy picture solution for testing
 global.easyPicture = true;
 
+// skip room narrations when testing
+global.silenceRoomNarrations = false;
+
