@@ -12,7 +12,7 @@ ds_map_replace(global.narrations, "bottleR", "The basement, huh.##narr@@ADoorOpe
 ds_map_replace(global.narrations, "RTwo", "Oh, jeez.##narr@@Discarded pizza boxes, bottles strewn around under the table?##narr@@This isn't like my friend at all.##narr@@");
 ds_map_replace(global.narrations, "RFour", "You know, if you put a stained metal door into your basement with a padlock on the outside, people are going to think you're a serial killer##narr@@... is what I would have said to my friend if I'd known they had a door like this in their basement.##narr@@I don't know what's up with this but I'm not feeling great about it.##narr@@");
 ds_map_replace(global.narrations, "painting_solved", "Oh crap, I broke...##narr@@Wait, what?##narr@@");
-ds_map_replace(global.narrations, "friend_appears", "My friend was standing at the door to the basement##narr@@...sunlight streaming down behind them##narr@@");
+ds_map_replace(global.narrations, "friend_appears", "My friend was standing at the door to the basement##narrW@@...sunlight streaming through behind them##narrW@@");
 
 
 global.storyString = "opening_narration";

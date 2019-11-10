@@ -9,8 +9,10 @@ if(1==0) {
 } else if(global.storyString == "invitation") {
 	global.storyString = "door_lock";
 	nextRoom = RNarration;
-}	
-else {
+} else if(global.storyString == "friend_appears") {
+	global.storyString = "denoument";
+	nextRoom = RTalking;
+} else {
 	nextRoom = global.closeupRoom;
 }
 

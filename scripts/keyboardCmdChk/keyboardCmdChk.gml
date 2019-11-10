@@ -22,9 +22,7 @@ if(debug_timer>0) {
 			global.pixelsTest = !global.pixelsTest;
 		}
 		if(keyboard_check_released(ord("E"))) {
-			global.storyString = "gap_year";
-			global.closeupRoom = room;
-			room_goto(RDialog);
+			winGame();
 		}
 		if(keyboard_check_released(ord("I"))) {
 			global.testAllTheItems = !global.testAllTheItems;

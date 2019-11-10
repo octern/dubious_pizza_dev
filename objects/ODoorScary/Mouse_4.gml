@@ -3,7 +3,7 @@
 
 // // if (live_call()) return live_result; 
 
-if(!clickActive()) { exit; }
+if(global.cinematic) { exit; }
 
 if(worldGet("scarydoor")=="locked") {
 	if(global.activeItem!=itemType.key) {

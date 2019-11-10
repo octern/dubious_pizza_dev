@@ -407,6 +407,14 @@
             }
         },
         {
+            "Key": "1be1e0b5-cc05-4996-97b5-2c8918c5e93e",
+            "Value": {
+                "id": "f774eb0b-0d18-42a9-b245-a78d3624b844",
+                "resourcePath": "rooms\/REnding\/REnding.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "1cc4419f-4ef0-4986-9212-b7d5e28c56f0",
             "Value": {
                 "id": "3cdf5bf7-2d4d-4c8e-a17f-0bc845661e6f",
@@ -2188,6 +2196,14 @@
                 "id": "f4a1c38f-b170-449b-9f37-aac7455d8255",
                 "resourcePath": "scripts\/tableSolutionCheck\/tableSolutionCheck.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ea89fa76-e157-4416-846f-3f9cfb78f165",
+            "Value": {
+                "id": "2f23ea7c-b596-424a-9051-0fca80142104",
+                "resourcePath": "views\/f8fc6746-3f0e-494d-b19d-7ed17c4b13b8-room.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
