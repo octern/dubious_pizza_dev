@@ -36,6 +36,11 @@ switch _format {
 		text_tint = text_tint==0 ? text_tint : make_color_rgb(200,200,255);
 		between_texts_margin = 10;
 		break;
+	case "poemEnd":
+		draw_set_font(FPoem);
+		text_tint = make_color_rgb(255,255,160);
+		between_texts_margin = 10;
+		break;
 	case "diaTitle":
 		draw_set_font(FTitle);
 		text_tint = text_tint==0 ? text_tint : make_color_rgb(255,255,255);
