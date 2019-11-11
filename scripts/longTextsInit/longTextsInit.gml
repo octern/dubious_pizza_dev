@@ -116,3 +116,9 @@ if(global.beeDialogTest) {
 }
 
 
+global.credits = array_create(10);
+global.credits[0] = @"Words by
+Elizabeth Bartmess
+and Michael Cohn";
+global.credits[1] = @"Code and pixels by
+Michael Cohn";

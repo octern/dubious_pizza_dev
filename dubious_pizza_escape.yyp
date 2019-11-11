@@ -367,6 +367,14 @@
             }
         },
         {
+            "Key": "189ae56e-16f8-4a3e-834b-508042e3af69",
+            "Value": {
+                "id": "780c852c-bf0b-4fda-8fe7-0f2dfbaa61ba",
+                "resourcePath": "rooms\/RCredits\/RCredits.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "18c2bae4-1b9d-4442-80cd-f4e89854944a",
             "Value": {
                 "id": "ae98f381-b864-4c8c-a8d1-5a841d8642ca",
@@ -1572,6 +1580,14 @@
                 "id": "2e62b7ff-6818-406d-af37-bda1fc1c68c3",
                 "resourcePath": "options\/tvos\/options_tvos.yy",
                 "resourceType": "GMtvOSOptions"
+            }
+        },
+        {
+            "Key": "94244507-3bdf-4ff5-8f6c-36b95e9b4f4f",
+            "Value": {
+                "id": "7145c46f-b76e-4ddf-b9ca-6e79628279aa",
+                "resourcePath": "objects\/OCreditsController\/OCreditsController.yy",
+                "resourceType": "GMObject"
             }
         },
         {
