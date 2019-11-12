@@ -50,7 +50,11 @@ if(debug_timer>0) {
 		if(keyboard_check_released(ord("W"))) {
 			if keyboard_check(vk_shift) {
 				fadeWhite(10, -1, c_blue);
-			} else { fadeWhite(200, -1, c_green);}
+			} else if (keyboard_check(vk_control)) {
+				winGame();
+			} else { 
+				fadeWhite(200, -1, c_green);
+			}
 		}
 		if(keyboard_check_released(vk_enter)) {
 			room_restart();

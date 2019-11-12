@@ -5,4 +5,5 @@ global.closeupRoom = room;
 global.endIndex = 0;
 poemEndings();
 global.endingSequence = true;
-roomChangeFade(REnding, 120, 10, make_color_rgb(255,255,220));
+endFadeSeconds = global.silenceRoomNarrations ? 0.2 : 2;
+roomChangeFade(REnding, endFadeSeconds * room_speed, 10, make_color_rgb(255,255,220));

@@ -45,6 +45,20 @@
             "value": "2",
             "varName": "useImage",
             "varType": 1
+        },
+        {
+            "id": "876c23fd-6f55-4c21-b66b-3edb02b6c3e0",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "textIndex",
+            "varType": 0
         }
     ],
     "solid": false,

@@ -3,3 +3,6 @@
 
 image_speed = 0;
 image_index = useImage;
+
+words = " ";
+originMidX = 0;

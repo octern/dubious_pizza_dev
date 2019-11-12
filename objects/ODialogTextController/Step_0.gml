@@ -12,7 +12,11 @@ if(!titlesSet) {
 			titleArea = _current_titleArea;
 		}
 		if(_current_titleArea.textType == "docs") { 
-			_current_titleArea.content = textGet("dialogDocs"); 
+			if(room == RTalking) {
+				_current_titleArea.content = "";
+			} else {
+				_current_titleArea.content = textGet("dialogDocs"); 
+			}
 			docsArea = _current_titleArea;
 		}
 	}
