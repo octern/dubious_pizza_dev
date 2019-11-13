@@ -7,4 +7,9 @@ instance_activate_object(OInvMag);
 instance_activate_object(OInvMemory);
 instance_activate_object(OMenuButton);
 nextRoom = postTextDestination();
-room_goto(nextRoom);
+
+if(global.endingSequence) {
+	roomChangeFade(nextRoom, room_speed*.5, 1, c_black);
+} else {
+	room_goto(nextRoom);
+}

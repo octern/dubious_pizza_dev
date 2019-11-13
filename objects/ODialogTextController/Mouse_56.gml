@@ -39,6 +39,7 @@ if(text_block_index < array_length_1d(textObjects)) {
 	with(instance_find(OInvCloseupClose, 0)) {
 		sprite_index = SInvCloseupClose;
 	}
-
-	docsArea.content = textGet("dialogDocsDone");
+	if(variable_instance_exists(id, "docsArea")) {
+		docsArea.content = textGet("dialogDocsDone");
+	}
 }
