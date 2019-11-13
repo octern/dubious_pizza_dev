@@ -19,6 +19,23 @@ if(!segmentInit) {
 	segmentInit = true;
 }
 
+
+if(textFinished) {
+	show_debug_message("room narration finished");
+	if(global.roomType = "room") {
+		words = " ";
+		if(textbg_alpha > 0) {
+			textbg_alpha = textbg_alpha - textbg_alpha_step;
+		}
+		if(textbg_alpha <=0) {
+			global.cinematic = false;
+			instance_destroy(id);
+		}
+		show_debug_message(string(textbg_alpha));
+	}
+	exit;
+}
+
 if(global.roomType = "room") {
 	if(textbg_alpha < textbg_end_alpha) {
 		textbg_alpha = textbg_alpha + textbg_alpha_step;
@@ -26,11 +43,12 @@ if(global.roomType = "room") {
 	}
 }
 
+
 if(fadingIn) {
 	if(text_alpha>=1) {
 		fadingIn=false;
+		fadeInDone = true;
 		if(textBlocki < (array_length_1d(textBlocks) - 1)) {
-			fadeInDone = true;
 		} else {
 // when last block of text has been displayed
 			with(instance_find(OInvCloseupClose, 0)) {
@@ -70,15 +88,3 @@ if(mouse_check_button_released(mb_left) && fadeInDone) {
 	}
 }
 
-if(textFinished) {
-	if(global.roomType = "room") {
-		global.cinematic = false;
-		words = " ";
-		if(textbg_alpha > 0) {
-			textbg_alpha = textbg_alpha - textbg_alpha_step;
-		}
-		if(textbg_alpha <=0) {
-			instance_destroy(id);
-		}
-	}
-}
