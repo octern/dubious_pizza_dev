@@ -1,8 +1,8 @@
-poemEndSequence = array_create(4);
-poemEndSequence[0] = itemType.poemR;
-poemEndSequence[1] = itemType.poemK;
-poemEndSequence[2] = itemType.poemB;
-poemEndSequence[3] = itemType.poemC;
+global.poemEndSequence = array_create(4);
+global.poemEndSequence[0] = itemType.poemR;
+global.poemEndSequence[1] = itemType.poemK;
+global.poemEndSequence[2] = itemType.poemB;
+global.poemEndSequence[3] = itemType.poemC;
 
 
 global.itemDefinitions[itemType.poemR, itemProperty.description] = @"I dreamed I was a robot, at work in a factory full of robots.

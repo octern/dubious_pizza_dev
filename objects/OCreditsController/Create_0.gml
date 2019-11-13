@@ -3,19 +3,21 @@
 
 titleText = "dubious\n pizza \n escape"
 draw_set_font(FGameTitle);
-titleFactor = 1.4;
-buttonFactor = 1.4;
+titleFactor = 1.2;
+buttonFactor = 1.2;
 titleLineHeight = string_height("A");
 titleWidth = string_width(titleText) * titleFactor;
-titleHeight = string_height(titleText) * titleFactor;
-titleY = 50;
+titleHeight = string_height_ext(titleText, titleLineHeight*.7, -1) * titleFactor;
+titleY = 20;
 titleX = window_get_width()/2 - titleWidth/2;
 
-subTitleText = "a project sqiuddles production";
+subTitleText = @"a project
+squiddles production";
 draw_set_font(FGameTitle);
-subTitleFactor = 0.8;
+subTitleFactor = 0.6;
 subTitleLineHeight = string_height("A");
 subTitleWidth = string_width(subTitleText) * subTitleFactor;
-subTitleX = window_get_width()/2 - subTitleWidth/2;
-subTitleY = titleY + titleHeight + 30;
+subTitleMidX = window_get_width()/2
+subTitleY = titleY + titleHeight + 20;
 
+continueTimeout = room_speed * 2;
