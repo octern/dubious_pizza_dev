@@ -1167,6 +1167,14 @@
             }
         },
         {
+            "Key": "62e6894f-40b8-4144-b77a-99dd9eceac8a",
+            "Value": {
+                "id": "a03c232a-b5e5-4384-a19b-d30c339c4f59",
+                "resourcePath": "sprites\/sprite85\/sprite85.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6368c715-e77d-4612-8cf0-0b394568b048",
             "Value": {
                 "id": "5ccf61a2-40bd-49be-9749-c8018caa6882",
@@ -2124,6 +2132,14 @@
                 "id": "bfca7bde-f5aa-48e3-83aa-1504bad0b0a4",
                 "resourcePath": "scripts\/clearInventoryUI\/clearInventoryUI.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d5694fae-3718-4318-85f6-8c83346f7117",
+            "Value": {
+                "id": "8cbcd37a-95a6-45ed-b3cc-04fa64fcbef5",
+                "resourcePath": "objects\/OPizzaButton\/OPizzaButton.yy",
+                "resourceType": "GMObject"
             }
         },
         {
