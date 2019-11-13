@@ -28,6 +28,7 @@ for(i=0; i<inv_rows; i++) {
  
 show_debug_message("invInit loading again :D");
 
+/*
 button_x = inst.slotX ;
 button_y = inst.slotY + SLOT_PIXELS;
 button_w = 2*SLOT_PIXELS;
