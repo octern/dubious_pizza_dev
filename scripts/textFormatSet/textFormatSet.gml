@@ -59,8 +59,8 @@ switch _format {
 		text_base = c_gray;
 		bg_tint = make_color_rgb(254, 255, 209);
 		between_texts_margin = 30;
-		bubble_align = "left";
 		bubble_jitter = 30;
+		bubble_align = "right";
 		marginL = 5;
 		marginR = 5;
 		break;
@@ -73,7 +73,9 @@ switch _format {
 		bg_tint = make_color_rgb(249, 217, 255);
 		between_texts_margin = 30;
 		bubble_jitter = 30;
-		bubble_align = "right";
+		bubble_align = "left";
+		marginL = 5;
+		marginR = 5;
 		break;
 	case "diaRLA":
 		draw_set_font(FDefault);
@@ -82,7 +84,7 @@ switch _format {
 		text_tint = text_base;
 //		bg_tint = make_color_rgb(254, 255, 209);
 		between_texts_margin = 30;
-		bubble_align = "left";
+		bubble_align = "right";
 		bubble_jitter = 60;
 		marginL = 5;
 		marginR = 5;
@@ -94,7 +96,10 @@ switch _format {
 		text_tint = text_base;
 //		bg_tint = make_color_rgb(249, 217, 255);
 		between_texts_margin = 30;
-		bubble_align = "right";
+		bubble_align = "left";
+		bubble_jitter = 60;
+		marginL = 5;
+		marginR = 5;
 		bubble_jitter = 60;
 		break;
 	case "diaRLAB":

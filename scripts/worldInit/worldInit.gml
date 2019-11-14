@@ -1,7 +1,5 @@
 /// @desc Set global ds_map values for state of world
-
 // Don't manually edit. Generate using https://docs.google.com/spreadsheets/d/1h437OcqBYhETw8EKKBGGYpkJoJ63Tfe0CiDPohsPnmA/edit#gid=0
-
 global.world = ds_map_create();
 worldSet("pizzabox", "closed");
 worldSet("toolbox", "locked");
@@ -23,6 +21,8 @@ worldSet("table", "closed");
 worldSet("lightColor", "black");
 worldSet("frontdoor", "locked");
 worldSet("youWin", 0);
+worldSet("colorsDialogSeen", 0);
+
 picture1Solution = ds_list_create();
 ds_list_add(picture1Solution, "tl");
 ds_list_add(picture1Solution, "tr");
