@@ -5,7 +5,7 @@ global.iconBoxes = false;
 global.itemCounts = false;
 
 // how many of each item to start the player with
-global.testAllTheItems = 0;
+global.testAllTheItems = 1;
 
 // buttons for picture lights
 global.lightButtons = false;
@@ -16,14 +16,14 @@ global.easyScrews = false;
 // extended text for kraken poem to test scrolling
 global.longPoem = false;
 
-// show coordinates on screen to help debug positioning
-global.pixelsTest = false;
-
 // replace bee poem with test dialog;
 global.beeDialogTest = false;
 
+// show coordinates on screen to help debug positioning
+global.pixelsTest = false;
+
 // easy picture solution for testing
-global.easyPicture = true;
+global.easyPicture = false;
 
 // skip room narrations when testing
 global.silenceRoomNarrations = false;

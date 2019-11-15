@@ -8,14 +8,6 @@ if(newitem==itemType.bottleR) {
 	global.storyString = "colors";
 	textType = "dialog";
 }
-if(newitem==itemType.bottleU) {
-	global.storyString = "colors";
-	textType = "dialog";
-}
-if(newitem==itemType.bottleY) {
-	global.storyString = "colors";
-	textType = "dialog";
-}
 
 itemShown = arrayFind(newitem, global.itemIntrosShown) != -1;
 
