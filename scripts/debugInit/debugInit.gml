@@ -5,22 +5,22 @@ global.iconBoxes = false;
 global.itemCounts = false;
 
 // how many of each item to start the player with
-global.testAllTheItems = 1;
+global.testAllTheItems = 0;
 
 // buttons for picture lights
-global.lightButtons = true;
+global.lightButtons = false;
 
 // easy vs. hard screw solution
 global.easyScrews = false;
 
 // extended text for kraken poem to test scrolling
-global.longPoem = true;
+global.longPoem = false;
 
 // show coordinates on screen to help debug positioning
 global.pixelsTest = false;
 
 // replace bee poem with test dialog;
-global.beeDialogTest = true;
+global.beeDialogTest = false;
 
 // easy picture solution for testing
 global.easyPicture = true;

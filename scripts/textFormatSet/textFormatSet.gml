@@ -80,7 +80,7 @@ switch _format {
 	case "diaRLA":
 		draw_set_font(FDefault);
 		is_dialog = true;
-		text_base = make_color_rgb(255,255,220);
+		text_base = make_color_rgb(255,255,200);
 		text_tint = text_base;
 //		bg_tint = make_color_rgb(254, 255, 209);
 		between_texts_margin = 30;

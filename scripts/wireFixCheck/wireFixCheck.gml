@@ -23,7 +23,7 @@ if(broken==-1) {
 	textRoomMinor("I separated the wires.");
 	return true;
 }
-
+	
 if(global.activeItem!=itemType.tape) {
 	textRoomMinor(textGet("wiresNoTape"));	
 	return false;

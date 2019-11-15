@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 event_inherited();
+/*
 if(!worldGet("colorsDialogSeen")) {
 	global.storyString = "colors";
 	worldSet("colorsDialogSeen", true);

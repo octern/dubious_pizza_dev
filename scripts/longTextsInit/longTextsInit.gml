@@ -50,13 +50,15 @@ I dreamed I was a cat.
 Once, I was a giant predator. 
 Humans reshaped me in their image.
 But the joke's on them:
-I climb up trees.
+Up in the trees, 
 All squirrels are my prey. 
-On the ground,
 All mice,
-Any downed bird. 
-Perhaps I am no longer large,
-But all my prey know me when they see me coming. 
+Any slow bird. 
+I am no longer large,
+But I feast as I please
+And when my prey feel my fangs
+They fear me
+
 ##poem@@-----
 
 ...I don't think my friend has ever had a cat. 
