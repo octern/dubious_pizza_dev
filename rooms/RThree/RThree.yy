@@ -22,7 +22,8 @@
         "f329b431-4b58-4c85-b4b4-a940bf3126eb",
         "2aad435f-ed70-4406-8f7f-c116752c4095",
         "37b52ca4-8e97-4992-9e99-579791695b5e",
-        "304bd301-312b-4cba-b0e9-92e96d44df2a"
+        "304bd301-312b-4cba-b0e9-92e96d44df2a",
+        "b6c0e666-b47d-4658-a06b-e845513fb8f5"
     ],
     "IsDnD": false,
     "layers": [
@@ -40,7 +41,8 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_8C99BCB","id": "daff362a-d532-4414-88f3-7685801077ea","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 1,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "7f676b2a-e595-4c47-b8b7-0fe4710f5b41","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_8C99BCB","objId": "253322ca-d1da-4410-a628-2cc4f2ba127e","properties": null,"rotation": 0,"scaleX": 15,"scaleY": 1.5,"mvc": "1.0","x": 512,"y": 624}
+{"name": "inst_8C99BCB","id": "daff362a-d532-4414-88f3-7685801077ea","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 1,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "7f676b2a-e595-4c47-b8b7-0fe4710f5b41","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_8C99BCB","objId": "253322ca-d1da-4410-a628-2cc4f2ba127e","properties": null,"rotation": 0,"scaleX": 15,"scaleY": 1.5,"mvc": "1.0","x": 512,"y": 624},
+{"name": "inst_4588FDD9","id": "b6c0e666-b47d-4658-a06b-e845513fb8f5","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 1,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_4588FDD9","objId": "2166665b-9a1e-4276-9f9c-cff8092d612a","properties": [{"id": "4441b182-26e3-4baa-b78d-671f71b232f2","modelName": "GMOverriddenProperty","objectId": "2166665b-9a1e-4276-9f9c-cff8092d612a","propertyId": "aae9f6b6-26cb-49d1-a89f-eb9624c5438e","mvc": "1.0","value": "RWires"}],"rotation": 0,"scaleX": 3,"scaleY": 2,"mvc": "1.1","x": 26,"y": 455}
             ],
             "layers": [
 
