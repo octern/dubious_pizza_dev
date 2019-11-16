@@ -5,6 +5,7 @@ global.poemEndSequence[2] = itemType.poemB;
 global.poemEndSequence[3] = itemType.poemC;
 
 
+
 global.itemDefinitions[itemType.poemR, itemProperty.description] = @"I dreamed I was a robot, at work in a factory full of robots.
 We made widgets. 
 Bend, shape, assemble.
@@ -12,13 +13,13 @@ Repeat.
 Repeat.
 Repeat. 
 Each focused on our own task. 
-If I turned my head to the right, I could see a window.
+If I turned my head to the left, I could see a window.
 In the distance, a hillside with a tree. 
 I kept making widgets. 
 It got harder and harder.
 I slowed.
 My arms began to creak. 
-My right arm froze in place, pointing toward the window. 
+My left arm froze in place, pointing toward the window. 
 Now I make widgets with the other,
 More slowly, 
 Wishing I could follow the direction of my arm.
@@ -30,7 +31,7 @@ Before it heard me creaking, we both thought we were alone.##poemEnd@@";
 
 global.itemDefinitions[itemType.poemK, itemProperty.description] = @"I dreamed I was a kraken, immense and slow. 
 I slept away ages in the watery deeps, then opened my thousand eyes to find I'd drifted. 
-I know all the secrets of the ocean, but nothing of these shapes moving above me, or the sounds that come down from them through the waters. 
+I know all the secrets of the ocean, but nothing of these shapes moving above the surface, or the sounds that come down from them through the waters. 
 Will they ever look back at me?##poem@@
 
 One day I creep upwards
@@ -61,8 +62,8 @@ And when my prey feel my fangs
 They fear me
 ##poem@@
 
-My humans are the best prey:
-From them, I extract
-Cooked salmon 
-And head scritches. 
+The prey were a metaphor
+For the dreams in life I can still pursue
+I didn't mean to sound murder-y
+I just want my head scritched.
 ##poemEnd@@";

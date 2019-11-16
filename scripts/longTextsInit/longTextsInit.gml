@@ -7,13 +7,13 @@ Repeat.
 Repeat.
 Repeat. 
 Each focused on our own task. 
-If I turned my head to the right, I could see a window.
+If I turned my head to the left, I could see a window.
 In the distance, a hillside with a tree. 
 I kept making widgets. 
 It got harder and harder.
 I slowed.
 My arms began to creak. 
-My right arm froze in place, pointing toward the window. 
+My left arm froze in place, pointing toward the window. 
 Now I make widgets with the other,
 More slowly, 
 Wishing I could follow the direction of my arm.
@@ -27,7 +27,7 @@ global.itemDefinitions[itemType.poemK, itemProperty.description] = @"A page, som
 
 I dreamed I was a kraken, immense and slow. 
 I slept away ages in the watery deeps, then opened my thousand eyes to find I'd drifted. 
-I know all the secrets of the ocean, but nothing of these shapes moving above me, or the sounds that come down from them through the waters. 
+I know all the secrets of the ocean, but nothing of these shapes beyond the surface, or the sounds that come down from them through the waters. 
 Will they ever look back at me?##poem@@
 -----
 

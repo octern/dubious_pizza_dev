@@ -13,7 +13,7 @@ ds_map_replace(global.roomStrings, "pictureB", "This is the beach house my frien
 ds_map_replace(global.roomStrings, "pictureY", "This is the beach house my friend and I stayed at for a week after we finished college. It was an exciting time, with the sun beaming down and not a cloud anywhere. ");
 ds_map_replace(global.roomStrings, "pictureA", "This is the beach house my friend and I stayed at for a week after we finished college. It was an almost otherworldly time , with the smell and sight and sound of the ocean was everywhere. ");
 ds_map_replace(global.roomStrings, "pictureP", "This is the beach house my friend and I stayed at for a week after we finished college. It was an edgy and exciting time, feeling like I could wake up any morning as a whole new person. ");
-ds_map_replace(global.roomStrings, "pictureW", "It's too bright; all I can see is glare on the frame.");
+ds_map_replace(global.roomStrings, "pictureW", "It's too bright; all I can see is glare on the glass.");
 ds_map_replace(global.roomStrings, "doorFront", "It's locked!");
 ds_map_replace(global.roomStrings, "doorScary", "I'm not going to lie, I'm kind of relieved this door is locked.");
 ds_map_replace(global.roomStrings, "padlock", "It's locked. ");

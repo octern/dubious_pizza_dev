@@ -4,6 +4,9 @@
 // // if (live_call()) return live_result;
 
 if(global.cinematic) {exit;}
+if (!clickActive(mouse_x, mouse_y, false, noone, true, false)) { exit; }
+
+
 
 var corner = itemCornerNudge();
 if(corner != 0 && worldGet("painting") != "open" && nudged <= 0) {

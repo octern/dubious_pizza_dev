@@ -3,3 +3,4 @@
 global.volume_bgm = 1;
 global.volume_sfx = 1;
 global.endingSequence = false;
+global.textboxThisTick = false;

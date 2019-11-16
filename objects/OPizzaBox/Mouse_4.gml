@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(global.cinematic) {exit;}
+if(global.cinematic || !clickActive(mouse_x, mouse_y, false, noone, true, false)) {exit;}
 
 if(!open) {
 	open = true;
