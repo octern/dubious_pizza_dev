@@ -1391,6 +1391,14 @@
             }
         },
         {
+            "Key": "7e9a5f1a-6159-4745-9815-0af7e6094170",
+            "Value": {
+                "id": "f4d9445d-d822-4d76-b903-82a512cf6188",
+                "resourcePath": "sprites\/SPoemR2\/SPoemR2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "802f5584-29c7-4c7d-a4d3-068391958bb4",
             "Value": {
                 "id": "ddf6b630-82cb-4857-8a7e-70566ec1cef2",
