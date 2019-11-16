@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if(global.cinematic) {exit;}
+
 if(!open) {
 	open = true;
 	instance_activate_object(OPoemR);

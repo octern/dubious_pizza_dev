@@ -3,7 +3,7 @@
 
 // // if (live_call()) return live_result;
 
-if(!global.showInv) {exit;}
+if(!global.showInv || global.cinematic) {exit;}
 
 itemActivate(itemInSlot, id);
 

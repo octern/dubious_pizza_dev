@@ -4,6 +4,6 @@
 
 //InvCloseupDraw(itemInSlot);
 
-if(!global.showInv) {exit;}
+if(!global.showInv || global.cinematic) {exit;}
 
 invCloseup();
