@@ -21,3 +21,14 @@ for(i=0; i<instance_number(OTextAreaBG); i++) {
 }
 
 draw_set_font(FDefault);
+
+if(continueTimeout <=0) {
+	draw_set_halign(fa_center);
+	draw_set_font(FDefaultLg);
+	contWords = "click to continue";
+	contColor = make_color_rgb(255,255,220);
+	contX = window_get_width()/2;
+	draw_text_ext_transformed_color(contX, 700, contWords, -1, -1, 1.0, 1.0, 0, contColor, contColor, contColor, contColor, 1);
+	draw_set_halign(fa_left);
+	draw_set_font(FDefault); 
+}

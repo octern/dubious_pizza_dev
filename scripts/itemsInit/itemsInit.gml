@@ -45,10 +45,10 @@ global.itemDefinitions[itemType.len, itemProperty.len] = noone;
 // Don't manually edit this list! Generate it using https://docs.google.com/spreadsheets/d/1h437OcqBYhETw8EKKBGGYpkJoJ63Tfe0CiDPohsPnmA/edit#gid=441502810
 // enum, name, sprite, closeup sprite, description, getScript, quant, slot
 
-itemsSetup(itemType.poemC, "Poem (1)", SPoemC, SPoemCHD, "I don't think my friend has a cat...", "", global.testAllTheItems, 0, OPoemC);
-itemsSetup(itemType.poemK, "Poem (2)", SPoemK, SPoemKHD, "This poem is deep ", "", global.testAllTheItems, 1, OPoemK);
-itemsSetup(itemType.poemR, "Poem (3)", SPoemR, SPoemR, "I feel bad for this robot ", "", global.testAllTheItems, 2, OPoemR);
-itemsSetup(itemType.poemB, "Poem (4)", SPoemB, SPoemB, "Bees know things. ", "", global.testAllTheItems, 3, OPoemB);
+itemsSetup(itemType.poemC, "Poem (1)", SPoemC2, SPoemCHD, "I don't think my friend has a cat...", "", global.testAllTheItems, 0, OPoemC);
+itemsSetup(itemType.poemK, "Poem (2)", SPoemK2, SPoemKHD, "This poem is deep ", "", global.testAllTheItems, 1, OPoemK);
+itemsSetup(itemType.poemR, "Poem (3)", SPoemR2, SPoemR, "I feel bad for this robot ", "", global.testAllTheItems, 2, OPoemR);
+itemsSetup(itemType.poemB, "Poem (4)", SPoemB3, SPoemB, "Bees know things. ", "", global.testAllTheItems, 3, OPoemB);
 itemsSetup(itemType.bottleR, "Red bottle", SBottleR, SBottleR, "Oh shit. I'm just going to assume this is cherry juice.", "", global.testAllTheItems, 4, OBottleR);
 itemsSetup(itemType.bottleU, "Blue bottle", SBottleU, SBottleU, "A bottle of water. Survival odds ++!", "", global.testAllTheItems, 5, OBottleU);
 itemsSetup(itemType.bottleK, "Black bottle", SBottleK, SBottleK, "A bottle of inky-black, viscous liquid", "", global.testAllTheItems, 6, OBottleK);

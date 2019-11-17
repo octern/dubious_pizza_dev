@@ -23,4 +23,5 @@ if(fadeOut) {
 		instance_deactivate_object(OTextMinor);
 	}
 }
+
 draw_self();

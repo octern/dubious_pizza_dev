@@ -186,8 +186,8 @@
             "name": "poem",
             "id": "fe246e40-102d-45ad-992c-cbb747e2eb49",
             "depth": 600,
-            "grid_x": 32,
-            "grid_y": 32,
+            "grid_x": 8,
+            "grid_y": 8,
             "hierarchyFrozen": false,
             "hierarchyVisible": true,
             "inheritLayerDepth": false,
@@ -195,7 +195,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_EDAF22F","id": "49146e51-37f0-493f-b5f7-0199c9a9cc28","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_EDAF22F","objId": "c76ed917-69a3-4a10-bc2e-8f5e410e10b9","properties": [{"id": "deea4c97-5a1c-4f4e-a8c1-274dcb52474b","modelName": "GMOverriddenProperty","objectId": "bd03738d-6437-4acd-886c-0de668c58eab","propertyId": "899fa307-bb5f-452d-8e04-acb58af4baa6","mvc": "1.0","value": "-1"}],"rotation": 0,"scaleX": 1.34375,"scaleY": 1.09375,"mvc": "1.1","x": 441,"y": 616}
+{"name": "inst_EDAF22F","id": "49146e51-37f0-493f-b5f7-0199c9a9cc28","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_EDAF22F","objId": "c76ed917-69a3-4a10-bc2e-8f5e410e10b9","properties": [{"id": "deea4c97-5a1c-4f4e-a8c1-274dcb52474b","modelName": "GMOverriddenProperty","objectId": "bd03738d-6437-4acd-886c-0de668c58eab","propertyId": "899fa307-bb5f-452d-8e04-acb58af4baa6","mvc": "1.0","value": "-1"}],"rotation": 86.18108,"scaleX": 1.078125,"scaleY": 1.59375,"mvc": "1.1","x": 440,"y": 679.9999}
             ],
             "layers": [
 

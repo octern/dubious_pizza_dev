@@ -32,8 +32,8 @@ if(corner != 0 && worldGet("painting") != "open" && nudged <= 0) {
 		worldSet("painting", "open");
 	}
 	if(worldGet("painting") == "open") {
-		instance_activate_object(OBottleR);
 		instance_activate_object(OPoemC);
+		instance_activate_object(OBottleR);
 		paintingSolved("now");
 	} else {
 		if(corner=="tl" || corner=="br") image_angle=4;
