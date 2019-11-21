@@ -23,7 +23,6 @@ if(ds_list_size(coll) > 0) {
 instance_activate_object(OTextMinor);
 textbox = instance_find(OTextMinor,0)
 textbox.image_index = 0;
-textbox=instance_find(OTextMinor, 0);
 textbox._string=argument0;
 textbox.image_alpha=.01
 textbox.fadeIn=true;

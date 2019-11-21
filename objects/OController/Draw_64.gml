@@ -11,10 +11,10 @@ if(debug_timer>0) {
 if(global.pixelsTest) {
 //	origFont = draw_get_font();
 //	draw_set_font(FDebug);
-	for(testy=0; testy<2000; testy+=50) {
+	for(testy=0; testy<2000; testy+=25) {
 		for(testx=0; testx<2000; testx+=50) {
 			coord=string(testx) + ", " + string(testy);
-			draw_text_transformed_color(testx, testy, coord, .4, .4, 0, c_fuchsia, c_yellow, c_white, c_green, 1);
+			draw_text_transformed_color(testx, testy, coord, .4, .4, 0, c_white, c_yellow, c_white, c_white, 1);
 		}
 	}
 }

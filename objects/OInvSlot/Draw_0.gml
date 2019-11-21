@@ -8,6 +8,6 @@ draw_self();
 itemQuant = itemGetQuant(itemInSlot);
 
 if(itemQuant > 0) {
-	var itemSprite = global.itemDefinitions[itemInSlot, itemProperty.sprite];
+//	var itemSprite = global.itemDefinitions[itemInSlot, itemProperty.sprite];
 	invItemDraw(itemInSlot, false, false);
 }
