@@ -1,9 +1,17 @@
 // show_debug_message("arg number: " + string(argument_count))
+
+arg = argument_count > 0 ? argument[0] : "desc";
+
+if (live_call(arg)) return live_result;
+
+
 if(argument_count==0) {
 	_format = global.defaultTextFormat;
 } else {
 	_format = argument[0];
 }
+
+show_debug_message("formatting text as " + arg);
 
 is_dialog=false;
 text_base = c_white;
@@ -13,15 +21,18 @@ marginL = 0;
 marginR = 0;
 dialog_bg = SNothing;
 bg_tint = c_black;
+textFadeInStep = 0;
+startFadeInTimer = 0;
 
+show_debug_message("hi!");
 
 switch _format {
 	case "desc":
 		draw_set_font(FDefault);
-		text_tint = c_white;
+		text_tint = c_green;
 		between_texts_margin = 10;
-		dialog_bg = SNothing;
-		bg_tint = c_black;
+		dialog_bg = SSlimeBlue;
+		bg_tint = c_yellow;
 		break;
 	case "narr":
 		draw_set_font(FDefault);
@@ -40,6 +51,8 @@ switch _format {
 		draw_set_font(FPoem);
 		text_tint = make_color_rgb(255,255,160);
 		between_texts_margin = 10;
+		textFadeInStep = 3/room_speed;
+		startFadeInTimer = 0.4*room_speed;
 		break;
 	case "diaTitle":
 		draw_set_font(FTitle);
@@ -113,9 +126,6 @@ switch _format {
 		bubble_align = "center";
 		bubble_jitter = 0;
 		break;
-	default:
-		draw_set_font(FDefault);
-		text_tint = c_white;
-		between_texts_margin = 10;
-		break;
+
 }
+

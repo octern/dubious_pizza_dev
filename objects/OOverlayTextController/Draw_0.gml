@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-// // if (live_call()) return live_result;
+if (live_call()) return live_result;
 
 if(!surface_exists(textSurface)) {
 	textSurface = surface_create(textSurfaceW, textSurfaceH)
@@ -16,6 +16,23 @@ draw_clear_alpha(c_white, 0)
 for(iText = 0; iText < array_length_1d(textObjects); iText++) {
 	with(textObjects[iText]) {
 		textFormatSet(format);
+		if(!variable_instance_exists(id, "_startFadeInTimer")) {_startFadeInTimer = startFadeInTimer;}
+		if(textFadeInStep > 0) {
+			if(_startFadeInTimer > 0) {
+				_textAlpha = 0;
+				_startFadeInTimer--;
+				show_debug_message(string(_startFadeInTimer))
+			} else {
+				if(variable_instance_exists(id, "_textAlpha")) {
+					_textAlpha += textFadeInStep;
+					show_debug_message(string(_textAlpha));
+				} else {
+					_textAlpha = 0.01;
+				}
+			}
+		} else {
+			_textAlpha = 1;
+		}
 		_text_x = text_x;
 		_text_y = text_y;
 		if(bubble_align == "left") {_text_x = _text_x + marginL;}
@@ -31,7 +48,7 @@ for(iText = 0; iText < array_length_1d(textObjects); iText++) {
 
 		draw_text_ext_transformed_color(text_words_x, text_words_y, words, -1, text_width, 
 			text_scale,text_scale, 0, 
-			text_base, text_base, text_tint, text_base, 1);
+			text_base, text_base, text_tint, text_base, _textAlpha);
 		textFormatSet();
 
 //		show_debug_message("showing text at " + string(text_words_x) + " " + string(text_words_y) + " of surface at " + string(controller.textSurfaceX) + " " + string(controller.textSurfaceY));

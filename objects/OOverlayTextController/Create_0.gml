@@ -1,5 +1,7 @@
 // this controls the creation and display of inv text boxes.
 
+if (live_call()) return live_result;
+
 // we use a dummy sprite for the room editor, but in practice this should be invisible
 image_speed = 0;
 sprite_index = SNothing;
