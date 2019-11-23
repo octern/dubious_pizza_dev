@@ -2,7 +2,7 @@
 /// @param text to display
 // You can write your code in this editor
 
-// if (live_call(argument0)) return live_result;
+if (live_call(argument0)) return live_result;
 
 /*
 // tried to only display text if no collisions, but too many special cases. 
