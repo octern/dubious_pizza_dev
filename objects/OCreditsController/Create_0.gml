@@ -16,7 +16,7 @@ squiddles production";
 draw_set_font(FGameTitle);
 subTitleFactor = 0.5;
 subTitleLineHeight = string_height("A");
-subTitleWidth = string_width(subTitleText) * subTitleFactor;
+// subTitleWidth = string_width(subTitleText) * subTitleFactor;
 subTitleMidX = window_get_width()/2
 subTitleY = titleY + titleHeight;
 

@@ -5,6 +5,8 @@ if (live_call()) return live_result;
 //_string = "hi\nhi\nhi\nhi\nhi\nhi\nhi\nhi\n";
 //_string = "hi";
 
+y=400;
+
 //if(!initialized) {
 	textFormatSet("desc");
 	text_height = string_height_ext(_string, -1, sprite_width*.8);

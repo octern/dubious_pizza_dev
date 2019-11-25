@@ -11,7 +11,7 @@ var inv_cols=2;
 var inv_rows=ceil(MAX_INV_ITEMS/inv_cols);
 global.inv_edge = room_width - inv_cols*SLOT_PIXELS;
 
-inventory[MAX_INV_ITEMS] = itemType.noItem;
+// inventory[MAX_INV_ITEMS] = itemType.noItem;
 
 var slotNum = 0;
 for(i=0; i<inv_rows; i++) {

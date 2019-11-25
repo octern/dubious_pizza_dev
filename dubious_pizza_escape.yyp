@@ -1127,6 +1127,14 @@
             }
         },
         {
+            "Key": "5c4a3338-5d77-48da-8607-c763cfa2551e",
+            "Value": {
+                "id": "6de91e03-9a42-429c-850e-55838492af52",
+                "resourcePath": "sprites\/sprite91\/sprite91.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5cafba59-8349-4e5c-9d8e-9ed5dabf26ba",
             "Value": {
                 "id": "e7391d66-c884-4cd9-a27e-1672354a03bc",
@@ -2148,6 +2156,14 @@
                 "id": "3a091f70-fd4a-46e7-8128-5b89a5499436",
                 "resourcePath": "sounds\/ADoorOpenBasement\/ADoorOpenBasement.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "d10bb852-1fbc-44a8-9ea1-6d59d7d1395d",
+            "Value": {
+                "id": "92b9dfd4-95ab-423d-8b11-a63543dc11ed",
+                "resourcePath": "sprites\/sprite92\/sprite92.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

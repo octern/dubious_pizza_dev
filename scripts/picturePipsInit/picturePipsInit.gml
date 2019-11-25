@@ -5,14 +5,6 @@ size_factor=.8;
 
 pip_coords=ds_map_create();
 
-pip_tlx=x+picmargin;
-pip_blx=x+picmargin;
-pip_trx=x+sprite_width-picmargin;
-pip_brx=x+sprite_width-picmargin;
-pip_tly=y+picmargin;
-pip_bly=y+sprite_height-picmargin;
-pip_try=y+picmargin;
-pip_bry=y+sprite_height-picmargin;
 
 pip_h = sprite_get_height(SPips) * size_factor;
 pip_w = sprite_get_width(SPips) * size_factor;
