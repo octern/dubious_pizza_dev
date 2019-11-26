@@ -20,5 +20,6 @@ if(worldGet("scarydoor")=="locked") {
 } else if(worldGet("scarydoor")=="unlocked") {
 	worldSet("scarydoor", "open");
 	image_index=2;
+	instance_activate_object(endNav);
 	return true;
 }

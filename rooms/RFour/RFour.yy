@@ -12,6 +12,8 @@
         "68c8874c-e820-4826-b0b6-f6637037822a",
         "b93fc0be-9f3e-4172-a6be-dc3726fb58b2",
         "842611b0-9ddf-4b31-9f0a-8eb2637c0d9d",
+        "8b30dd26-c467-4849-9d3f-13a6a69cccee",
+        "9822c550-60af-4f96-96db-a55eee1a6411",
         "f0c730c5-1c3e-472b-94db-39963e3edca2",
         "6f5d5e5f-8e35-479c-9a2a-0360e133fcb3"
     ],
@@ -164,7 +166,7 @@
             "inheritVisibility": false,
             "instances": [
 {"name": "inst_4FB774A","id": "842611b0-9ddf-4b31-9f0a-8eb2637c0d9d","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 1,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_4FB774A","objId": "6b76750a-5821-4f00-9f1e-3021cfa54010","properties": null,"rotation": 0,"scaleX": 1.433333,"scaleY": 1,"mvc": "1.0","x": 384,"y": 544},
-{"name": "inst_77A0F008","id": "f0c730c5-1c3e-472b-94db-39963e3edca2","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 2,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_77A0F008","objId": "c1d6f742-c12d-4784-bd84-44a8dcfac46c","properties": [{"id": "7557602a-434a-42ff-93b6-774f13762969","modelName": "GMOverriddenProperty","objectId": "c1d6f742-c12d-4784-bd84-44a8dcfac46c","propertyId": "f04467a6-dae4-444a-9600-97f55714092c","mvc": "1.0","value": "\"scarydoor\""},{"id": "e6e97a5b-2fcd-41ef-8011-9e08faba91e2","modelName": "GMOverriddenProperty","objectId": "c1d6f742-c12d-4784-bd84-44a8dcfac46c","propertyId": "3555a6cf-78f3-4511-95fc-495ef3aebcfe","mvc": "1.0","value": "SDoorScary"}],"rotation": 0,"scaleX": 1.875,"scaleY": 2,"mvc": "1.1","x": 96,"y": 98}
+{"name": "inst_77A0F008","id": "f0c730c5-1c3e-472b-94db-39963e3edca2","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 0,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_77A0F008","objId": "c1d6f742-c12d-4784-bd84-44a8dcfac46c","properties": [{"id": "7557602a-434a-42ff-93b6-774f13762969","modelName": "GMOverriddenProperty","objectId": "c1d6f742-c12d-4784-bd84-44a8dcfac46c","propertyId": "f04467a6-dae4-444a-9600-97f55714092c","mvc": "1.0","value": "\"scarydoor\""},{"id": "e6e97a5b-2fcd-41ef-8011-9e08faba91e2","modelName": "GMOverriddenProperty","objectId": "c1d6f742-c12d-4784-bd84-44a8dcfac46c","propertyId": "3555a6cf-78f3-4511-95fc-495ef3aebcfe","mvc": "1.0","value": "SDoorScary"}],"rotation": 0,"scaleX": 1.875,"scaleY": 2,"mvc": "1.1","x": 96,"y": 98}
             ],
             "layers": [
 
@@ -190,7 +192,8 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-
+{"name": "inst_3A17BC35","id": "9822c550-60af-4f96-96db-a55eee1a6411","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 1,"imageSpeed": 0,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3A17BC35","objId": "a21faaf1-7070-4c2a-be3c-f9686897b153","properties": null,"rotation": 0,"scaleX": 2,"scaleY": 2,"mvc": "1.1","x": 320,"y": 256},
+{"name": "inst_18D8DBD8","id": "8b30dd26-c467-4849-9d3f-13a6a69cccee","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_18D8DBD8","objId": "2166665b-9a1e-4276-9f9c-cff8092d612a","properties": [{"id": "652650fa-e47b-4725-9cf2-75577340deb6","modelName": "GMOverriddenProperty","objectId": "2166665b-9a1e-4276-9f9c-cff8092d612a","propertyId": "aae9f6b6-26cb-49d1-a89f-eb9624c5438e","mvc": "1.0","value": "RPostit"}],"rotation": 0,"scaleX": 1.328125,"scaleY": 1.203125,"mvc": "1.1","x": 281.7656,"y": 257.4219}
             ],
             "layers": [
 

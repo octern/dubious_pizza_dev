@@ -68,5 +68,6 @@ enum subRooms{
 }
 
 global.roomParents[RWires] = RThree;
+global.roomParents[RPostit] = RFour;
 global.roomParents[RToolbox] = ROne;
 global.roomParents[subRooms.len] = ROne;

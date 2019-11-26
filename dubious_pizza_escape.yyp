@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "0db887e3-509f-4c3d-a829-9f6dd99ca319",
+            "Value": {
+                "id": "35f492d3-c698-4e05-9411-a8f526fd329c",
+                "resourcePath": "rooms\/RPostit\/RPostit.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "0e908e65-f951-4345-850f-69bdd3a93471",
             "Value": {
                 "id": "8ac76e07-2587-4564-a928-48ec00142467",
@@ -1455,6 +1463,14 @@
             }
         },
         {
+            "Key": "827d4186-87fe-4191-9bf6-0223654b22af",
+            "Value": {
+                "id": "429bd772-2deb-4e04-9417-2368d8306bc0",
+                "resourcePath": "sprites\/SPostitCU\/SPostitCU.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "82a26da3-37ab-435f-b6e5-4333c3275f6b",
             "Value": {
                 "id": "a26dfead-5a20-4bc9-8776-21a71e409d88",
@@ -1759,6 +1775,14 @@
             }
         },
         {
+            "Key": "a21faaf1-7070-4c2a-be3c-f9686897b153",
+            "Value": {
+                "id": "cdae9d2f-0831-4d18-a2ae-2adbcdc0380e",
+                "resourcePath": "objects\/OPostit\/OPostit.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a295b559-1436-44f5-8b90-f1fd0ad90be0",
             "Value": {
                 "id": "61730b92-0ef1-4d74-85ea-34a1251bf0a7",
@@ -2055,6 +2079,14 @@
             }
         },
         {
+            "Key": "c56da715-77a6-4865-9f07-16749c5ff135",
+            "Value": {
+                "id": "f1794b9e-97e7-4ece-b91f-b19566d8ec3e",
+                "resourcePath": "objects\/OPostitCU\/OPostitCU.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c644d093-fd10-4c71-8d5c-540f7966f5f7",
             "Value": {
                 "id": "e6dc0cbc-3686-4e38-86b8-25c6ae980f3d",
@@ -2156,14 +2188,6 @@
                 "id": "3a091f70-fd4a-46e7-8128-5b89a5499436",
                 "resourcePath": "sounds\/ADoorOpenBasement\/ADoorOpenBasement.yy",
                 "resourceType": "GMSound"
-            }
-        },
-        {
-            "Key": "d10bb852-1fbc-44a8-9ea1-6d59d7d1395d",
-            "Value": {
-                "id": "92b9dfd4-95ab-423d-8b11-a63543dc11ed",
-                "resourcePath": "sprites\/sprite92\/sprite92.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -2340,6 +2364,14 @@
                 "id": "c4736caf-b7a3-41a9-afe7-7e63b0df6905",
                 "resourcePath": "views\/eca30c4d-88ca-4c7d-aa40-8d571d2ccb36.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ed3073f4-113b-4861-9402-82bab967d903",
+            "Value": {
+                "id": "75eba4a4-5565-4c5c-bae6-9dce1f1bb969",
+                "resourcePath": "sprites\/SPostit\/SPostit.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
