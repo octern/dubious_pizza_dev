@@ -12,7 +12,7 @@ for(i=0; i<instance_number(ONav); i++) {
 image_speed=0;
 if(worldGet("scarydoor")=="unlocked") {
 	image_index=1;
-} else if(worldGet("scarydoor")=="open") {
+} else if(worldGet("scarydoor")=="open" || worldGet("scarydoor") == "looked") {
 	image_index=2;
 	instance_activate_object(endNav);
 }
