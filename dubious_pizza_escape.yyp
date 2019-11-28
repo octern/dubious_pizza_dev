@@ -687,6 +687,14 @@
             }
         },
         {
+            "Key": "326eb3f9-803e-4272-9c40-7ed9df129c2f",
+            "Value": {
+                "id": "d1d64995-a02b-4950-8a4f-c2957cf0fe62",
+                "resourcePath": "sounds\/APickup\/APickup.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "33634c94-b392-4387-9e8a-14a6330a1256",
             "Value": {
                 "id": "c6e4788c-eddb-429a-bcda-fb6b642f8a70",

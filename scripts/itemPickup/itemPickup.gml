@@ -7,6 +7,7 @@ itemNarrCheck(_item.iItem);
 
 with(_item) {
 	itemSetQuant(iItem, itemGetQuant(iItem)+1);
+	if(itemGetLoc(iItem) == "origin") {audio_play_sound(APickup, 0, false);}
 	itemSetLoc(iItem, "inv");
 	instance_destroy();
 	if(tableSlot>0) {with(tableSlot) {contents=-1; tableInst=0;}}
