@@ -16,5 +16,5 @@ if(broken == wiredir && obroken == odir && rel==global.wire1) {
 	global.wire1.joined_to = id;
 	global.wire1 = 0;
 	textRoomMinor("I spliced the wires together");
-//	audio_play_sound(tapeOn, 1, false);
+	audio_play_sound(tapeOn, 1, false);
 }

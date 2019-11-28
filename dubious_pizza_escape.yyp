@@ -855,6 +855,14 @@
             }
         },
         {
+            "Key": "3f124988-629f-4e29-b23e-6a31e90e89ea",
+            "Value": {
+                "id": "9ea9096d-d608-4e50-b971-0b681e6e8186",
+                "resourcePath": "sounds\/tapeOn\/tapeOn.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "41e2c147-8b97-4ff0-a95b-d5c736aa38de",
             "Value": {
                 "id": "70ffdf9e-52fb-465b-b4ec-009b5e32cff3",
@@ -2116,6 +2124,14 @@
                 "id": "9cc1473c-3325-4bb6-b994-de9b37468761",
                 "resourcePath": "objects\/OTextFramePhoneRound\/OTextFramePhoneRound.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c8880e59-5b35-46bf-a299-3f968324d395",
+            "Value": {
+                "id": "d9dbcdba-b868-42cb-9d9a-288665e9827c",
+                "resourcePath": "sounds\/tapeOff\/tapeOff.yy",
+                "resourceType": "GMSound"
             }
         },
         {

@@ -19,7 +19,7 @@ if(broken==-1) {
 	}
 	joined_to = 0;
 	global.wire1 = 0;
-//	audio_play_sound(tapeOff, 1, false);
+	audio_play_sound(tapeOff, 1, false);
 	textRoomMinor("I separated the wires.");
 	return true;
 }
