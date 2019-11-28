@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "1257fb89-7939-44d8-ba57-3ceef4108069",
+            "Value": {
+                "id": "6cd12f64-8c5f-437a-859b-f8632be6a3bf",
+                "resourcePath": "sounds\/ADoorRattle\/ADoorRattle.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "12c3e635-c0b8-455b-a59e-06733520b9d6",
             "Value": {
                 "id": "6cf14232-97b2-4029-8cc7-2d37d6f46bb5",

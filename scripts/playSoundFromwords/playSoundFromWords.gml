@@ -6,7 +6,7 @@ if(string_pos("%%",startStr) == 0) {
 	show_debug_message("no sound, string is: "+startStr)
     words = startStr;
 } else {
-	show_debug_message("sound found at position " + string(string_pos("%%",remainingStr)));
+	show_debug_message("sound found at position " + string(string_pos("%%",startStr)));
     sound = string_copy(startStr, 1, string_pos("%%",startStr)-1);
  //   trace(segment);
     words = string_copy(startStr, string_pos("%%",startStr)+2, string_length(startStr));

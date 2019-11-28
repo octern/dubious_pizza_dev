@@ -1,4 +1,4 @@
-// // if (live_call()) return live_result;
+if (live_call()) return live_result;
 
 //  Don't edit these texts! Generate from this spreadsheet:
 // https://docs.google.com/spreadsheets/d/1h437OcqBYhETw8EKKBGGYpkJoJ63Tfe0CiDPohsPnmA/edit#gid=1207862610
@@ -14,7 +14,7 @@ ds_map_replace(global.roomStrings, "pictureY", "This is the beach house my frien
 ds_map_replace(global.roomStrings, "pictureA", "This is the beach house my friend and I stayed at for a week after we finished college. It was an almost otherworldly time , with the smell and sight and sound of the ocean was everywhere. ");
 ds_map_replace(global.roomStrings, "pictureP", "This is the beach house my friend and I stayed at for a week after we finished college. It was an edgy and exciting time, feeling like I could wake up any morning as a whole new person. ");
 ds_map_replace(global.roomStrings, "pictureW", "It's too bright; all I can see is glare on the glass.");
-ds_map_replace(global.roomStrings, "doorFront", "It's locked!");
+ds_map_replace(global.roomStrings, "doorFront", "ADoorRattle%%Still locked.");
 ds_map_replace(global.roomStrings, "doorScary", "I'm not going to lie, I'm kind of relieved this door is locked.");
 ds_map_replace(global.roomStrings, "padlock", "It's locked. ");
 ds_map_replace(global.roomStrings, "panelUnscrew", "I unscrewed the panel. ");

@@ -1,9 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-// // if (live_call()) return live_result; 
+if (live_call()) return live_result; 
 
 if (!clickActive(mouse_x, mouse_y, false, noone, true, false)) { exit; }
 
 _textKey = "doorFront";
-textRoomMinor(ds_map_find_value(global.roomStrings, _textKey));
+textRoomMinor(textGet(_textKey));
