@@ -11,7 +11,7 @@ if(argument_count==0) {
 	_format = argument[0];
 }
 
-show_debug_message("formatting text as " + arg);
+// show_debug_message("formatting text as " + arg);
 
 is_dialog=false;
 text_base = c_white;
@@ -23,8 +23,6 @@ dialog_bg = SNothing;
 bg_tint = c_black;
 textFadeInStep = 0;
 startFadeInTimer = 0;
-
-show_debug_message("hi!");
 
 switch _format {
 	case "desc":
@@ -53,6 +51,13 @@ switch _format {
 		between_texts_margin = 10;
 		textFadeInStep = 3/room_speed;
 		startFadeInTimer = 0.4*room_speed;
+		break;
+	case "poemEndArrow":
+		draw_set_font(FPoem);
+		text_tint = make_color_rgb(255,255,160);
+		between_texts_margin = 10;
+		textFadeInStep = 3/room_speed;
+		startFadeInTimer = 1.2*room_speed;
 		break;
 	case "diaTitle":
 		draw_set_font(FTitle);

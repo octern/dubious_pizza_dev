@@ -3,8 +3,6 @@
 
 if (live_call(argument[0], argument[1])) return live_result;
 
-show_debug_message("gmlive testing in spriteScale...");
-
 var inst = argument[0];
 var scale = argument[1];
 

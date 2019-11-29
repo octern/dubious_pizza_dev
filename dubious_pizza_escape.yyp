@@ -490,7 +490,7 @@
             "Key": "2001ee55-f847-49c8-bcff-5af1651f37dc",
             "Value": {
                 "id": "3f8abcd8-5b66-40da-ac56-340432bd5ef6",
-                "resourcePath": "sprites\/spr_arrow\/spr_arrow.yy",
+                "resourcePath": "sprites\/SArrow\/SArrow.yy",
                 "resourceType": "GMSprite"
             }
         },

@@ -26,7 +26,8 @@ Wishing I could follow the direction of my arm.
 ##poem@@
 
 Another robot appears and oils my arm
-Before it heard me creaking, we both thought we were alone.##poemEnd@@";
+Before it heard me creaking, we both thought we were alone.##poemEnd@@
+ ##poemEndArrow@@";
 
 
 global.itemDefinitions[itemType.poemK, itemProperty.description] = @"I dreamed I was a kraken, immense and slow. 
@@ -36,7 +37,9 @@ Will they ever look back at me?##poem@@
 
 One day I creep upwards
 I can see and be seen
-In the light I discover the majesty of colors##poemEnd@@";
+In the light I discover the majesty of colors##poemEnd@@"
+ ##poemEndArrow@@";
+
 
 global.itemDefinitions[itemType.poemB, itemProperty.description] = @"I dreamed I was a bee, seeking flowers
 Dancing my excitement to my sibling bees.
@@ -45,7 +48,9 @@ and they ignored me and the sustenance I longed to share.
 ##poem@@
 
 OI realized I was not the bee, but the beehive
-Swarming with untold stories. ##poemEnd@@";
+Swarming with untold stories. ##poemEnd@@"
+ ##poemEndArrow@@";
+
 
 
 global.itemDefinitions[itemType.poemC, itemProperty.description] = @"I dreamed I was a cat. 
@@ -66,4 +71,6 @@ The prey were a metaphor
 For the dreams in life I can still pursue
 I didn't mean to sound murder-y
 I just want my head scritched.
-##poemEnd@@";
+##poemEnd@@
+ ##poemEndArrow@@";
+

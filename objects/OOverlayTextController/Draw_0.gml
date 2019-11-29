@@ -21,11 +21,11 @@ for(iText = 0; iText < array_length_1d(textObjects); iText++) {
 			if(_startFadeInTimer > 0) {
 				_textAlpha = 0;
 				_startFadeInTimer--;
-				show_debug_message(string(_startFadeInTimer))
+//				show_debug_message(string(_startFadeInTimer))
 			} else {
 				if(variable_instance_exists(id, "_textAlpha")) {
 					_textAlpha += textFadeInStep;
-					show_debug_message(string(_textAlpha));
+//					show_debug_message(string(_textAlpha));
 				} else {
 					_textAlpha = 0.01;
 				}
@@ -49,7 +49,48 @@ for(iText = 0; iText < array_length_1d(textObjects); iText++) {
 		draw_text_ext_transformed_color(text_words_x, text_words_y, words, -1, text_width, 
 			text_scale,text_scale, 0, 
 			text_base, text_base, text_tint, text_base, _textAlpha);
+
+		if(format=="poemEndArrow") {
+			arrow_scale = .5;
+			arrow_width = sprite_get_width(SArrow) * arrow_scale;
+			arrow_height = sprite_get_height(SArrow) * arrow_scale;
+			arrow_x = text_words_x + other.textSurfaceX + text_width - arrow_width;
+			arrow_y = text_words_y + other.textSurfaceY +	arrow_height;
+			arrow_x2 = arrow_x + arrow_width;
+			arrow_y2 = arrow_y + sprite_get_height(SArrow);
+			show_debug_message(string(text_words_x) + ", " + string(text_words_y) + ", " + string(arrow_width) + ", " + string(arrow_x) + ", " + string(arrow_y));
+			closeupCloser = instance_find(OInvCloseupClose, 0);
+			if(!variable_instance_exists(id, "_startSpriteFadeInTimer")) {_startSpriteFadeInTimer = startFadeInTimer;}
+			if(textFadeInStep > 0) {
+				if(_startFadeInTimer > 0) {
+					_spriteAlpha = 0;
+					_startSpriteFadeInTimer--;
+//					show_debug_message(string(_startSpriteFadeInTimer))
+				} else {
+					if(variable_instance_exists(id, "_spriteAlpha")) {
+						_spriteAlpha += textFadeInStep;
+//						show_debug_message(string(_spriteAlpha));
+					} else {
+						_spriteAlpha = 0.01;
+					}
+				}
+			} else {
+				_spriteAlpha = 1;
+			}
+			with(closeupCloser) {
+				sprite_index = SArrow;
+				image_index = 1;
+				image_speed = 0;
+				spriteScale(id, other.arrow_scale);
+				spriteAlpha = other._spriteAlpha;
+				x = other.arrow_x;
+				y = other.arrow_y;
+			}
+		}
+
+
 		textFormatSet();
+		
 
 //		show_debug_message("showing text at " + string(text_words_x) + " " + string(text_words_y) + " of surface at " + string(controller.textSurfaceX) + " " + string(controller.textSurfaceY));
 	}
