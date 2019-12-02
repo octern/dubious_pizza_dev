@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "09e93a78-6946-4a9a-8292-eb8f59d3150a",
+            "Value": {
+                "id": "618b5cd4-fb33-473d-8e38-69925d5a4691",
+                "resourcePath": "sprites\/SWall3D\/SWall3D.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "09eb12de-d0d2-48b0-8b9d-257035ea74ed",
             "Value": {
                 "id": "0fd503d7-5f2a-4d20-bc25-c4a98d7523ee",
