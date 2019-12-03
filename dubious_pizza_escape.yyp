@@ -2295,6 +2295,14 @@
             }
         },
         {
+            "Key": "db6a493c-2270-4105-ba6d-be49762bba2a",
+            "Value": {
+                "id": "b5e219bd-50ab-46c9-b690-86a3fceb5f1a",
+                "resourcePath": "sprites\/SWallFloor3D\/SWallFloor3D.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "dc165a05-0252-4830-b30e-6135d0aa6722",
             "Value": {
                 "id": "14de1a4b-3807-4abe-a95b-a53281711f64",
