@@ -1135,6 +1135,14 @@
             }
         },
         {
+            "Key": "580a3997-1e68-4121-9b6d-d6244421e49d",
+            "Value": {
+                "id": "34fdfd39-0cbc-4654-a117-05636c7070d8",
+                "resourcePath": "sprites\/STutorial\/STutorial.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "59560309-fa60-4a2e-af70-65e402ec93af",
             "Value": {
                 "id": "563410d0-a6b6-419e-a559-050e7eb3c958",
@@ -1211,6 +1219,14 @@
             "Value": {
                 "id": "c50f4c38-cc92-4bea-bf67-8d6bd616da3f",
                 "resourcePath": "rooms\/RInvCloseup\/RInvCloseup.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "606b8df3-2286-459f-a7d9-c20692b20bb6",
+            "Value": {
+                "id": "6b5572df-15ff-4d1a-8cb5-af0032a65231",
+                "resourcePath": "rooms\/RTutorial\/RTutorial.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1820,6 +1836,14 @@
                 "id": "df73a602-5bb8-48e9-8160-ef2c28557e17",
                 "resourcePath": "views\/a43d0a0b-970c-47b3-ac77-c9ee2dfb9193.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a4617820-7cf6-4eb2-93df-11af020b5adb",
+            "Value": {
+                "id": "03a86890-17f9-4fa2-97ea-48096c07f22d",
+                "resourcePath": "rooms\/RTutorialIndie\/RTutorialIndie.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -2468,6 +2492,14 @@
                 "id": "e94e7511-f7c1-4428-9e59-c07e64fa9a0d",
                 "resourcePath": "scripts\/itemSetQuant\/itemSetQuant.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f1b665cb-44a4-4f29-a46d-bf87b9eed64c",
+            "Value": {
+                "id": "271c00ca-f256-4b95-8a0a-6f418c6162ae",
+                "resourcePath": "rooms\/RTutorial2\/RTutorial2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
