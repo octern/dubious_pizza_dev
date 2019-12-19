@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "13735308-ff7d-4236-a263-3d05396c5c58",
+            "Value": {
+                "id": "4eac4d3c-d03e-4cf9-865b-9335b043254c",
+                "resourcePath": "objects\/OTutorialController\/OTutorialController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "137c22f9-3b2e-45b5-aeeb-98a9a936bb8a",
             "Value": {
                 "id": "65fdbf81-c457-40e6-960c-a9baf72698e9",
