@@ -47,6 +47,9 @@ if(debug_timer>0) {
 		if(keyboard_check_released(ord("R"))) {
 			game_restart();
 		}
+		if(keyboard_check_released(ord("T"))) {
+			room_goto(RTutorialIndie);
+		}
 		if(keyboard_check_released(ord("W"))) {
 			if keyboard_check(vk_shift) {
 				fadeWhite(10, -1, c_blue);
