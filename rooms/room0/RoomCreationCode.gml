@@ -1,4 +1,3 @@
-
 if(!instance_exists(OController)) {
 	instance_create_layer(0, 0, "Instances", OController);
 }

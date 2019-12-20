@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "09e93a78-6946-4a9a-8292-eb8f59d3150a",
+            "Value": {
+                "id": "618b5cd4-fb33-473d-8e38-69925d5a4691",
+                "resourcePath": "sprites\/SWall3D\/SWall3D.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "09eb12de-d0d2-48b0-8b9d-257035ea74ed",
             "Value": {
                 "id": "0fd503d7-5f2a-4d20-bc25-c4a98d7523ee",
@@ -300,6 +308,14 @@
                 "id": "261537a7-e166-4751-b6ff-433c18644628",
                 "resourcePath": "sprites\/SNav\/SNav.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "13735308-ff7d-4236-a263-3d05396c5c58",
+            "Value": {
+                "id": "4eac4d3c-d03e-4cf9-865b-9335b043254c",
+                "resourcePath": "objects\/OTutorialController\/OTutorialController.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1135,6 +1151,14 @@
             }
         },
         {
+            "Key": "580a3997-1e68-4121-9b6d-d6244421e49d",
+            "Value": {
+                "id": "34fdfd39-0cbc-4654-a117-05636c7070d8",
+                "resourcePath": "sprites\/STutorial\/STutorial.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "59560309-fa60-4a2e-af70-65e402ec93af",
             "Value": {
                 "id": "563410d0-a6b6-419e-a559-050e7eb3c958",
@@ -1211,6 +1235,14 @@
             "Value": {
                 "id": "c50f4c38-cc92-4bea-bf67-8d6bd616da3f",
                 "resourcePath": "rooms\/RInvCloseup\/RInvCloseup.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "606b8df3-2286-459f-a7d9-c20692b20bb6",
+            "Value": {
+                "id": "6b5572df-15ff-4d1a-8cb5-af0032a65231",
+                "resourcePath": "rooms\/RTutorial\/RTutorial.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1823,6 +1855,14 @@
             }
         },
         {
+            "Key": "a4617820-7cf6-4eb2-93df-11af020b5adb",
+            "Value": {
+                "id": "03a86890-17f9-4fa2-97ea-48096c07f22d",
+                "resourcePath": "rooms\/RTutorialIndie\/RTutorialIndie.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "a56223b9-0762-4178-a2d2-7ff7122650c1",
             "Value": {
                 "id": "326392fd-f371-46af-a6b1-36799f6d6b25",
@@ -2295,6 +2335,14 @@
             }
         },
         {
+            "Key": "db6a493c-2270-4105-ba6d-be49762bba2a",
+            "Value": {
+                "id": "b5e219bd-50ab-46c9-b690-86a3fceb5f1a",
+                "resourcePath": "sprites\/SWallFloor3D\/SWallFloor3D.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "dc165a05-0252-4830-b30e-6135d0aa6722",
             "Value": {
                 "id": "14de1a4b-3807-4abe-a95b-a53281711f64",
@@ -2460,6 +2508,14 @@
                 "id": "e94e7511-f7c1-4428-9e59-c07e64fa9a0d",
                 "resourcePath": "scripts\/itemSetQuant\/itemSetQuant.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f1b665cb-44a4-4f29-a46d-bf87b9eed64c",
+            "Value": {
+                "id": "271c00ca-f256-4b95-8a0a-6f418c6162ae",
+                "resourcePath": "rooms\/RTutorial2\/RTutorial2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
