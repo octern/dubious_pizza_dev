@@ -14,3 +14,12 @@ live_init(1, "http://localhost:5100", "");
 
 // just a little lark to allow us to see this in the room editor
 sprite_index = SNothing;
+
+live_blank_object = OLiveBlank;
+live_blank_room = RLiveBlank;
+live_room_updated = liveRoomUpdated;
+//room_set_live(ROne, true);
+//room_set_live(RTwo, true);
+// room_set_live(RThree, true);
+//room_set_live(RFour, true);
+room_set_live(RTutorialIndie, true);

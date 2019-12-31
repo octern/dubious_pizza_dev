@@ -37,7 +37,7 @@ Will they ever look back at me?##poem@@
 
 One day I creep upwards
 I can see and be seen
-In the light I discover the majesty of colors##poemEnd@@"
+In the light I discover the majesty of colors##poemEnd@@
  ##poemEndArrow@@";
 
 
@@ -47,8 +47,8 @@ But I couldn't find the right steps
 and they ignored me and the sustenance I longed to share.
 ##poem@@
 
-OI realized I was not the bee, but the beehive
-Swarming with untold stories. ##poemEnd@@"
+I realized I was not the bee, but the beehive
+Swarming with untold stories. ##poemEnd@@
  ##poemEndArrow@@";
 
 

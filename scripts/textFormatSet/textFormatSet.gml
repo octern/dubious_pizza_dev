@@ -49,15 +49,15 @@ switch _format {
 		draw_set_font(FPoem);
 		text_tint = make_color_rgb(255,255,160);
 		between_texts_margin = 10;
-		textFadeInStep = 3/room_speed;
+		textFadeInStep = 1/room_speed;
 		startFadeInTimer = 0.4*room_speed;
 		break;
 	case "poemEndArrow":
 		draw_set_font(FPoem);
 		text_tint = make_color_rgb(255,255,160);
 		between_texts_margin = 10;
-		textFadeInStep = 3/room_speed;
-		startFadeInTimer = 1.2*room_speed;
+		textFadeInStep = 1/room_speed;
+		startFadeInTimer = 3*room_speed;
 		break;
 	case "diaTitle":
 		draw_set_font(FTitle);
