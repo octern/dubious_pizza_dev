@@ -5,6 +5,7 @@ event_inherited();
 
 if(!worldGet("colorsDialogSeen")) {
 	global.storyString = "colors";
+	global.closeupRoom = room;
 	worldSet("colorsDialogSeen", true);
 	roomChangeFade(RDialog, room_speed*1, room_speed/6, c_gray);
 }
