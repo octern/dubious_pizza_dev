@@ -671,6 +671,14 @@
             }
         },
         {
+            "Key": "28c62407-c54a-4f58-96d0-bc6dde70399c",
+            "Value": {
+                "id": "2a76e614-4dc3-40a8-a2fa-e034342bdfda",
+                "resourcePath": "sprites\/STapeScotch\/STapeScotch.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2b9168df-38fb-45e3-9356-e3342f357cfc",
             "Value": {
                 "id": "2cf09c8b-33fe-445f-a316-70480f4d235b",
