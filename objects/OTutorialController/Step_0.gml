@@ -17,5 +17,5 @@ if(fade_timer>0) {
 if(mouse_check_button_released(mb_left) && click_timer<=0) {
 	fade_timer = fader_speed;
 	fadeWhite(fader_speed, -1, c_gray);
-	click_timer = click_delay;
+	click_timer = global.silenceRoomNarrations ? 1 : click_delay;
 }

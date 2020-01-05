@@ -11,7 +11,7 @@ image_speed = 60;
 
 //var mag = instance_create_depth(x+5, y+sprite_height-36, depth-1, OInvMag);
 //var mem = instance_create_depth(x+sprite_width-36, y+sprite_height-36, depth-1, OInvMemory);
-mag = instance_create_depth(x+5, y+5, depth-1, OInvMag);
+mag = instance_create_depth(x+5, y+5, 0, OInvMag);
 mem = instance_create_depth(x+sprite_width-20, y+5, depth-1, OInvMemory);
 mag.image_xscale=.3;
 mem.image_xscale=.3;
