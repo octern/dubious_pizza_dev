@@ -42,7 +42,7 @@ and they ignored me and the sustenance I longed to share.
 ##poem@@
 -----
 
-I always felt like I understood my friend. It sounds like they didn't think anyone ever did.##desc@@";
+I always felt like I understood my friend. Maybe they never felt understood.##desc@@";
 
 global.itemDefinitions[itemType.poemC, itemProperty.description] = @"A stained page with jagged text##desc@@
 
@@ -55,7 +55,7 @@ All squirrels are my prey.
 All mice,
 Any slow bird. 
 I am no longer large,
-But I feast as I please
+But I kill as I please
 And when my prey feel my fangs
 They fear me
 

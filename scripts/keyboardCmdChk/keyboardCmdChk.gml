@@ -25,7 +25,7 @@ if(debug_timer>0) {
 			winGame();
 		}
 		if(keyboard_check_released(ord("I"))) {
-			global.testAllTheItems = !global.testAllTheItems;
+			global.testAllTheItems = 1-global.testAllTheItems;
 		}
 		if(keyboard_check_released(ord("L"))) {
 			global.lightButtons = !global.lightButtons;
